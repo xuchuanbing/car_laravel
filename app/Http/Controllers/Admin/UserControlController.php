@@ -1,14 +1,15 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 use App\Models\UserControl;
 
 class UserControlController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        return "userControluserControluserControl";
+        return $request->getClientIp();
     }
 }
