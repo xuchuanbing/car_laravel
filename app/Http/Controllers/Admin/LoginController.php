@@ -24,22 +24,23 @@ class LoginController extends Controller
 
         //实例化UserControl表
         $user = new Models\UserControl();
+		
 
         //获取邮箱相对应的管理员信息
         $users = $user->where('email',$email)->first();
-
+		
         //判断邮箱是否存在
         if (!empty($users)) {
             //判断密码是否正确
             if(md5($pass) == $users->password){
-                //写入session
+                //写入session()
                 $request->session()->push('adminuser',$user);
                 //并跳转到后台首页
                 return redirect('admin');
             }
         }
 
-        //return back()->with('msg',"账号或密码错误!");
+        return back()->with('msg',"账号或密码错误!");
 
     }
 
@@ -80,5 +81,15 @@ class LoginController extends Controller
 
         return redirect("admin/login");
 
+    }
+
+    //退出
+    public function quit(Request $request)
+    {
+        //清除session的值
+        $request->session()->flush();
+
+        //跳转到登录页面
+        return redirect("/admin/login");
     }
 }

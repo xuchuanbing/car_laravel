@@ -1,12 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\seller;
-use App\Http\Controllers\Controller;
+use App\Models\buyers;
 
-class SellerController extends Controller
+class NotfoundController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,9 +13,10 @@ class SellerController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        return "aa";
+    {   
+        return view("Admin.notfound");
     }
+    
 
     /**
      * Show the form for creating a new resource.
