@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="{{asset('assets/css/amazeui.datatables.min.css')}}" />
     <link rel="stylesheet" href="{{asset('assets/css/app.css')}}">
     <script src="{{asset('assets/js/jquery.min.js')}}"></script>
-
+    <script src="{{asset('assets/js/jquery-1.8.3.min.js')}}"></script>
 </head>
 
 <body data-type="index">
@@ -38,19 +38,11 @@
 
                 </span>
                 </div>
-                <!-- 搜索 -->
-                <div class="am-fl tpl-header-search">
-                    <form class="tpl-header-search-form" action="javascript:;">
-                        <button class="tpl-header-search-btn am-icon-search"></button>
-                        <input class="tpl-header-search-box" type="text" placeholder="搜索内容...">
-                    </form>
-                </div>
-                <!-- 其它功能-->
                 <div class="am-fr tpl-header-navbar">
                     <ul>
                         <!-- 欢迎语 -->
                         <li class="am-text-sm tpl-header-navbar-welcome">
-                            <a href="javascript:;">欢迎你, <span></span> </a>
+                            <a href="javascript:;">欢迎你, <span> {{ Session::get('key') }}</span> </a>
                         </li>
 
                         <!-- 新邮件 -->
@@ -160,7 +152,7 @@
 
                         <!-- 退出 -->
                         <li class="am-text-sm">
-                            <a href="javascript:;">
+                            <a href="/admin/quit">
                                 <span class="am-icon-sign-out"></span> 退出
                             </a>
                         </li>
@@ -193,7 +185,8 @@
                     </div>
                     <span class="user-panel-logged-in-text">
               <i class="am-icon-circle-o am-text-success tpl-user-panel-status-icon"></i>
-              禁言小张
+              {{ Session::get('key') }}
+			  @if ( Session::get('key2') =="1")管理员 @else 普通用户 @endif
           </span>
                     <a href="javascript:;" class="tpl-user-panel-action-link"> <span class="am-icon-pencil"></span> 账号设置</a>
                 </div>
@@ -201,36 +194,13 @@
 
             <!-- 菜单 -->
             <ul class="sidebar-nav">
-                <li class="sidebar-nav-heading">Components <span class="sidebar-nav-heading-info"> 附加组件</span></li>
                 <li class="sidebar-nav-link">
                     <a href="index.html" class="active">
+                        <i class="am-icon-home sidebar-nav-link-logo"></i> 财务收支
+                    <a href="{{url("/admin")}}" class="active">
                         <i class="am-icon-home sidebar-nav-link-logo"></i> 首页
                     </a>
                 </li>
-                <li class="sidebar-nav-link">
-                    <a href="tables.html">
-                        <i class="am-icon-table sidebar-nav-link-logo"></i> 表格
-                    </a>
-                </li>
-                <li class="sidebar-nav-link">
-                    <a href="calendar.html">
-                        <i class="am-icon-calendar sidebar-nav-link-logo"></i> 日历
-                    </a>
-                </li>
-                <li class="sidebar-nav-link">
-                    <a href="form.html">
-                        <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 表单
-
-                    </a>
-                </li>
-                <li class="sidebar-nav-link">
-                    <a href="chart.html">
-                        <i class="am-icon-bar-chart sidebar-nav-link-logo"></i> 图表
-
-                    </a>
-                </li>
-
-                <li class="sidebar-nav-heading">Page<span class="sidebar-nav-heading-info"> 常用页面</span></li>
                 <li class="sidebar-nav-link">
                     <a href="javascript:;" class="sidebar-nav-sub-title">
                         <i class="am-icon-table sidebar-nav-link-logo"></i> 用户管理
@@ -238,13 +208,17 @@
                     </a>
                     <ul class="sidebar-nav sidebar-nav-sub">
                         <li class="sidebar-nav-link">
-                            <a href="/admin/user">
+                            <a href="{{url('admin/user')}}">
+                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 前台用户管理
+                            <a href="table-list.html">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 用户管理
                             </a>
                         </li>
 
                         <li class="sidebar-nav-link">
-                            <a href="/admin/usercontrol">
+                            <a href="{{url('admin/usercontrol')}}">
+                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 后台用户管理
+                            <a href="table-list-img.html">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 管理员管理
                             </a>
                         </li>
@@ -258,18 +232,18 @@
                     </a>
                     <ul class="sidebar-nav sidebar-nav-sub">
                         <li class="sidebar-nav-link">
-                            <a href="{{ url("admin/buyers") }}">
+                            <a href="table-list.html">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 卖家用户管理
                             </a>
                         </li>
 
                         <li class="sidebar-nav-link">
-                            <a href="table-list-img.html">
+                            <a href="seller_orders">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 卖家订单管理
                             </a>
                         </li>
 						<li class="sidebar-nav-link">
-                            <a href="seller_order_details">
+                            <a href="table-list.html">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 卖家订单详情管理
                             </a>
                         </li>
@@ -283,18 +257,17 @@
                     </a>
                     <ul class="sidebar-nav sidebar-nav-sub">
                         <li class="sidebar-nav-link">
-                            <a href="{{ url("admin/seller") }}">
+                            <a href="table-list.html">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 买家用户管理
                             </a>
                         </li>
-
                         <li class="sidebar-nav-link">
-                            <a href="">
+                            <a href="/admin/seller">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 买家订单管理
                             </a>
                         </li>
 						<li class="sidebar-nav-link">
-                            <a href="buyers_order_details">
+                            <a href="table-list.html">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 买家订单详情管理
                             </a>
                         </li>
@@ -308,14 +281,16 @@
                     </a>
                     <ul class="sidebar-nav sidebar-nav-sub">
                         <li class="sidebar-nav-link">
-                            <a href="table-list.html">
+                            <a href="{{ url("admin/detection") }}">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 商品详情管理
                             </a>
                         </li>
 
 						<li class="sidebar-nav-link">
-                            <a href="table-list.html">
-                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 汽车详情管理
+                            <a href="motor_details">
+                                <span class="am-icon-angle-right sidebar-nav-link-logo">
+								
+								</span> 汽车详情管理
                             </a>
                         </li>
                     </ul>
@@ -328,50 +303,53 @@
                     </a>
                     <ul class="sidebar-nav sidebar-nav-sub">
                         <li class="sidebar-nav-link">
-                            <a href="table-list.html">
+                            <a href="{{ url("admin/brand") }}">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 品牌表
                             </a>
                         </li>
 
                         <li class="sidebar-nav-link">
-                            <a href="table-list-img.html">
+                            <a href="{{ url("admin/audi") }}">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 品牌系列关联表
                             </a>
                         </li>
 						<li class="sidebar-nav-link">
-                            <a href="table-list.html">
+                            <a href="{{ url("admin/series") }}">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 系列表
                             </a>
                         </li>
                     </ul>
                 </li>
 				
-				  <li class="sidebar-nav-link">
+				    <li class="sidebar-nav-link">
                     <a href="javascript:;" class="sidebar-nav-sub-title">
-                        <i class="am-icon-table sidebar-nav-link-logo"></i>商品检测信息管理
+                        <i class="am-icon-table sidebar-nav-link-logo"></i>商品信息检测管理
                         <span class="am-icon-chevron-down am-fr am-margin-right-sm sidebar-nav-sub-ico"></span>
                     </a>
+                    <ul class="sidebar-nav sidebar-nav-sub">
+                        <li class="sidebar-nav-link">
+                            <a href="{{ url("admin/detection") }}">
+                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 商品信息检测管理
+                            </a>
+                        </li>
+                    </ul>
                 </li>
 				
                 <li class="sidebar-nav-link">
-                    <a href="sign-up.html">
+                    <a href="/admin/register">
                         <i class="am-icon-clone sidebar-nav-link-logo"></i> 注册
                         <span class="am-badge am-badge-secondary sidebar-nav-link-logo-ico am-round am-fr am-margin-right-sm">6</span>
                     </a>
                 </li>
                 <li class="sidebar-nav-link">
-                    <a href="login.html">
+                    <a href="/admin/login">
                         <i class="am-icon-key sidebar-nav-link-logo"></i> 登录
                     </a>
                 </li>
-                <li class="sidebar-nav-link">
-                    <a href="404.html">
-                        <i class="am-icon-tv sidebar-nav-link-logo"></i> 404错误
-                    </a>
-                </li>
-
             </ul>
         </div>
+
+
 
 
         <!-- 内容区域 -->
@@ -383,11 +361,36 @@
          <div  id="tpl-echarts"> </div>
     </div>
     </div>
+                    <!-- xdl-model提示框模板 -->
+    <div id="xdl-alert" class="modal">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+            <h5 class="modal-title"><i class="fa fa-exclamation-circle"></i> [Title]</h5>
+          </div>
+          <div class="modal-body small">
+            <p>[Message]</p>
+          </div>
+          <div class="modal-footer" >
+            <button type="button" class="btn btn-primary ok" data-dismiss="modal">[BtnOk]</button>
+            <button type="button" class="btn btn-default cancel" data-dismiss="modal">[BtnCancel]</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- xdl-model-end -->
     <script src="{{asset('assets/js/amazeui.min.js')}}"></script>
     <script src="{{asset('assets/js/amazeui.datatables.min.js')}}"></script>
     <script src="{{asset('assets/js/dataTables.responsive.min.js')}}"></script>
     <script src="{{asset('assets/js/app.js')}}"></script>
-
+    <script src="{{asset('assets/js/xdl-modal-alert-confirm.js')}}"></script>
+        @if(session("err"))
+        <script type="text/javascript">
+            Modal.alert({msg: "{{session('err')}}",title: ' 信息提示',btnok: '确定',btncl:'取消'});
+        </script>
+    @endif
+     @yield('myscript')
 </body>
 
 </html>

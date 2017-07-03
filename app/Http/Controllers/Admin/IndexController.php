@@ -9,6 +9,7 @@ class IndexController extends Controller
 {
     public function index(Request $request)
 	{
+	
 		return view("Admin.index");
 	}
 
