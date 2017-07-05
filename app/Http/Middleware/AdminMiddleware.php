@@ -16,9 +16,9 @@ class AdminMiddleware
     public function handle($request, Closure $next)
     {
 
-         if(!$request->session()->has('adminuser')){
-             return redirect('admin/login');
-         }
+         // if(!$request->session()->has('adminuser')){
+         //     return redirect('admin/login');
+         // }
 
         return $next($request);
     }

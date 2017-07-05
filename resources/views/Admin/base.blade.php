@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="{{asset('assets/css/amazeui.min.css')}}"/>
     <link rel="stylesheet" href="{{asset('assets/css/amazeui.datatables.min.css')}}" />
     <link rel="stylesheet" href="{{asset('assets/css/app.css')}}">
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <script src="{{asset('assets/js/jquery.min.js')}}"></script>
     <script src="{{asset('assets/js/jquery-1.8.3.min.js')}}"></script>
 </head>
@@ -287,7 +288,7 @@
                         </li>
 
 						<li class="sidebar-nav-link">
-                            <a href="motor_details">
+                            <a href="{{ url("admin/motor_details") }}">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo">
 								
 								</span> 汽车详情管理
@@ -358,11 +359,15 @@
 		  @section('content')
            
           @show
+         @section('myscript')
+           
+          @show
          <div  id="tpl-echarts"> </div>
     </div>
     </div>
-                    <!-- xdl-model提示框模板 -->
-    <div id="xdl-alert" class="modal">
+
+    <!-- xdl-model提示框模板 -->
+    <div id="xdl-alert" class="modal" style="z-index: 1500">
       <div class="modal-dialog modal-sm">
         <div class="modal-content">
           <div class="modal-header">
@@ -380,17 +385,22 @@
       </div>
     </div>
     <!-- xdl-model-end -->
+
     <script src="{{asset('assets/js/amazeui.min.js')}}"></script>
     <script src="{{asset('assets/js/amazeui.datatables.min.js')}}"></script>
     <script src="{{asset('assets/js/dataTables.responsive.min.js')}}"></script>
     <script src="{{asset('assets/js/app.js')}}"></script>
     <script src="{{asset('assets/js/xdl-modal-alert-confirm.js')}}"></script>
+
         @if(session("err"))
         <script type="text/javascript">
-            Modal.alert({msg: "{{session('err')}}",title: ' 信息提示',btnok: '确定',btncl:'取消'});
+            Modal.alert({ msg: "{{session('err')}}",title: '信息提示',btnok: '确定',btncl:'取消' });
         </script>
-    @endif
-     @yield('myscript')
+        @endif
+
+        @yield('myscript')
+
+
 </body>
 
 </html>

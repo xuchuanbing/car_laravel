@@ -15,7 +15,11 @@
                                 <div class="widget-title am-fl">商品详情管理 >> 商品添加</div>
                             </div>
                             <div class="widget-body am-fr">
-
+                            @if(session("msg"))
+                                <p style="color:red;">{{session("msg")}}</p>
+                            @else
+                                <p class="login-box-msg"></p>
+                            @endif
                                 <form action="{{ URL("admin/detection/store") }}" method="post" class="am-form tpl-form-border-form tpl-form-border-br" enctype="multipart/form-data">
                                 {{ csrf_field() }}
                                 <input type="hidden" name="id">

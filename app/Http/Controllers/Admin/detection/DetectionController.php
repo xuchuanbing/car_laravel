@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Controllers\Admin\detection;
+namespace App\Http\Controllers\Admin\Detection;
 
 //use Image;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use \App\Models\Detection;
-use \App\Models;
+use App\Models\Detection;
+
 
 class DetectionController extends Controller
 {
@@ -17,7 +17,7 @@ class DetectionController extends Controller
      */
     public function index()
     {
-        $list = Detection::all();
+        $list = Detection::paginate(2);
         return view("Admin.detection.index",["list"=>$list]);
     }
 
@@ -39,19 +39,22 @@ class DetectionController extends Controller
      */
     public function store(Request $request)
     {
-        if($request->file("picture")->isValid()){
-            $file = $request->file("picture");
+        if($request->file('picture')){
+
+            $file = $request->file('picture');
+
             $ext = $file->extension();
+
             if(in_array($ext,["jpeg","png","gif","jpg"])){
+
                 $filename = time().rand(1000,9999).".".$ext;
-               // $img = Image::make($filename)->resize(300, 200);
-                //$file->move("./uploads/","s_".$img);
+
                 $file->move("./uploads/",$filename);
-            }else{
-                return back()->with("文件格式不正确");
+
             }
 
-        }
+            $list = $request->only('commodity_id','uid','testing_id','price','hits');
+
         //表单验证
         // $this->validate($request, [
 
@@ -61,20 +64,26 @@ class DetectionController extends Controller
         //     'hits' => 'required|unique:detection',
         // ]);
 
-        //获取表单信息
-       
-        $list = $request->only('commodity_id','uid','testing_id','price','hits');
+            $list['picture'] = $filename;
 
-        $list['picture'] = $filename;
-        $id = Detection::insertGetId($list);
-        if($id>0){
-            return back()->with("err","添加成功！！");
-            
+            $id = Detection::insertGetId($list);
+
+            if($id>0){
+
+                return redirect("admin/detection");
+
+            }else{
+
+                return back()->width("msg","添加失败");
+            }
+
         }else{
-            return back()->with("err","添加失败！！");
+
+            return back()->with("msg","没有图片被上传！");
+
         }
-        
-        }
+
+    }
 
     /**
      * Display the specified resource.
@@ -172,7 +181,7 @@ class DetectionController extends Controller
         if(isset($pic)){
             @unlink($pic);
         }
-        $list = Detection::where("id",$id)->delete();
-        return redirect('admin/detection');
+        Detection::where("id",$id)->delete();
+        return back()->with("err","删除成功！");
     }
 }

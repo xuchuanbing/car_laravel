@@ -69,7 +69,7 @@ window.Modal = function (){
 
     var _dialog = function (options) {
           var ops = {
-            msg: "提示内容",
+            msg: "s",
             title: "操作提示",
             btnok: "确定",
             btncl: "取消"
