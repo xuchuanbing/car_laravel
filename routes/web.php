@@ -47,8 +47,9 @@ Route::group(['prefix' => 'admin','middleware' => 'admin'],function(){
     Route::get('/series','SeriesController@index');
     Route::get('/audi','AudiController@index');
     Route::get('/notfound','NotfoundController@index');
+    Route::get('/buyers', "Home\IndexController@index");
 });
 
-/* Route::group(['prefix' => 'home','middleware' => 'home'],function(){
-
-}); */
+Route::group(['prefix' => 'home','middleware' => 'home'],function(){
+    Route::get('/buyers', "Home/IndexController@index");
+});
