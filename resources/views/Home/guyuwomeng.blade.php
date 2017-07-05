@@ -3,9 +3,9 @@
 <head _tracker=''>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="renderer" content="webkit">
-<title>瓜子二手直卖网招聘_联系我们</title>
-<meta name="keywords" content="瓜子二手直卖网招聘,联系我们" />
-<meta name="description" content="瓜子二手直卖网招聘,联系我们" />
+<title>关于瓜子二手车直卖网</title>
+<meta name="keywords" content="关于瓜子二手车直卖网" />
+<meta name="description" content="关于瓜子二手车直卖网" />
 
     <meta http-equiv="P3P" content='CP="CAO PSA OUR"' />
     <meta name="baidu-site-verification" content="3r3nh4dkLA" />
@@ -18,7 +18,7 @@
 </head>
 <script>
     var logged = false;
-</script><script type="text/javascript" src="style/js/base.2fa0b3556624d4910689.js"></script><script type="text/javascript" src="style/js/about_us.8c2b843ad6a8708a9f75.js"></script>
+</script><script type="text/javascript" src="{{ asset('style/js/base.2fa0b3556624d4910689.js') }}"></script><script type="text/javascript" src="{{ asset('style/js/about_us.8c2b843ad6a8708a9f75.js') }}"></script>
 <body class="index">
 <!-- 顶栏 -->
     <!-- 春节通知  s -->
@@ -54,33 +54,33 @@
                                     <dt>周边</dt>
                                     <dd>
 
-                                                                                <a data-gzlog='tracking_type=click&eventid=0020060000000018&select_city=tj' baidu_alog='pc_index_city&click&pc_index_around_city_c' href='/tj/contact/' title='天津二手车'>天津</a><a data-gzlog='tracking_type=click&eventid=0020060000000018&select_city=tangshan' baidu_alog='pc_index_city&click&pc_index_around_city_c' href='/tangshan/contact/' title='唐山二手车'>唐山</a><a data-gzlog='tracking_type=click&eventid=0020060000000018&select_city=sjz' baidu_alog='pc_index_city&click&pc_index_around_city_c' href='/sjz/contact/' title='石家庄二手车'>石家庄</a><a data-gzlog='tracking_type=click&eventid=0020060000000018&select_city=qinhuangdao' baidu_alog='pc_index_city&click&pc_index_around_city_c' href='/qinhuangdao/contact/' title='秦皇岛二手车'>秦皇岛</a><a data-gzlog='tracking_type=click&eventid=0020060000000018&select_city=xingtai' baidu_alog='pc_index_city&click&pc_index_around_city_c' href='/xingtai/contact/' title='邢台二手车'>邢台</a><a data-gzlog='tracking_type=click&eventid=0020060000000018&select_city=chengde' baidu_alog='pc_index_city&click&pc_index_around_city_c' href='/chengde/contact/' title='承德二手车'>承德</a><a data-gzlog='tracking_type=click&eventid=0020060000000018&select_city=hengshui' baidu_alog='pc_index_city&click&pc_index_around_city_c' href='/hengshui/contact/' title='衡水二手车'>衡水</a><a data-gzlog='tracking_type=click&eventid=0020060000000018&select_city=langfang' baidu_alog='pc_index_city&click&pc_index_around_city_c' href='/langfang/contact/' title='廊坊二手车'>廊坊</a>                                    </dd>
+                                                                                <a data-gzlog='tracking_type=click&eventid=0020060000000018&select_city=tj' baidu_alog='pc_index_city&click&pc_index_around_city_c' href='/tj/aboutus/' title='天津二手车'>天津</a><a data-gzlog='tracking_type=click&eventid=0020060000000018&select_city=tangshan' baidu_alog='pc_index_city&click&pc_index_around_city_c' href='/tangshan/aboutus/' title='唐山二手车'>唐山</a><a data-gzlog='tracking_type=click&eventid=0020060000000018&select_city=sjz' baidu_alog='pc_index_city&click&pc_index_around_city_c' href='/sjz/aboutus/' title='石家庄二手车'>石家庄</a><a data-gzlog='tracking_type=click&eventid=0020060000000018&select_city=qinhuangdao' baidu_alog='pc_index_city&click&pc_index_around_city_c' href='/qinhuangdao/aboutus/' title='秦皇岛二手车'>秦皇岛</a><a data-gzlog='tracking_type=click&eventid=0020060000000018&select_city=xingtai' baidu_alog='pc_index_city&click&pc_index_around_city_c' href='/xingtai/aboutus/' title='邢台二手车'>邢台</a><a data-gzlog='tracking_type=click&eventid=0020060000000018&select_city=chengde' baidu_alog='pc_index_city&click&pc_index_around_city_c' href='/chengde/aboutus/' title='承德二手车'>承德</a><a data-gzlog='tracking_type=click&eventid=0020060000000018&select_city=hengshui' baidu_alog='pc_index_city&click&pc_index_around_city_c' href='/hengshui/aboutus/' title='衡水二手车'>衡水</a><a data-gzlog='tracking_type=click&eventid=0020060000000018&select_city=langfang' baidu_alog='pc_index_city&click&pc_index_around_city_c' href='/langfang/aboutus/' title='廊坊二手车'>廊坊</a>                                    </dd>
                                 </dl>
                             
                             <dl>
                                 <dt>热门</dt>
                                 <dd>
-                                                                            <a baidu_alog="pc_index_city&click&pc_index_quanguo_c" data-gzlog="tracking_type=click&eventid=0020060000000021"                                                                                                                                         href="/www/contact/"
+                                                                            <a baidu_alog="pc_index_city&click&pc_index_quanguo_c" data-gzlog="tracking_type=click&eventid=0020060000000021"                                                                                                                                         href="/www/aboutus/"
                                                                                         title="全国二手车"                                            >全国                                        </a>
-                                                                            <a baidu_alog="pc_index_city&click&pc_index_hot_city_c" data-gzlog="tracking_type=click&eventid=0020060000000019&select_city=bj"                                             class="on"                                                                                             href="/bj/contact/"
+                                                                            <a baidu_alog="pc_index_city&click&pc_index_hot_city_c" data-gzlog="tracking_type=click&eventid=0020060000000019&select_city=bj"                                             class="on"                                                                                             href="/bj/aboutus/"
                                                                                         title="北京二手车"                                            >北京                                        </a>
-                                                                            <a baidu_alog="pc_index_city&click&pc_index_hot_city_c" data-gzlog="tracking_type=click&eventid=0020060000000019&select_city=sh"                                                                                                                                        href="/sh/contact/"
+                                                                            <a baidu_alog="pc_index_city&click&pc_index_hot_city_c" data-gzlog="tracking_type=click&eventid=0020060000000019&select_city=sh"                                                                                                                                        href="/sh/aboutus/"
                                                                                         title="上海二手车"                                            >上海                                        </a>
-                                                                            <a baidu_alog="pc_index_city&click&pc_index_hot_city_c" data-gzlog="tracking_type=click&eventid=0020060000000019&select_city=gz"                                                                                                                                        href="/gz/contact/"
+                                                                            <a baidu_alog="pc_index_city&click&pc_index_hot_city_c" data-gzlog="tracking_type=click&eventid=0020060000000019&select_city=gz"                                                                                                                                        href="/gz/aboutus/"
                                                                                         title="广州二手车"                                            >广州                                        </a>
-                                                                            <a baidu_alog="pc_index_city&click&pc_index_hot_city_c" data-gzlog="tracking_type=click&eventid=0020060000000019&select_city=sz"                                                                                                                                        href="/sz/contact/"
+                                                                            <a baidu_alog="pc_index_city&click&pc_index_hot_city_c" data-gzlog="tracking_type=click&eventid=0020060000000019&select_city=sz"                                                                                                                                        href="/sz/aboutus/"
                                                                                         title="深圳二手车"                                            >深圳                                        </a>
-                                                                            <a baidu_alog="pc_index_city&click&pc_index_hot_city_c" data-gzlog="tracking_type=click&eventid=0020060000000019&select_city=cd"                                                                                                                                        href="/cd/contact/"
+                                                                            <a baidu_alog="pc_index_city&click&pc_index_hot_city_c" data-gzlog="tracking_type=click&eventid=0020060000000019&select_city=cd"                                                                                                                                        href="/cd/aboutus/"
                                                                                         title="成都二手车"                                            >成都                                        </a>
-                                                                            <a baidu_alog="pc_index_city&click&pc_index_hot_city_c" data-gzlog="tracking_type=click&eventid=0020060000000019&select_city=cq"                                                                                                                                        href="/cq/contact/"
+                                                                            <a baidu_alog="pc_index_city&click&pc_index_hot_city_c" data-gzlog="tracking_type=click&eventid=0020060000000019&select_city=cq"                                                                                                                                        href="/cq/aboutus/"
                                                                                         title="重庆二手车"                                            >重庆                                        </a>
-                                                                            <a baidu_alog="pc_index_city&click&pc_index_hot_city_c" data-gzlog="tracking_type=click&eventid=0020060000000019&select_city=hz"                                                                                                                                        href="/hz/contact/"
+                                                                            <a baidu_alog="pc_index_city&click&pc_index_hot_city_c" data-gzlog="tracking_type=click&eventid=0020060000000019&select_city=hz"                                                                                                                                        href="/hz/aboutus/"
                                                                                         title="杭州二手车"                                            >杭州                                        </a>
-                                                                            <a baidu_alog="pc_index_city&click&pc_index_hot_city_c" data-gzlog="tracking_type=click&eventid=0020060000000019&select_city=su"                                                                                                                                        href="/su/contact/"
+                                                                            <a baidu_alog="pc_index_city&click&pc_index_hot_city_c" data-gzlog="tracking_type=click&eventid=0020060000000019&select_city=su"                                                                                                                                        href="/su/aboutus/"
                                                                                         title="苏州二手车"                                            >苏州                                        </a>
-                                                                            <a baidu_alog="pc_index_city&click&pc_index_hot_city_c" data-gzlog="tracking_type=click&eventid=0020060000000019&select_city=sy"                                                                                                                                        href="/sy/contact/"
+                                                                            <a baidu_alog="pc_index_city&click&pc_index_hot_city_c" data-gzlog="tracking_type=click&eventid=0020060000000019&select_city=sy"                                                                                                                                        href="/sy/aboutus/"
                                                                                         title="沈阳二手车"                                            >沈阳                                        </a>
-                                                                            <a baidu_alog="pc_index_city&click&pc_index_hot_city_c" data-gzlog="tracking_type=click&eventid=0020060000000019&select_city=wh"                                                                                                                                        href="/wh/contact/"
+                                                                            <a baidu_alog="pc_index_city&click&pc_index_hot_city_c" data-gzlog="tracking_type=click&eventid=0020060000000019&select_city=wh"                                                                                                                                        href="/wh/aboutus/"
                                                                                         title="武汉二手车"                                            >武汉                                        </a>
                                                                     </dd>
                             </dl>
@@ -89,13 +89,13 @@
                                     <dt>A</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=anqing" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/anqing/contact/"
+                                                                                                    href="/anqing/aboutus/"
                                                                                                 title="安庆二手车"                                                >安庆                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=anshan" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/anshan/contact/"
+                                                                                                    href="/anshan/aboutus/"
                                                                                                 title="鞍山二手车"                                                >鞍山                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=anyang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/anyang/contact/"
+                                                                                                    href="/anyang/aboutus/"
                                                                                                 title="安阳二手车"                                                >安阳                                            </a>
                                                                             </dd>
                                 </dl>
@@ -103,25 +103,25 @@
                                     <dt>B</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=baoding" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/baoding/contact/"
+                                                                                                    href="/baoding/aboutus/"
                                                                                                 title="保定二手车"                                                >保定                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=baotou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/baotou/contact/"
+                                                                                                    href="/baotou/aboutus/"
                                                                                                 title="包头二手车"                                                >包头                                            </a>
                                                                                     <a  class="on"  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=bj" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/bj/contact/"
+                                                                                                    href="/bj/aboutus/"
                                                                                                 title="北京二手车"                                                >北京                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=bengbu" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/bengbu/contact/"
+                                                                                                    href="/bengbu/aboutus/"
                                                                                                 title="蚌埠二手车"                                                >蚌埠                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=binzhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/binzhou/contact/"
+                                                                                                    href="/binzhou/aboutus/"
                                                                                                 title="滨州二手车"                                                >滨州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=baodi" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/baodi/contact/"
+                                                                                                    href="/baodi/aboutus/"
                                                                                                 title="宝坻二手车"                                                >宝坻                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=binhaixinqu" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/binhaixinqu/contact/"
+                                                                                                    href="/binhaixinqu/aboutus/"
                                                                                                 title="滨海新区二手车"                                                >滨海新区                                            </a>
                                                                             </dd>
                                 </dl>
@@ -129,34 +129,34 @@
                                     <dt>C</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=cangzhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/cangzhou/contact/"
+                                                                                                    href="/cangzhou/aboutus/"
                                                                                                 title="沧州二手车"                                                >沧州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=cc" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/cc/contact/"
+                                                                                                    href="/cc/aboutus/"
                                                                                                 title="长春二手车"                                                >长春                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=changde" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/changde/contact/"
+                                                                                                    href="/changde/aboutus/"
                                                                                                 title="常德二手车"                                                >常德                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=cs" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/cs/contact/"
+                                                                                                    href="/cs/aboutus/"
                                                                                                 title="长沙二手车"                                                >长沙                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=changzhi" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/changzhi/contact/"
+                                                                                                    href="/changzhi/aboutus/"
                                                                                                 title="长治二手车"                                                >长治                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=changzhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/changzhou/contact/"
+                                                                                                    href="/changzhou/aboutus/"
                                                                                                 title="常州二手车"                                                >常州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=chengde" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/chengde/contact/"
+                                                                                                    href="/chengde/aboutus/"
                                                                                                 title="承德二手车"                                                >承德                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=cd" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/cd/contact/"
+                                                                                                    href="/cd/aboutus/"
                                                                                                 title="成都二手车"                                                >成都                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=cq" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/cq/contact/"
+                                                                                                    href="/cq/aboutus/"
                                                                                                 title="重庆二手车"                                                >重庆                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=changshugz" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/changshugz/contact/"
+                                                                                                    href="/changshugz/aboutus/"
                                                                                                 title="常熟二手车"                                                >常熟                                            </a>
                                                                             </dd>
                                 </dl>
@@ -164,31 +164,31 @@
                                     <dt>D</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=dl" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/dl/contact/"
+                                                                                                    href="/dl/aboutus/"
                                                                                                 title="大连二手车"                                                >大连                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=daqing" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/daqing/contact/"
+                                                                                                    href="/daqing/aboutus/"
                                                                                                 title="大庆二手车"                                                >大庆                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=datong" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/datong/contact/"
+                                                                                                    href="/datong/aboutus/"
                                                                                                 title="大同二手车"                                                >大同                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=dazhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/dazhou/contact/"
+                                                                                                    href="/dazhou/aboutus/"
                                                                                                 title="达州二手车"                                                >达州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=deyang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/deyang/contact/"
+                                                                                                    href="/deyang/aboutus/"
                                                                                                 title="德阳二手车"                                                >德阳                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=dezhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/dezhou/contact/"
+                                                                                                    href="/dezhou/aboutus/"
                                                                                                 title="德州二手车"                                                >德州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=dg" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/dg/contact/"
+                                                                                                    href="/dg/aboutus/"
                                                                                                 title="东莞二手车"                                                >东莞                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=dongying" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/dongying/contact/"
+                                                                                                    href="/dongying/aboutus/"
                                                                                                 title="东营二手车"                                                >东营                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=dagang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/dagang/contact/"
+                                                                                                    href="/dagang/aboutus/"
                                                                                                 title="大港二手车"                                                >大港                                            </a>
                                                                             </dd>
                                 </dl>
@@ -196,7 +196,7 @@
                                     <dt>E</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=eerduosi" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/eerduosi/contact/"
+                                                                                                    href="/eerduosi/aboutus/"
                                                                                                 title="鄂尔多斯二手车"                                                >鄂尔多斯                                            </a>
                                                                             </dd>
                                 </dl>
@@ -204,19 +204,19 @@
                                     <dt>F</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=foshan" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/foshan/contact/"
+                                                                                                    href="/foshan/aboutus/"
                                                                                                 title="佛山二手车"                                                >佛山                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=fushun" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/fushun/contact/"
+                                                                                                    href="/fushun/aboutus/"
                                                                                                 title="抚顺二手车"                                                >抚顺                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=fuyang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/fuyang/contact/"
+                                                                                                    href="/fuyang/aboutus/"
                                                                                                 title="阜阳二手车"                                                >阜阳                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=fz" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/fz/contact/"
+                                                                                                    href="/fz/aboutus/"
                                                                                                 title="福州二手车"                                                >福州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=fuling" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/fuling/contact/"
+                                                                                                    href="/fuling/aboutus/"
                                                                                                 title="涪陵二手车"                                                >涪陵                                            </a>
                                                                             </dd>
                                 </dl>
@@ -224,19 +224,19 @@
                                     <dt>G</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=ganzhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/ganzhou/contact/"
+                                                                                                    href="/ganzhou/aboutus/"
                                                                                                 title="赣州二手车"                                                >赣州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=guangan" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/guangan/contact/"
+                                                                                                    href="/guangan/aboutus/"
                                                                                                 title="广安二手车"                                                >广安                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=gz" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/gz/contact/"
+                                                                                                    href="/gz/aboutus/"
                                                                                                 title="广州二手车"                                                >广州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=gl" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/gl/contact/"
+                                                                                                    href="/gl/aboutus/"
                                                                                                 title="桂林二手车"                                                >桂林                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=gy" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/gy/contact/"
+                                                                                                    href="/gy/aboutus/"
                                                                                                 title="贵阳二手车"                                                >贵阳                                            </a>
                                                                             </dd>
                                 </dl>
@@ -244,46 +244,46 @@
                                     <dt>H</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=hrb" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/hrb/contact/"
+                                                                                                    href="/hrb/aboutus/"
                                                                                                 title="哈尔滨二手车"                                                >哈尔滨                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=handan" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/handan/contact/"
+                                                                                                    href="/handan/aboutus/"
                                                                                                 title="邯郸二手车"                                                >邯郸                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=hz" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/hz/contact/"
+                                                                                                    href="/hz/aboutus/"
                                                                                                 title="杭州二手车"                                                >杭州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=hf" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/hf/contact/"
+                                                                                                    href="/hf/aboutus/"
                                                                                                 title="合肥二手车"                                                >合肥                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=hengshui" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/hengshui/contact/"
+                                                                                                    href="/hengshui/aboutus/"
                                                                                                 title="衡水二手车"                                                >衡水                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=heze" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/heze/contact/"
+                                                                                                    href="/heze/aboutus/"
                                                                                                 title="菏泽二手车"                                                >菏泽                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=huaian" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/huaian/contact/"
+                                                                                                    href="/huaian/aboutus/"
                                                                                                 title="淮安二手车"                                                >淮安                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=huanggang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/huanggang/contact/"
+                                                                                                    href="/huanggang/aboutus/"
                                                                                                 title="黄冈二手车"                                                >黄冈                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=huangshi" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/huangshi/contact/"
+                                                                                                    href="/huangshi/aboutus/"
                                                                                                 title="黄石二手车"                                                >黄石                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=nmg" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/nmg/contact/"
+                                                                                                    href="/nmg/aboutus/"
                                                                                                 title="呼和浩特二手车"                                                >呼和浩特                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=huizhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/huizhou/contact/"
+                                                                                                    href="/huizhou/aboutus/"
                                                                                                 title="惠州二手车"                                                >惠州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=huzhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/huzhou/contact/"
+                                                                                                    href="/huzhou/aboutus/"
                                                                                                 title="湖州二手车"                                                >湖州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=hangu" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/hangu/contact/"
+                                                                                                    href="/hangu/aboutus/"
                                                                                                 title="汉沽二手车"                                                >汉沽                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=hechuan" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/hechuan/contact/"
+                                                                                                    href="/hechuan/aboutus/"
                                                                                                 title="合川二手车"                                                >合川                                            </a>
                                                                             </dd>
                                 </dl>
@@ -291,46 +291,46 @@
                                     <dt>J</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=jiamusi" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/jiamusi/contact/"
+                                                                                                    href="/jiamusi/aboutus/"
                                                                                                 title="佳木斯二手车"                                                >佳木斯                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=jian" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/jian/contact/"
+                                                                                                    href="/jian/aboutus/"
                                                                                                 title="吉安二手车"                                                >吉安                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=jiangmen" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/jiangmen/contact/"
+                                                                                                    href="/jiangmen/aboutus/"
                                                                                                 title="江门二手车"                                                >江门                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=jiaozuo" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/jiaozuo/contact/"
+                                                                                                    href="/jiaozuo/aboutus/"
                                                                                                 title="焦作二手车"                                                >焦作                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=jiaxing" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/jiaxing/contact/"
+                                                                                                    href="/jiaxing/aboutus/"
                                                                                                 title="嘉兴二手车"                                                >嘉兴                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=jilin" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/jilin/contact/"
+                                                                                                    href="/jilin/aboutus/"
                                                                                                 title="吉林二手车"                                                >吉林                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=jn" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/jn/contact/"
+                                                                                                    href="/jn/aboutus/"
                                                                                                 title="济南二手车"                                                >济南                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=jingzhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/jingzhou/contact/"
+                                                                                                    href="/jingzhou/aboutus/"
                                                                                                 title="荆州二手车"                                                >荆州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=jinhua" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/jinhua/contact/"
+                                                                                                    href="/jinhua/aboutus/"
                                                                                                 title="金华二手车"                                                >金华                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=jining" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/jining/contact/"
+                                                                                                    href="/jining/aboutus/"
                                                                                                 title="济宁二手车"                                                >济宁                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=jinzhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/jinzhou/contact/"
+                                                                                                    href="/jinzhou/aboutus/"
                                                                                                 title="锦州二手车"                                                >锦州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=jiangyin" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/jiangyin/contact/"
+                                                                                                    href="/jiangyin/aboutus/"
                                                                                                 title="江阴二手车"                                                >江阴                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=jinghai" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/jinghai/contact/"
+                                                                                                    href="/jinghai/aboutus/"
                                                                                                 title="静海二手车"                                                >静海                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=jinnan" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/jinnan/contact/"
+                                                                                                    href="/jinnan/aboutus/"
                                                                                                 title="津南二手车"                                                >津南                                            </a>
                                                                             </dd>
                                 </dl>
@@ -338,16 +338,16 @@
                                     <dt>K</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=kaifeng" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/kaifeng/contact/"
+                                                                                                    href="/kaifeng/aboutus/"
                                                                                                 title="开封二手车"                                                >开封                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=km" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/km/contact/"
+                                                                                                    href="/km/aboutus/"
                                                                                                 title="昆明二手车"                                                >昆明                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=kaixian" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/kaixian/contact/"
+                                                                                                    href="/kaixian/aboutus/"
                                                                                                 title="开县二手车"                                                >开县                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=kunshangz" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/kunshangz/contact/"
+                                                                                                    href="/kunshangz/aboutus/"
                                                                                                 title="昆山二手车"                                                >昆山                                            </a>
                                                                             </dd>
                                 </dl>
@@ -355,37 +355,37 @@
                                     <dt>L</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=langfang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/langfang/contact/"
+                                                                                                    href="/langfang/aboutus/"
                                                                                                 title="廊坊二手车"                                                >廊坊                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=lz" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/lz/contact/"
+                                                                                                    href="/lz/aboutus/"
                                                                                                 title="兰州二手车"                                                >兰州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=leshan" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/leshan/contact/"
+                                                                                                    href="/leshan/aboutus/"
                                                                                                 title="乐山二手车"                                                >乐山                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=liaocheng" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/liaocheng/contact/"
+                                                                                                    href="/liaocheng/aboutus/"
                                                                                                 title="聊城二手车"                                                >聊城                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=liaoyang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/liaoyang/contact/"
+                                                                                                    href="/liaoyang/aboutus/"
                                                                                                 title="辽阳二手车"                                                >辽阳                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=linfen" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/linfen/contact/"
+                                                                                                    href="/linfen/aboutus/"
                                                                                                 title="临汾二手车"                                                >临汾                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=linyi" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/linyi/contact/"
+                                                                                                    href="/linyi/aboutus/"
                                                                                                 title="临沂二手车"                                                >临沂                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=liuzhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/liuzhou/contact/"
+                                                                                                    href="/liuzhou/aboutus/"
                                                                                                 title="柳州二手车"                                                >柳州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=luan" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/luan/contact/"
+                                                                                                    href="/luan/aboutus/"
                                                                                                 title="六安二手车"                                                >六安                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=luoyang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/luoyang/contact/"
+                                                                                                    href="/luoyang/aboutus/"
                                                                                                 title="洛阳二手车"                                                >洛阳                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=luzhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/luzhou/contact/"
+                                                                                                    href="/luzhou/aboutus/"
                                                                                                 title="泸州二手车"                                                >泸州                                            </a>
                                                                             </dd>
                                 </dl>
@@ -393,13 +393,13 @@
                                     <dt>M</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=maanshan" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/maanshan/contact/"
+                                                                                                    href="/maanshan/aboutus/"
                                                                                                 title="马鞍山二手车"                                                >马鞍山                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=meishan" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/meishan/contact/"
+                                                                                                    href="/meishan/aboutus/"
                                                                                                 title="眉山二手车"                                                >眉山                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=mianyang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/mianyang/contact/"
+                                                                                                    href="/mianyang/aboutus/"
                                                                                                 title="绵阳二手车"                                                >绵阳                                            </a>
                                                                             </dd>
                                 </dl>
@@ -407,28 +407,28 @@
                                     <dt>N</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=nc" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/nc/contact/"
+                                                                                                    href="/nc/aboutus/"
                                                                                                 title="南昌二手车"                                                >南昌                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=nanchong" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/nanchong/contact/"
+                                                                                                    href="/nanchong/aboutus/"
                                                                                                 title="南充二手车"                                                >南充                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=nj" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/nj/contact/"
+                                                                                                    href="/nj/aboutus/"
                                                                                                 title="南京二手车"                                                >南京                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=nn" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/nn/contact/"
+                                                                                                    href="/nn/aboutus/"
                                                                                                 title="南宁二手车"                                                >南宁                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=nantong" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/nantong/contact/"
+                                                                                                    href="/nantong/aboutus/"
                                                                                                 title="南通二手车"                                                >南通                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=nanyang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/nanyang/contact/"
+                                                                                                    href="/nanyang/aboutus/"
                                                                                                 title="南阳二手车"                                                >南阳                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=neijiang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/neijiang/contact/"
+                                                                                                    href="/neijiang/aboutus/"
                                                                                                 title="内江二手车"                                                >内江                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=nb" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/nb/contact/"
+                                                                                                    href="/nb/aboutus/"
                                                                                                 title="宁波二手车"                                                >宁波                                            </a>
                                                                             </dd>
                                 </dl>
@@ -436,10 +436,10 @@
                                     <dt>P</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=putian" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/putian/contact/"
+                                                                                                    href="/putian/aboutus/"
                                                                                                 title="莆田二手车"                                                >莆田                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=pingdu" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/pingdu/contact/"
+                                                                                                    href="/pingdu/aboutus/"
                                                                                                 title="平度二手车"                                                >平度                                            </a>
                                                                             </dd>
                                 </dl>
@@ -447,22 +447,22 @@
                                     <dt>Q</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=qd" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/qd/contact/"
+                                                                                                    href="/qd/aboutus/"
                                                                                                 title="青岛二手车"                                                >青岛                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=qinhuangdao" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/qinhuangdao/contact/"
+                                                                                                    href="/qinhuangdao/aboutus/"
                                                                                                 title="秦皇岛二手车"                                                >秦皇岛                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=qiqihaer" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/qiqihaer/contact/"
+                                                                                                    href="/qiqihaer/aboutus/"
                                                                                                 title="齐齐哈尔二手车"                                                >齐齐哈尔                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=quanzhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/quanzhou/contact/"
+                                                                                                    href="/quanzhou/aboutus/"
                                                                                                 title="泉州二手车"                                                >泉州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=qujing" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/qujing/contact/"
+                                                                                                    href="/qujing/aboutus/"
                                                                                                 title="曲靖二手车"                                                >曲靖                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=quzhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/quzhou/contact/"
+                                                                                                    href="/quzhou/aboutus/"
                                                                                                 title="衢州二手车"                                                >衢州                                            </a>
                                                                             </dd>
                                 </dl>
@@ -470,7 +470,7 @@
                                     <dt>R</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=rizhao" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/rizhao/contact/"
+                                                                                                    href="/rizhao/aboutus/"
                                                                                                 title="日照二手车"                                                >日照                                            </a>
                                                                             </dd>
                                 </dl>
@@ -478,37 +478,37 @@
                                     <dt>S</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=sh" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/sh/contact/"
+                                                                                                    href="/sh/aboutus/"
                                                                                                 title="上海二手车"                                                >上海                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=shantou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/shantou/contact/"
+                                                                                                    href="/shantou/aboutus/"
                                                                                                 title="汕头二手车"                                                >汕头                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=shaoxing" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/shaoxing/contact/"
+                                                                                                    href="/shaoxing/aboutus/"
                                                                                                 title="绍兴二手车"                                                >绍兴                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=sy" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/sy/contact/"
+                                                                                                    href="/sy/aboutus/"
                                                                                                 title="沈阳二手车"                                                >沈阳                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=sz" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/sz/contact/"
+                                                                                                    href="/sz/aboutus/"
                                                                                                 title="深圳二手车"                                                >深圳                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=sjz" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/sjz/contact/"
+                                                                                                    href="/sjz/aboutus/"
                                                                                                 title="石家庄二手车"                                                >石家庄                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=shiyan" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/shiyan/contact/"
+                                                                                                    href="/shiyan/aboutus/"
                                                                                                 title="十堰二手车"                                                >十堰                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=songyuan" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/songyuan/contact/"
+                                                                                                    href="/songyuan/aboutus/"
                                                                                                 title="松原二手车"                                                >松原                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=suining" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/suining/contact/"
+                                                                                                    href="/suining/aboutus/"
                                                                                                 title="遂宁二手车"                                                >遂宁                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=suqian" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/suqian/contact/"
+                                                                                                    href="/suqian/aboutus/"
                                                                                                 title="宿迁二手车"                                                >宿迁                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=su" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/su/contact/"
+                                                                                                    href="/su/aboutus/"
                                                                                                 title="苏州二手车"                                                >苏州                                            </a>
                                                                             </dd>
                                 </dl>
@@ -516,31 +516,31 @@
                                     <dt>T</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=taian" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/taian/contact/"
+                                                                                                    href="/taian/aboutus/"
                                                                                                 title="泰安二手车"                                                >泰安                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=ty" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/ty/contact/"
+                                                                                                    href="/ty/aboutus/"
                                                                                                 title="太原二手车"                                                >太原                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=zjtaizhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/zjtaizhou/contact/"
+                                                                                                    href="/zjtaizhou/aboutus/"
                                                                                                 title="台州二手车"                                                >台州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=jstaizhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/jstaizhou/contact/"
+                                                                                                    href="/jstaizhou/aboutus/"
                                                                                                 title="泰州二手车"                                                >泰州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=tangshan" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/tangshan/contact/"
+                                                                                                    href="/tangshan/aboutus/"
                                                                                                 title="唐山二手车"                                                >唐山                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=tj" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/tj/contact/"
+                                                                                                    href="/tj/aboutus/"
                                                                                                 title="天津二手车"                                                >天津                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=tongling" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/tongling/contact/"
+                                                                                                    href="/tongling/aboutus/"
                                                                                                 title="铜陵二手车"                                                >铜陵                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=taicang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/taicang/contact/"
+                                                                                                    href="/taicang/aboutus/"
                                                                                                 title="太仓二手车"                                                >太仓                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=tanggu" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/tanggu/contact/"
+                                                                                                    href="/tanggu/aboutus/"
                                                                                                 title="塘沽二手车"                                                >塘沽                                            </a>
                                                                             </dd>
                                 </dl>
@@ -548,37 +548,37 @@
                                     <dt>W</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=weifang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/weifang/contact/"
+                                                                                                    href="/weifang/aboutus/"
                                                                                                 title="潍坊二手车"                                                >潍坊                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=wei" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/wei/contact/"
+                                                                                                    href="/wei/aboutus/"
                                                                                                 title="威海二手车"                                                >威海                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=wenzhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/wenzhou/contact/"
+                                                                                                    href="/wenzhou/aboutus/"
                                                                                                 title="温州二手车"                                                >温州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=wh" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/wh/contact/"
+                                                                                                    href="/wh/aboutus/"
                                                                                                 title="武汉二手车"                                                >武汉                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=wuhu" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/wuhu/contact/"
+                                                                                                    href="/wuhu/aboutus/"
                                                                                                 title="芜湖二手车"                                                >芜湖                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=xj" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/xj/contact/"
+                                                                                                    href="/xj/aboutus/"
                                                                                                 title="乌鲁木齐二手车"                                                >乌鲁木齐                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=wx" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/wx/contact/"
+                                                                                                    href="/wx/aboutus/"
                                                                                                 title="无锡二手车"                                                >无锡                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=wafangdian" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/wafangdian/contact/"
+                                                                                                    href="/wafangdian/aboutus/"
                                                                                                 title="瓦房店二手车"                                                >瓦房店                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=wanzhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/wanzhou/contact/"
+                                                                                                    href="/wanzhou/aboutus/"
                                                                                                 title="万州二手车"                                                >万州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=wujiang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/wujiang/contact/"
+                                                                                                    href="/wujiang/aboutus/"
                                                                                                 title="吴江二手车"                                                >吴江                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=wuqing" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/wuqing/contact/"
+                                                                                                    href="/wuqing/aboutus/"
                                                                                                 title="武清二手车"                                                >武清                                            </a>
                                                                             </dd>
                                 </dl>
@@ -586,34 +586,34 @@
                                     <dt>X</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=xm" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/xm/contact/"
+                                                                                                    href="/xm/aboutus/"
                                                                                                 title="厦门二手车"                                                >厦门                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=xa" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/xa/contact/"
+                                                                                                    href="/xa/aboutus/"
                                                                                                 title="西安二手车"                                                >西安                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=xiangtan" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/xiangtan/contact/"
+                                                                                                    href="/xiangtan/aboutus/"
                                                                                                 title="湘潭二手车"                                                >湘潭                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=xiangyang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/xiangyang/contact/"
+                                                                                                    href="/xiangyang/aboutus/"
                                                                                                 title="襄阳二手车"                                                >襄阳                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=xiaogan" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/xiaogan/contact/"
+                                                                                                    href="/xiaogan/aboutus/"
                                                                                                 title="孝感二手车"                                                >孝感                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=xingtai" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/xingtai/contact/"
+                                                                                                    href="/xingtai/aboutus/"
                                                                                                 title="邢台二手车"                                                >邢台                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=xinxiang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/xinxiang/contact/"
+                                                                                                    href="/xinxiang/aboutus/"
                                                                                                 title="新乡二手车"                                                >新乡                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=xinyang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/xinyang/contact/"
+                                                                                                    href="/xinyang/aboutus/"
                                                                                                 title="信阳二手车"                                                >信阳                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=xuchang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/xuchang/contact/"
+                                                                                                    href="/xuchang/aboutus/"
                                                                                                 title="许昌二手车"                                                >许昌                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=xuzhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/xuzhou/contact/"
+                                                                                                    href="/xuzhou/aboutus/"
                                                                                                 title="徐州二手车"                                                >徐州                                            </a>
                                                                             </dd>
                                 </dl>
@@ -621,43 +621,43 @@
                                     <dt>Y</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=yancheng" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/yancheng/contact/"
+                                                                                                    href="/yancheng/aboutus/"
                                                                                                 title="盐城二手车"                                                >盐城                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=yangzhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/yangzhou/contact/"
+                                                                                                    href="/yangzhou/aboutus/"
                                                                                                 title="扬州二手车"                                                >扬州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=yantai" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/yantai/contact/"
+                                                                                                    href="/yantai/aboutus/"
                                                                                                 title="烟台二手车"                                                >烟台                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=yibin" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/yibin/contact/"
+                                                                                                    href="/yibin/aboutus/"
                                                                                                 title="宜宾二手车"                                                >宜宾                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=yichang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/yichang/contact/"
+                                                                                                    href="/yichang/aboutus/"
                                                                                                 title="宜昌二手车"                                                >宜昌                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=jxyichun" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/jxyichun/contact/"
+                                                                                                    href="/jxyichun/aboutus/"
                                                                                                 title="宜春二手车"                                                >宜春                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=yc" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/yc/contact/"
+                                                                                                    href="/yc/aboutus/"
                                                                                                 title="银川二手车"                                                >银川                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=yingkou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/yingkou/contact/"
+                                                                                                    href="/yingkou/aboutus/"
                                                                                                 title="营口二手车"                                                >营口                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=yueyang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/yueyang/contact/"
+                                                                                                    href="/yueyang/aboutus/"
                                                                                                 title="岳阳二手车"                                                >岳阳                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=yuncheng" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/yuncheng/contact/"
+                                                                                                    href="/yuncheng/aboutus/"
                                                                                                 title="运城二手车"                                                >运城                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=yixing" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/yixing/contact/"
+                                                                                                    href="/yixing/aboutus/"
                                                                                                 title="宜兴二手车"                                                >宜兴                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=yongchuan" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/yongchuan/contact/"
+                                                                                                    href="/yongchuan/aboutus/"
                                                                                                 title="永川二手车"                                                >永川                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=yunyang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/yunyang/contact/"
+                                                                                                    href="/yunyang/aboutus/"
                                                                                                 title="云阳二手车"                                                >云阳                                            </a>
                                                                             </dd>
                                 </dl>
@@ -665,40 +665,40 @@
                                     <dt>Z</dt>
                                     <dd>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=zaozhuang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/zaozhuang/contact/"
+                                                                                                    href="/zaozhuang/aboutus/"
                                                                                                 title="枣庄二手车"                                                >枣庄                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=zhangzhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/zhangzhou/contact/"
+                                                                                                    href="/zhangzhou/aboutus/"
                                                                                                 title="漳州二手车"                                                >漳州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=zz" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/zz/contact/"
+                                                                                                    href="/zz/aboutus/"
                                                                                                 title="郑州二手车"                                                >郑州                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=zhenjiang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/zhenjiang/contact/"
+                                                                                                    href="/zhenjiang/aboutus/"
                                                                                                 title="镇江二手车"                                                >镇江                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=zhongshan" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/zhongshan/contact/"
+                                                                                                    href="/zhongshan/aboutus/"
                                                                                                 title="中山二手车"                                                >中山                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=zhuhai" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/zhuhai/contact/"
+                                                                                                    href="/zhuhai/aboutus/"
                                                                                                 title="珠海二手车"                                                >珠海                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=zhumadian" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/zhumadian/contact/"
+                                                                                                    href="/zhumadian/aboutus/"
                                                                                                 title="驻马店二手车"                                                >驻马店                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=zhuzhou" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/zhuzhou/contact/"
+                                                                                                    href="/zhuzhou/aboutus/"
                                                                                                 title="株洲二手车"                                                >株洲                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=zibo" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/zibo/contact/"
+                                                                                                    href="/zibo/aboutus/"
                                                                                                 title="淄博二手车"                                                >淄博                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=zigong" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/zigong/contact/"
+                                                                                                    href="/zigong/aboutus/"
                                                                                                 title="自贡二手车"                                                >自贡                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=ziyang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/ziyang/contact/"
+                                                                                                    href="/ziyang/aboutus/"
                                                                                                 title="资阳二手车"                                                >资阳                                            </a>
                                                                                     <a  data-gzlog="tracking_type=click&eventid=0020060000000017&select_city=zhangjiagang" baidu_alog="pc_index_city&click&pc_index_all_city_c"
-                                                                                                    href="/zhangjiagang/contact/"
+                                                                                                    href="/zhangjiagang/aboutus/"
                                                                                                 title="张家港二手车"                                                >张家港                                            </a>
                                                                             </dd>
                                 </dl>
@@ -712,7 +712,7 @@
                     <i id="js-login">登录</i>
                     <div class="app-guide">
                         <div class="guide-ewm">
-                            <img src="style/img/ewm-app-2.png" alt="瓜子二手车app下载">
+                            <img src="{{ asset('style/img/ewm-app-2.png') }}" alt="瓜子二手车app下载">
                         </div>
                         <div class="guide-txt">
                             <p class="guide-txt-1">下载APP使用更多功能</p>
@@ -729,7 +729,7 @@
                 <i></i>
                 <!--电话判断，当页面处于汽车金融则显示汽车金融电话  -->
                 <span>
-                    400-630-3279                </span>
+                    400-630-3579                </span>
             </div>
 
             <!--头部搜索框 -->
@@ -750,7 +750,7 @@
                    target="_blank" href="/zq_app/" data-gzlog="tracking_type=click&eventid=0010190000000012" title="瓜子二手车直卖网APP">APP下载
                     <div class="app-guide">
                         <div class="guide-ewm">
-                            <img src="style/img/ewm-app-3.png" alt="瓜子二手车app下载">
+                            <img src="{{ asset('style/img/ewm-app-3.png') }}" alt="瓜子二手车app下载">
                         </div>
                         <div class="guide-txt">
                             <p class="guide-txt-1">下载APP使用更多功能</p>
@@ -797,7 +797,7 @@
     </ul>
     <p class="p-error" id="loginError1"></p>
     <button class="sub-btn js-checkcode">登录</button>
-    <p class="free-phone">免费咨询400-630-3279</p>
+    <p class="free-phone">免费咨询400-630-3579</p>
 </div>
 
 <!--[if IE 7]>
@@ -831,12 +831,10 @@
         //公用头部登陆后跳转至个人中心时url中需要用到
         var domain = "bj";
     </script>
-
-<!-- 头部  e -->
 <div class="w clearfix">
     <div class="j-l">
         <ul id="tab">
-            <li>
+            <li class="on">
                 <div class="tit-big">
                 <a href="/bj/aboutus">
                     <span class="border-bottom"><i class="icon1"></i>关于我们</span>
@@ -852,7 +850,7 @@
                     </span>
                 </div>
             </li>
-            <li class="on">
+            <li>
                 <div class="tit-big">
                 <a href="/bj/contact">
                     <span class="border-bottom"><i class="icon3"></i>联系我们</span>
@@ -861,18 +859,79 @@
             </li>
         </ul>
     </div>
-
     <div class="j-r active-01" style="display:block;">
         <div class="about_pad">
-            <div class="contact clearfix">
-                <div class="logo-l"><span class="logo_bgf5"></span></div>
-                <a href="javascript:;" class="job-open">联系我们</a>
-                <div class="contact-con">公司注册名称<br>车好多旧机动车经纪（北京）有限公司<br><br> 公司注册地址<br>北京市丰台区南四环中路260号北京新发地汽车交易市场旧车经营区B区178号<br><br>商务合作联系邮箱<br>bd@guazi.com</div>
+            <div class="ban_a1"></div>
+            <p>瓜子二手车直卖网(guazi.com)于2015年9月27日正式上线，目前已成长为中国最大的二手车直卖平台。</p>
+            <p>瓜子二手车直卖网帮助买家直接和卖家面对面交易。通过直卖模式，瓜子二手车去除了中间商环节，将原本由中间商层层加码产生的差价让渡给买卖双方，实现了“卖家多卖，买家多省”的双赢局面。</p>
+            <p>为了保证买卖双方的流畅体验，瓜子二手车对车源进行了限制，规定平台上卖方的车只能是8年15万公里以内的个人二手车。同时，瓜子二手车确保平台上的每一辆车都经过五维立体检测体系的严格检测，从源头上保障车况。</p>
+            <p>凭借高质量的服务和先进的交易模式，瓜子二手车发展势头迅猛，员工人数已超过5000人。2015年，瓜子二手车累计销售额超过了37亿元人民币；在后服务领域，为用户提供了超过2亿元的贷款服务。</p>
+            <p>2016年3月，瓜子二手车直卖网宣布完成A轮2.045亿美元融资，创下了二手车行业的A轮融资纪录。</p>
+            <p>目前，瓜子二手车已经覆盖全国200多个城市。</p>
+            <ul class="con-ser clearfix">
+                <li class="li-1">
+                    只提供最佳车况的<br>个人二手车
+                </li>
+                <li class="li-2">
+                    最苛刻的检测标准<br>保证无重大事故
+                </li>
+                <li class="li-3">
+                    无中间环节<br>透明无差价
+                </li>
+                <li class="li-4">
+                    全程陪同交易<br>免费代过户
+                </li>
+                <li class="li-5">
+                    14天可退,超长质保<br>售后无忧
+                </li>
+            </ul>
+            <div class="big-era">
+                <ul class="era-box">
+                    <li>
+                        <span class="span1">2014年10月</span>
+                        <span class="span2">赶集好车开始筹划</span>
+                    </li>
+                    <li>
+                        <span class="span3">2015年9月</span>
+                        <span class="span4">瓜子二手车直卖网(guazi.com)于2015年9月27日上线</span>
+                    </li>
+                    <li>
+                        <span class="span1">2015年11月</span>
+                        <span class="span2">瓜子二手车直卖网单独分拆，<br>已完成新公司注册，独立运营。杨浩涌出任CEO</span>
+                    </li>
+                    <li>
+                        <span class="span3">2015年11月</span>
+                        <span class="span4">瓜子二手车获 “2015中国汽车金引擎奖之最佳C2C二手车电商平台”</span>
+                    </li>
+                    <li>
+                        <span class="span1">2015年12月</span>
+                        <span class="span2">瓜子二手车CEO杨浩涌荣获<br>“2015中国互联网经济年度人物”奖</span>
+                    </li>
+                    <li>
+                        <span class="span3">2015年12月</span>
+                        <span class="span4">瓜子二手车荣获21世纪中国最佳商业模式奖</span>
+                    </li>
+                    <li>
+                        <span class="span1">2016年1月</span>
+                        <span class="span2">瓜子二手车入选创业邦<br>“2015中国年度创新成长企业100强”</span>
+                    </li>
+                    <li>
+                        <span class="span3">2016年3月</span>
+                        <span class="span4">瓜子二手车宣布获得2.045亿美元A轮融资</span>
+                    </li>
+                    <li>
+                        <span class="span1">2016年3月</span>
+                        <span class="span2">瓜子二手车上海站、重庆站和成都站单月销售额过亿</span>
+                    </li>
+                    <li>
+                        <span class="span3">2016年4月</span>
+                        <span class="span4">瓜子二手车荣获GMIC <br>“2016互联网时代年度十大最有价值创新产品”奖</span>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
 </div>
-
 
 <!-- 尾部 -->
 <div class="footer">
@@ -881,14 +940,14 @@
     <div class="footer-logo"></div>
     <div class="phone-email">
         <p>
-            咨询电话：<i>400-630-3279</i> <br>
+            咨询电话：<i>400-630-3579</i> <br>
             <span>（周一至周日 8:00-21:00）</span>
         </p>
         <p>售后服务专线：400-066-8780  </p>
     </div>
-    <img src="style/img/ewm-wx-2.png" alt="" class="gz-ewm">
+    <img src="{{ asset('style/img/ewm-wx-2.png') }}" alt="" class="gz-ewm">
     <p class="ewm-tit">关注微信</p>
-    <img src="style/img/ewm-app-2.png" alt="" class="gz-ewm">
+    <img src="{{ asset('style/img/ewm-app-2.png') }}" alt="" class="gz-ewm">
     <p class="ewm-tit">下载APP</p>
     <div class="basic-info">
         <div class="info-link">
@@ -1046,7 +1105,7 @@
     
 
 <input type="hidden" class="hide_gich" value="">
-<div style='display:none;' class='js-check-post-code' data-str='3057a48308883edba7ac149c061aa110' data-time='1499178944'></div><input type="hidden" data-role="dataSource" class="dataSourceButton" data-source='[]' >
+<div style='display:none;' class='js-check-post-code' data-str='28506c01f98b826497476fd0166a9ee8' data-time='1499178542'></div><input type="hidden" data-role="dataSource" class="dataSourceButton" data-source='[]' >
 
 </body>
 </html>

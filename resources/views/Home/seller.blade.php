@@ -26,7 +26,7 @@
     var cityId = "12";
 </script>
 <!-- 加载js/css-->
-    <script type="text/javascript" src="style/js/base.2fa0b3556624d4910689.js"></script><script type="text/javascript" src="style/js/sell_new.ae4e0ea285846899aca0.js"></script><body>
+    <script type="text/javascript" src="{{ asset('style/js/base.2fa0b3556624d4910689.js') }}"></script><script type="text/javascript" src="{{ asset('style/js/sell_new.ae4e0ea285846899aca0.js') }}"></script><body>
 
 <!-- 头部 -->
 <input type="hidden" id="skipKindNew" value="0">
@@ -841,7 +841,7 @@
         <ul class="deal-list clearfix">
                     <li>
                 <img 
-                                    src="style/img/qn17062018460090643a6be051447d0e0cdff2f2148f5d.jpg?imageView2/1/w/280/h/180/q/88"
+                                    src="{{ asset('style/img/qn17062018460090643a6be051447d0e0cdff2f2148f5d.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">起亚K2 2012款 两厢 1.6L AT Premium纪念版</p>
                 <p class="deal-p2">2013年 | 4.8万公里 | 成都</p>
@@ -850,7 +850,7 @@
             </li>
                     <li>
                 <img 
-                                    src="style/img/qn170620184241ae28bf62b94575bfd75a97a9422b9ed7.jpg?imageView2/1/w/280/h/180/q/88"
+                                    src="{{ asset('style/img/qn170620184241ae28bf62b94575bfd75a97a9422b9ed7.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">日产骐达 2011款 1.6L CVT舒适型</p>
                 <p class="deal-p2">2014年 | 6.6万公里 | 无锡</p>
@@ -859,7 +859,7 @@
             </li>
                     <li>
                 <img 
-                                    src="style/img/qn170620182107a328521e404f289eafdfad4d2b8d6d67.jpg?imageView2/1/w/280/h/180/q/88"
+                                    src="{{ asset('style/img/qn170620182107a328521e404f289eafdfad4d2b8d6d67.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">大众POLO 2011款 1.6L 自动致酷版</p>
                 <p class="deal-p2">2011年 | 3.6万公里 | 杭州</p>
@@ -868,7 +868,7 @@
             </li>
                     <li>
                 <img 
-                                    src="style/img/qn170620181911533249d12a0822aa8d0ad8ba8cc93593.jpg?imageView2/1/w/280/h/180/q/88"
+                                    src="{{ asset('style/img/qn170620181911533249d12a0822aa8d0ad8ba8cc93593.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">日产天籁 2015款 2.0L XL Upper欧冠科技版</p>
                 <p class="deal-p2">2015年 | 0.2万公里 | 南昌</p>
@@ -877,7 +877,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17062018185859fc955cd475db400bcf327e6d011cde.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17062018185859fc955cd475db400bcf327e6d011cde.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">别克英朗 2010款 XT 1.6L 手动进取版</p>
                 <p class="deal-p2">2011年 | 13.6万公里 | 南宁</p>
@@ -886,7 +886,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170620175504c80da7b1a12d68baced46ed2ac64bb8c.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170620175504c80da7b1a12d68baced46ed2ac64bb8c.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">奥迪A6L 2008款 2.4L 舒适型</p>
                 <p class="deal-p2">2009年 | 20.6万公里 | 宜昌</p>
@@ -895,7 +895,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170620175336e6e61f6ad4f9997bd90ec1b48ff1d917.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170620175336e6e61f6ad4f9997bd90ec1b48ff1d917.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">江淮和悦RS 2010款1.8L手动豪华5座版</p>
                 <p class="deal-p2">2010年 | 9.9万公里 | 青岛</p>
@@ -904,7 +904,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706201741489356fdae1b9845ef4de619c054f6ddaa.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706201741489356fdae1b9845ef4de619c054f6ddaa.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">长安商用欧诺 2014款 1.3L幸福型</p>
                 <p class="deal-p2">2014年 | 2.4万公里 | 重庆</p>
@@ -913,7 +913,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706201742149f96c5844001a44c4310526b566f3b6e.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706201742149f96c5844001a44c4310526b566f3b6e.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">丰田凯美瑞 2012款 骏瑞 2.0S 耀动版</p>
                 <p class="deal-p2">2013年 | 8.9万公里 | 南京</p>
@@ -922,7 +922,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170620174316b6121538d9ebbb60fa28359f7e69e3d6.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170620174316b6121538d9ebbb60fa28359f7e69e3d6.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">金杯小海狮X30 2013款 1.3L舒适型</p>
                 <p class="deal-p2">2014年 | 5.1万公里 | 重庆</p>
@@ -931,7 +931,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170620174147d0546e9532fc47ba797ae1de3ca63989.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170620174147d0546e9532fc47ba797ae1de3ca63989.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">铃木奥拓 2013款 1.0L 手动实用型</p>
                 <p class="deal-p2">2014年 | 2.6万公里 | 南京</p>
@@ -940,7 +940,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170620174141329622a9f7c75e687237a25c3daecf51.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170620174141329622a9f7c75e687237a25c3daecf51.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">比亚迪S6 2013款 白金版 2.0L 手动尊贵型</p>
                 <p class="deal-p2">2014年 | 12.0万公里 | 重庆</p>
@@ -949,7 +949,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17062017154971945caf59652481b7f57b0e96d59ddc.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17062017154971945caf59652481b7f57b0e96d59ddc.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">雪佛兰乐风 2009款 1.4 SL MT</p>
                 <p class="deal-p2">2010年 | 8.6万公里 | 成都</p>
@@ -958,7 +958,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706201701552dfbe6f7303e25dff3cb7c0093adefcf.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706201701552dfbe6f7303e25dff3cb7c0093adefcf.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">大众朗逸 2010款 1.4TSI 运动版</p>
                 <p class="deal-p2">2011年 | 10.7万公里 | 信阳</p>
@@ -967,7 +967,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17062017015038af0afc6ab0485d14b863bfb988c3ab.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17062017015038af0afc6ab0485d14b863bfb988c3ab.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">奔驰S级 2016款 S 320 L 商务型(进口)</p>
                 <p class="deal-p2">2016年 | 1.3万公里 | 北京</p>
@@ -976,7 +976,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170620164812b421a54058d707b6cac660d1761f795f.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170620164812b421a54058d707b6cac660d1761f795f.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">斯巴鲁XV 2012款 2.0i 舒适导航版</p>
                 <p class="deal-p2">2014年 | 6.7万公里 | 成都</p>
@@ -985,7 +985,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170620164958b266df57fc51894f7d044e050abd254a.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170620164958b266df57fc51894f7d044e050abd254a.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">大众途安 2011款 1.4T 手动智尚版5座</p>
                 <p class="deal-p2">2011年 | 11.0万公里 | 上海</p>
@@ -994,7 +994,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706201643376b98ddf8ad979f74a3294b72273ef6dd.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706201643376b98ddf8ad979f74a3294b72273ef6dd.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">众泰T200 2013款 1.3L MT都市型</p>
                 <p class="deal-p2">2013年 | 10.7万公里 | 唐山</p>
@@ -1003,7 +1003,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17062016451162d1e4fb2deaa4a4f9a23202a5809798.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17062016451162d1e4fb2deaa4a4f9a23202a5809798.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">吉利GC7 2013款 1.5L 手动尊贵型</p>
                 <p class="deal-p2">2013年 | 5.1万公里 | 沈阳</p>
@@ -1012,7 +1012,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706201644366f1cfc7692f52ebeb00312bceeb8396f.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706201644366f1cfc7692f52ebeb00312bceeb8396f.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">雪铁龙爱丽舍 2014款 1.6L 手动舒适型</p>
                 <p class="deal-p2">2015年 | 3.0万公里 | 昆明</p>
@@ -1021,7 +1021,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17062016383196a93b572af8d118e22fc2d27d800f82.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17062016383196a93b572af8d118e22fc2d27d800f82.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">奥迪A4L 2012款 2.0 TFSI 自动豪华型</p>
                 <p class="deal-p2">2011年 | 13.8万公里 | 金华</p>
@@ -1030,7 +1030,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17062016404232e59d344b90df39179f0dc94de179ac.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17062016404232e59d344b90df39179f0dc94de179ac.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">比亚迪速锐 2014款 1.5L 手动豪华型</p>
                 <p class="deal-p2">2014年 | 5.4万公里 | 长春</p>
@@ -1039,7 +1039,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706201635336630dcf4a0f79bdb90b01913814564e0.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706201635336630dcf4a0f79bdb90b01913814564e0.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">大众朗逸 2011款 1.6L 手动品雅版</p>
                 <p class="deal-p2">2013年 | 5.1万公里 | 沈阳</p>
@@ -1048,7 +1048,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706201623400599bc83ca58796cc3bac1b8c9d23841.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706201623400599bc83ca58796cc3bac1b8c9d23841.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">MG 3SW 2009款 野酷 1.4L 手动舒适型</p>
                 <p class="deal-p2">2009年 | 3.2万公里 | 成都</p>
@@ -1057,7 +1057,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170620162314aba32801e251c5acb8b4c6a4e9895861.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170620162314aba32801e251c5acb8b4c6a4e9895861.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">本田锋范经典 2008款 1.5L 自动精英版</p>
                 <p class="deal-p2">2009年 | 9.9万公里 | 大连</p>
@@ -1066,7 +1066,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170620161415c03e7b59d08bc27d976cea961441a72b.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170620161415c03e7b59d08bc27d976cea961441a72b.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">丰田卡罗拉 2008款 1.8L 自动GL-i天窗特别版</p>
                 <p class="deal-p2">2009年 | 9.1万公里 | 南京</p>
@@ -1075,7 +1075,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706201611268bae085cdabb338b1f30c10ca00c0336.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706201611268bae085cdabb338b1f30c10ca00c0336.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">奇瑞E5 2014款 1.5L 手动智悦型</p>
                 <p class="deal-p2">2014年 | 1.0万公里 | 焦作</p>
@@ -1084,7 +1084,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170620161051d415a11c05c9a5e0410a7288139eb701.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170620161051d415a11c05c9a5e0410a7288139eb701.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">福特福克斯 2009款 两厢 1.8L 自动时尚型</p>
                 <p class="deal-p2">2010年 | 5.2万公里 | 昆明</p>
@@ -1093,7 +1093,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170620155509daf29e416c85b45c1826274582bccce9.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170620155509daf29e416c85b45c1826274582bccce9.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">大众朗行 2015款 1.6L 自动舒适版</p>
                 <p class="deal-p2">2016年 | 2.2万公里 | 新乡</p>
@@ -1102,7 +1102,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706201544169cc6fbaac628ac3e45cf4b0e958de134.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706201544169cc6fbaac628ac3e45cf4b0e958de134.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">五菱之光 2010款 1.2L新版实用型长车身LAQ</p>
                 <p class="deal-p2">2009年 | 4.4万公里 | 西安</p>
@@ -1111,7 +1111,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170620154346d2df5e343f795fe493179357ebd779e8.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170620154346d2df5e343f795fe493179357ebd779e8.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">东风风行景逸X5 2013款 1.6L 手动尊享型 国IV</p>
                 <p class="deal-p2">2013年 | 3.7万公里 | 长春</p>
@@ -1120,7 +1120,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170620153303c9deb4e851ed2b84ab0cd9ed1f360f27.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170620153303c9deb4e851ed2b84ab0cd9ed1f360f27.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">起亚K3 2016款 1.6L 手动GL</p>
                 <p class="deal-p2">2016年 | 1.7万公里 | 北京</p>
@@ -1129,7 +1129,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170620152821ff7d605c73262f5ede5fb3afbb400b7b.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170620152821ff7d605c73262f5ede5fb3afbb400b7b.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">福特福克斯 2012款 两厢 2.0L 自动豪华运动型</p>
                 <p class="deal-p2">2012年 | 6.9万公里 | 重庆</p>
@@ -1138,7 +1138,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170620152346503e300d6793080798fd37c911e8947c.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170620152346503e300d6793080798fd37c911e8947c.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">长城M4 2012款 1.5L 手动豪华型</p>
                 <p class="deal-p2">2012年 | 5.5万公里 | 南宁</p>
@@ -1147,7 +1147,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17062015231980dab0958483d34eee935471110392d4.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17062015231980dab0958483d34eee935471110392d4.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">长安商用欧诺 2014款 1.5L基本型</p>
                 <p class="deal-p2">2015年 | 4.0万公里 | 成都</p>
@@ -1156,7 +1156,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17062015240887dac979ca157e81da9635e75ace0ce7.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17062015240887dac979ca157e81da9635e75ace0ce7.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">东风小康V07S 2011款 1.0L基本型AF10-12</p>
                 <p class="deal-p2">2012年 | 4.8万公里 | 绵阳</p>
@@ -1165,7 +1165,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170620150625244eeb30f66b5307c3075fd292d6b137.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170620150625244eeb30f66b5307c3075fd292d6b137.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">宝马3系 2014款 320Li 时尚型</p>
                 <p class="deal-p2">2013年 | 11.4万公里 | 保定</p>
@@ -1174,7 +1174,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170620150323a778741536728739ca307ec8ab6535dd.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170620150323a778741536728739ca307ec8ab6535dd.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">吉利GC7 2013款 1.8L 自动尊贵型</p>
                 <p class="deal-p2">2014年 | 5.7万公里 | 重庆</p>
@@ -1183,7 +1183,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17062014585245821a49858845b1ae3ee0dc971bc6fa.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17062014585245821a49858845b1ae3ee0dc971bc6fa.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">雪佛兰科鲁兹 2011款 1.8L SE AT</p>
                 <p class="deal-p2">2011年 | 1.3万公里 | 大连</p>
@@ -1192,7 +1192,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17062014593721f5e21b6ce42fa31122b9e290be5560.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17062014593721f5e21b6ce42fa31122b9e290be5560.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">大众高尔夫 2012款 1.6 自动舒适型</p>
                 <p class="deal-p2">2014年 | 6.7万公里 | 邯郸</p>
@@ -1201,7 +1201,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170618171633ac1580849c27ce769aa46ab1f2ffbe00.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170618171633ac1580849c27ce769aa46ab1f2ffbe00.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">比亚迪G6 2013款 1.5TID 自动尊荣型</p>
                 <p class="deal-p2">2013年 | 7.5万公里 | 重庆</p>
@@ -1210,7 +1210,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170618171031a653052d098329ffff61034522960a9f.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170618171031a653052d098329ffff61034522960a9f.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">日产骐达 2011款 1.6L CVT智能型</p>
                 <p class="deal-p2">2012年 | 6.7万公里 | 荆州</p>
@@ -1219,7 +1219,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17061817050821d4d2fcb99a8284542863f93f0dee3f.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17061817050821d4d2fcb99a8284542863f93f0dee3f.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">长城C30 2010款 1.5L 手动豪华型</p>
                 <p class="deal-p2">2010年 | 4.2万公里 | 南通</p>
@@ -1228,7 +1228,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170618170310e37f1067c4d7bf8eaf8b054b2dfce98c.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170618170310e37f1067c4d7bf8eaf8b054b2dfce98c.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">北汽威旺307 2014款 1.2L标准型A12</p>
                 <p class="deal-p2">2015年 | 4.7万公里 | 武汉</p>
@@ -1237,7 +1237,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170618170331e5da92781fe30b8ebfd830e9af473630.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170618170331e5da92781fe30b8ebfd830e9af473630.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">五菱之光 2010款 1.2L新版标准型I短车身LAQ</p>
                 <p class="deal-p2">2011年 | 3.1万公里 | 西安</p>
@@ -1246,7 +1246,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706181653321db1ecc25d2e9864ac2260984f7629fa.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706181653321db1ecc25d2e9864ac2260984f7629fa.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">现代领翔 2009款 2.0L AT DLX</p>
                 <p class="deal-p2">2009年 | 16.0万公里 | 杭州</p>
@@ -1255,7 +1255,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170618165319902eb7614e5e41dff32293579fd6a02b.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170618165319902eb7614e5e41dff32293579fd6a02b.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">日产颐达 2008款 1.6L 自动时尚型</p>
                 <p class="deal-p2">2010年 | 8.7万公里 | 常州</p>
@@ -1264,7 +1264,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17061816480111dbe5cedfb36a5aa09c068722ef2277.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17061816480111dbe5cedfb36a5aa09c068722ef2277.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">宝骏560 2015款 1.8L 手动精英型</p>
                 <p class="deal-p2">2016年 | 2.0万公里 | 北京</p>
@@ -1273,7 +1273,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170618164114ed8ae0d212b62e2729678da6919dc27c.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170618164114ed8ae0d212b62e2729678da6919dc27c.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">丰田花冠 2007款 1.6L 手动G</p>
                 <p class="deal-p2">2008年 | 8.2万公里 | 常州</p>
@@ -1282,7 +1282,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706181638121b8f981ed50bb7caf84da607ae504062.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706181638121b8f981ed50bb7caf84da607ae504062.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">五菱荣光 2011款 1.2L标准型</p>
                 <p class="deal-p2">2011年 | 4.8万公里 | 无锡</p>
@@ -1291,7 +1291,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17061816374511f2625f102f605d7f59b3527174c0f8.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17061816374511f2625f102f605d7f59b3527174c0f8.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">日产天籁 2008款 2.5L XL领先版</p>
                 <p class="deal-p2">2009年 | 6.0万公里 | 青岛</p>
@@ -1300,7 +1300,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170618163450b20aa1c23404c922bf6c1ebccb60c9b0.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170618163450b20aa1c23404c922bf6c1ebccb60c9b0.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">斯巴鲁力狮 旅行车 2010款 2.0i豪华旅行版</p>
                 <p class="deal-p2">2009年 | 14.8万公里 | 烟台</p>
@@ -1309,7 +1309,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170618163009d33af81610c2df69e82286eb3ae83e17.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170618163009d33af81610c2df69e82286eb3ae83e17.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">长安悦翔V3 2015款 1.4L 手动美满型 国V</p>
                 <p class="deal-p2">2016年 | 1.0万公里 | 成都</p>
@@ -1318,7 +1318,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706181630464523e9a53102aa9f21754e6eb65e1212.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706181630464523e9a53102aa9f21754e6eb65e1212.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">现代索纳塔八 2013款 2.0L 自动领先版</p>
                 <p class="deal-p2">2013年 | 6.7万公里 | 苏州</p>
@@ -1327,7 +1327,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170618162807774f728c7e005f13de918264b1d7c90b.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170618162807774f728c7e005f13de918264b1d7c90b.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">众泰T600 2015款 1.5T 手动尊贵型</p>
                 <p class="deal-p2">2015年 | 3.0万公里 | 东莞</p>
@@ -1336,7 +1336,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706181628012296cac0bc7deaf5599b8f1dea3f7211.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706181628012296cac0bc7deaf5599b8f1dea3f7211.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">日产骊威 2008款 劲锐 1.6L 自动智能版</p>
                 <p class="deal-p2">2009年 | 12.4万公里 | 大连</p>
@@ -1345,7 +1345,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17061816243595446a244f4f5bf58436a6b6f3f0e777.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17061816243595446a244f4f5bf58436a6b6f3f0e777.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">五菱宏光 2014款 1.5L S舒适型</p>
                 <p class="deal-p2">2015年 | 4.1万公里 | 郑州</p>
@@ -1354,7 +1354,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706181624101e002e34dad695fce25ba3b1fc1d20fe.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706181624101e002e34dad695fce25ba3b1fc1d20fe.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">长安CX30 2010款 两厢 1.6L 手动豪华型</p>
                 <p class="deal-p2">2011年 | 8.7万公里 | 成都</p>
@@ -1363,7 +1363,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170618161907c6c57c0fe8cd8cae9df1de25ffaaa049.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170618161907c6c57c0fe8cd8cae9df1de25ffaaa049.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">北汽幻速S3 2014款 1.5L 豪华型 国IV</p>
                 <p class="deal-p2">2015年 | 1.8万公里 | 嘉兴</p>
@@ -1372,7 +1372,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170618160904627cbe39298f2152d55996f75f79a981.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170618160904627cbe39298f2152d55996f75f79a981.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">日产逍客 2010款 20X雷 CVT 2WD</p>
                 <p class="deal-p2">2010年 | 6.2万公里 | 成都</p>
@@ -1381,7 +1381,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170618155916ab24c8c13b86c77f92b5036122ae85af.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170618155916ab24c8c13b86c77f92b5036122ae85af.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">起亚赛拉图 2012款 1.6L MT GL</p>
                 <p class="deal-p2">2014年 | 6.6万公里 | 东莞</p>
@@ -1390,7 +1390,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706181557295c5cf83c116ecc0be4f026503727bef4.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706181557295c5cf83c116ecc0be4f026503727bef4.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">别克英朗 2013款 GT 1.6L 自动时尚版</p>
                 <p class="deal-p2">2013年 | 3.5万公里 | 保定</p>
@@ -1399,7 +1399,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170618155252b1635b8560fb3dac2602032d867378b0.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170618155252b1635b8560fb3dac2602032d867378b0.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">别克凯越 2013款 1.5L 自动尊享型</p>
                 <p class="deal-p2">2013年 | 7.6万公里 | 郑州</p>
@@ -1408,7 +1408,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170618154859d49a7618099fa6d6f65ddada7283081e.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170618154859d49a7618099fa6d6f65ddada7283081e.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">东风小康V07S 2011款 1.0L基本型AF10-06</p>
                 <p class="deal-p2">2012年 | 5.0万公里 | 烟台</p>
@@ -1417,7 +1417,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17061815443504da767885cb8e470444513bc111254b.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17061815443504da767885cb8e470444513bc111254b.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">本田XR-V 2015款 1.8L EXi  CVT舒适版</p>
                 <p class="deal-p2">2016年 | 0.7万公里 | 长春</p>
@@ -1426,7 +1426,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170618152504b8303157b4f3ee5904fa809bce618693.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170618152504b8303157b4f3ee5904fa809bce618693.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">东风小康东风风光330 2014款 1.5L手动实用型DK15-02</p>
                 <p class="deal-p2">2015年 | 3.2万公里 | 武汉</p>
@@ -1435,7 +1435,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706181512310e8598647b2dff91c0a8927dbf8d229a.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706181512310e8598647b2dff91c0a8927dbf8d229a.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">别克GL8 2007款 2.5L GT 精英版</p>
                 <p class="deal-p2">2010年 | 8.7万公里 | 漳州</p>
@@ -1444,7 +1444,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170618150938347b6482694234b8ddbe2f77c22e3c77.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170618150938347b6482694234b8ddbe2f77c22e3c77.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">长安CX30 2011款 三厢 1.6L 手动豪华型</p>
                 <p class="deal-p2">2011年 | 9.2万公里 | 重庆</p>
@@ -1453,7 +1453,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706181508056763fa234da628f58a8f20ab7a56e9ae.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706181508056763fa234da628f58a8f20ab7a56e9ae.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">现代途胜 2013款 2.0L 自动两驱舒适型</p>
                 <p class="deal-p2">2013年 | 9.9万公里 | 厦门</p>
@@ -1462,7 +1462,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170618145458c4a9779cfd6028fec9a6286ba7f93ee4.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170618145458c4a9779cfd6028fec9a6286ba7f93ee4.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">雷克萨斯ES 2013款 250 精英版</p>
                 <p class="deal-p2">2012年 | 8.9万公里 | 上海</p>
@@ -1471,7 +1471,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17061814535630bf83470fbeff861bb51fa4aec5e2be.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17061814535630bf83470fbeff861bb51fa4aec5e2be.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">铃木雨燕 2009款 1.3L 手动超值版</p>
                 <p class="deal-p2">2010年 | 3.0万公里 | 成都</p>
@@ -1480,7 +1480,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17061814481956c5d7f4d50234b1701ead1284c2d1f2.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17061814481956c5d7f4d50234b1701ead1284c2d1f2.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">大众高尔夫 2011款 1.6 自动舒适型</p>
                 <p class="deal-p2">2011年 | 6.7万公里 | 长沙</p>
@@ -1489,7 +1489,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170618144444ec5c2bbd02e64c26ebed13eb75b34454.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170618144444ec5c2bbd02e64c26ebed13eb75b34454.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">东风风神A60 2016款 1.6L 自动豪华型</p>
                 <p class="deal-p2">2015年 | 2.6万公里 | 武汉</p>
@@ -1498,7 +1498,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706181442391c3292939e3cc880a69a0ba01bc74b1d.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706181442391c3292939e3cc880a69a0ba01bc74b1d.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">中华骏捷FRV 2010款 1.3L 手动舒适型</p>
                 <p class="deal-p2">2010年 | 3.2万公里 | 哈尔滨</p>
@@ -1507,7 +1507,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170616160526499717f8ef80b4e7524c3cfd362f8827.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170616160526499717f8ef80b4e7524c3cfd362f8827.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">本田CR-V 2012款 2.4L 四驱尊贵版</p>
                 <p class="deal-p2">2012年 | 9.9万公里 | 济宁</p>
@@ -1516,7 +1516,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170616160324f3c10546ee528a54cfc4dd0464c8d89c.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170616160324f3c10546ee528a54cfc4dd0464c8d89c.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">丰田威驰 2014款 1.3L 自动型尚版</p>
                 <p class="deal-p2">2014年 | 4.0万公里 | 柳州</p>
@@ -1525,7 +1525,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17061615593422eb04761bfad9008eb12ae0db3e85f8.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17061615593422eb04761bfad9008eb12ae0db3e85f8.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">别克君威 2015款 1.6T 领先技术型</p>
                 <p class="deal-p2">2016年 | 1.4万公里 | 成都</p>
@@ -1534,7 +1534,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170616154742130598c3b2682aa993e6f562a038730a.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170616154742130598c3b2682aa993e6f562a038730a.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">福特福克斯 2011款 两厢 1.8L 自动时尚型</p>
                 <p class="deal-p2">2011年 | 3.7万公里 | 南京</p>
@@ -1543,7 +1543,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706161542155066faff7a815bcab36f51b547db39a1.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706161542155066faff7a815bcab36f51b547db39a1.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">斯柯达明锐 2015款 1.6L 自动逸俊版</p>
                 <p class="deal-p2">2014年 | 4.8万公里 | 杭州</p>
@@ -1552,7 +1552,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170616153842fc809d740ddcf5e8f2ac9b960dd473cf.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170616153842fc809d740ddcf5e8f2ac9b960dd473cf.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">丰田卡罗拉 2007款 1.8L 自动GLX-i</p>
                 <p class="deal-p2">2008年 | 10.9万公里 | 大连</p>
@@ -1561,7 +1561,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170616153829737576948196540dfd8514a80c2bfc29.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170616153829737576948196540dfd8514a80c2bfc29.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">现代朗动 2012款 1.6L 手动领先型</p>
                 <p class="deal-p2">2014年 | 6.5万公里 | 南通</p>
@@ -1570,7 +1570,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706161527562d4bd00fb06762c0e31cb1c530eaecd5.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706161527562d4bd00fb06762c0e31cb1c530eaecd5.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">雪佛兰科鲁兹 2012款 1.6L SE AT</p>
                 <p class="deal-p2">2012年 | 3.6万公里 | 长沙</p>
@@ -1579,7 +1579,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17061615271242681803b8270dd57331c918a63d6a82.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17061615271242681803b8270dd57331c918a63d6a82.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">丰田兰德酷路泽 2010款 4.0L 自动VX</p>
                 <p class="deal-p2">2012年 | 9.9万公里 | 郑州</p>
@@ -1588,7 +1588,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706161525261d0f707fc83faedc6d7977ae6148ff80.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706161525261d0f707fc83faedc6d7977ae6148ff80.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">东风风神S30 2011款 1.6L 手动尊雅型</p>
                 <p class="deal-p2">2011年 | 5.4万公里 | 淮安</p>
@@ -1597,7 +1597,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706161521333458e77da752a8a4331013e591e79d08.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706161521333458e77da752a8a4331013e591e79d08.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">江淮星锐 2013款 2.8T4系舒适版</p>
                 <p class="deal-p2">2012年 | 6.9万公里 | 北京</p>
@@ -1606,7 +1606,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170616152008073f957f0e254aa6b2227d13c9c80c2b.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170616152008073f957f0e254aa6b2227d13c9c80c2b.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">大众桑塔纳经典 2007款 1.8L 景畅型</p>
                 <p class="deal-p2">2010年 | 18.9万公里 | 上海</p>
@@ -1615,7 +1615,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706161501527e3e9f55421b064ef5239cb28cb31fca.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706161501527e3e9f55421b064ef5239cb28cb31fca.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">斯柯达明锐 2010款 1.6L 自动逸俊版</p>
                 <p class="deal-p2">2011年 | 4.9万公里 | 上海</p>
@@ -1624,7 +1624,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170616145854d9e558c25c5996b73f0d9d5f44579598.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170616145854d9e558c25c5996b73f0d9d5f44579598.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">本田思域 2009款 1.8L 自动豪华版</p>
                 <p class="deal-p2">2010年 | 8.6万公里 | 上海</p>
@@ -1633,7 +1633,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170616145921c2390fe68c44cc3932ce9c6d455658ec.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170616145921c2390fe68c44cc3932ce9c6d455658ec.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">马自达3星骋 2012款 两厢 2.0L 自动豪华型</p>
                 <p class="deal-p2">2012年 | 6.7万公里 | 成都</p>
@@ -1642,7 +1642,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170616145614115636829a75f3c8bb4359d91a93e42a.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170616145614115636829a75f3c8bb4359d91a93e42a.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">东风风行景逸 2010款 1.5L 手动尊贵型</p>
                 <p class="deal-p2">2010年 | 5.8万公里 | 南京</p>
@@ -1651,7 +1651,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17061614495444845c00436d00e4115c1b98f48b88e6.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17061614495444845c00436d00e4115c1b98f48b88e6.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">吉利帝豪 2016款 三厢 1.5L 手动向上版</p>
                 <p class="deal-p2">2016年 | 1.9万公里 | 苏州</p>
@@ -1660,7 +1660,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170616143013dfb2693589ebbd42a8bc91aa855fc0ef.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170616143013dfb2693589ebbd42a8bc91aa855fc0ef.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">日产轩逸 2012款 1.6XE CVT舒适版</p>
                 <p class="deal-p2">2012年 | 12.0万公里 | 武汉</p>
@@ -1669,7 +1669,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn1706161418228f4016199f71076d39c713cae639ce29.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn1706161418228f4016199f71076d39c713cae639ce29.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">MG6 2013款 掀背 1.8L 手动驾值版</p>
                 <p class="deal-p2">2013年 | 5.2万公里 | 青岛</p>
@@ -1678,7 +1678,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17061614110681891d7cca41f570e9ff9d0920c79b87.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17061614110681891d7cca41f570e9ff9d0920c79b87.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">启辰晨风 2014款 领航版6.6KW</p>
                 <p class="deal-p2">2016年 | 1.1万公里 | 大连</p>
@@ -1687,7 +1687,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn17061613504408c88551a18ec25d0ab607f58e535376.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn17061613504408c88551a18ec25d0ab607f58e535376.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">丰田汉兰达 2012款 2.7L 两驱5座运动版</p>
                 <p class="deal-p2">2012年 | 5.0万公里 | 北京</p>
@@ -1696,7 +1696,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170616133749903b4a4e5ff2eeadabff60835ef586ce.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170616133749903b4a4e5ff2eeadabff60835ef586ce.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">大众朗逸 2013款 1.6L 自动舒适版</p>
                 <p class="deal-p2">2013年 | 12.5万公里 | 大连</p>
@@ -1705,7 +1705,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170616133225a766bfc6cffa23a83640ae97f2adce3b.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170616133225a766bfc6cffa23a83640ae97f2adce3b.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">丰田凯美瑞 2009款 240G NAVI豪华导航版</p>
                 <p class="deal-p2">2010年 | 11.6万公里 | 襄阳</p>
@@ -1714,7 +1714,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170616132958955e31d594c530bfde514eb0062f60ef.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170616132958955e31d594c530bfde514eb0062f60ef.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">日产轩逸 2009款 1.6XL 自动豪华天窗版</p>
                 <p class="deal-p2">2009年 | 7.8万公里 | 重庆</p>
@@ -1723,7 +1723,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170616132717f16e2c7fe1cd43ed5e814c407ffe73ea.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170616132717f16e2c7fe1cd43ed5e814c407ffe73ea.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">丰田凯美瑞 2013款 2.0G 舒适版</p>
                 <p class="deal-p2">2014年 | 3.6万公里 | 长春</p>
@@ -1732,7 +1732,7 @@
             </li>
                     <li>
                 <img 
-                                    data-src="style/img/qn170616131214091586dabddb1e09d68a3347963f399f.jpg?imageView2/1/w/280/h/180/q/88"
+                                    data-src="{{ asset('style/img/qn170616131214091586dabddb1e09d68a3347963f399f.jpg?imageView2/1/w/280/h/180/q/88') }}"
                                     alt="">
                 <p class="deal-p1">日产天籁 2011款 2.5L XL领先版</p>
                 <p class="deal-p2">2011年 | 12.4万公里 | 苏州</p>
@@ -2483,9 +2483,9 @@
         </p>
         <p>售后服务专线：400-066-8780  </p>
     </div>
-    <img src="style/img/ewm-wx-2.png" alt="" class="gz-ewm">
+    <img src="{{ asset('style/img/ewm-wx-2.png') }}" alt="" class="gz-ewm">
     <p class="ewm-tit">关注微信</p>
-    <img src="style/img/ewm-app-2.png" alt="" class="gz-ewm">
+    <img src="{{ asset('style/img/ewm-app-2.png') }}" alt="" class="gz-ewm">
     <p class="ewm-tit">下载APP</p>
     <div class="basic-info">
         <div class="info-link">

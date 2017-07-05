@@ -20,7 +20,7 @@
 <script>
     var logged = false;
 </script><!-- 加载js/css-->
-<script type="text/javascript" src="style/js/base.2fa0b3556624d4910689.js"></script><script type="text/javascript" src="style/js/detail.ca8bd5131221316b9f1d.js"></script>
+<script type="text/javascript" src="{{ asset('style/js/base.2fa0b3556624d4910689.js') }}"></script><script type="text/javascript" src="{{ asset('style/js/detail.ca8bd5131221316b9f1d.js') }}"></script>
 <body >
 <!-- 头部 -->
     <!-- 春节通知  s -->
@@ -714,7 +714,7 @@
                     <i id="js-login">登录</i>
                     <div class="app-guide">
                         <div class="guide-ewm">
-                            <img src="style/img/ewm-app-2.png" alt="瓜子二手车app下载">
+                            <img src="{{ asset('style/img/ewm-app-2.png') }}" alt="瓜子二手车app下载">
                         </div>
                         <div class="guide-txt">
                             <p class="guide-txt-1">下载APP使用更多功能</p>
@@ -752,7 +752,7 @@
                    target="_blank" href="/zq_app/" data-gzlog="tracking_type=click&eventid=0010190000000012" title="瓜子二手车直卖网APP">APP下载
                     <div class="app-guide">
                         <div class="guide-ewm">
-                            <img src="style/img/ewm-app-3.png" alt="瓜子二手车app下载">
+                            <img src="{{ asset('style/img/ewm-app-3.png') }}" alt="瓜子二手车app下载">
                         </div>
                         <div class="guide-txt">
                             <p class="guide-txt-1">下载APP使用更多功能</p>
@@ -870,49 +870,49 @@
                                                                                     
                     <!-- 车源售卖状态显示 -->
                     
-                    <img src="style/img/qn170623180745af4c8f90b3f1b35cde637dcb35565101.jpg?imageView2/1/w/600/h/400/q/88" alt="标致408 2011款 2.0L 自动舒适版">
+                    <img src="{{ asset('style/img/qn170623180745af4c8f90b3f1b35cde637dcb35565101.jpg?imageView2/1/w/600/h/400/q/88') }}" alt="标致408 2011款 2.0L 自动舒适版">
                 </li>
 
                             <li data-role="img" style="display: none">
                                                                                     
                     <!-- 车源售卖状态显示 -->
                     
-                    <img src="style/img/qn170623180747a5a441bac1511a9ae32d870e0eadb3d4.jpg?imageView2/1/w/600/h/400/q/88" alt="标致408 2011款 2.0L 自动舒适版">
+                    <img src="{{ asset('style/img/qn170623180747a5a441bac1511a9ae32d870e0eadb3d4.jpg?imageView2/1/w/600/h/400/q/88') }}" alt="标致408 2011款 2.0L 自动舒适版">
                 </li>
 
                             <li data-role="img" style="display: none">
                                                                                     
                     <!-- 车源售卖状态显示 -->
                     
-                    <img data-src="style/img/qn17062318074000ad02f78ff10f21989aaf36014e911c.jpg?imageView2/1/w/600/h/400/q/88" alt="标致408 2011款 2.0L 自动舒适版">
+                    <img data-src="{{ asset('style/img/qn17062318074000ad02f78ff10f21989aaf36014e911c.jpg?imageView2/1/w/600/h/400/q/88') }}" alt="标致408 2011款 2.0L 自动舒适版">
                 </li>
 
                             <li data-role="img" style="display: none">
                                                                                     
                     <!-- 车源售卖状态显示 -->
                     
-                    <img data-src="style/img/qn1706231807382a8f18af7827f7c5e8f663d7affe3ded.jpg?imageView2/1/w/600/h/400/q/88" alt="标致408 2011款 2.0L 自动舒适版">
+                    <img data-src="{{ asset('style/img/qn1706231807382a8f18af7827f7c5e8f663d7affe3ded.jpg?imageView2/1/w/600/h/400/q/88') }}" alt="标致408 2011款 2.0L 自动舒适版">
                 </li>
 
                             <li data-role="img" style="display: none">
                                                                                     
                     <!-- 车源售卖状态显示 -->
                     
-                    <img data-src="style/img/qn1706231807434ea7cbaa051c324709077ac965c6b3de.jpg?imageView2/1/w/600/h/400/q/88" alt="标致408 2011款 2.0L 自动舒适版">
+                    <img data-src="{{ asset('style/img/qn1706231807434ea7cbaa051c324709077ac965c6b3de.jpg?imageView2/1/w/600/h/400/q/88') }}" alt="标致408 2011款 2.0L 自动舒适版">
                 </li>
 
                             <li data-role="img" style="display: none">
                                                                                     
                     <!-- 车源售卖状态显示 -->
                     
-                    <img data-src="style/img/qn170623180740d9c7fac01a9b5cd05c046bb2b5d0a62d.jpg?imageView2/1/w/600/h/400/q/88" alt="标致408 2011款 2.0L 自动舒适版">
+                    <img data-src="{{ asset('style/img/qn170623180740d9c7fac01a9b5cd05c046bb2b5d0a62d.jpg?imageView2/1/w/600/h/400/q/88') }}" alt="标致408 2011款 2.0L 自动舒适版">
                 </li>
 
                             <li data-role="img" style="display: none">
                                                                                     
                     <!-- 车源售卖状态显示 -->
                     
-                    <img data-src="style/img/qn170623180734cffd1f28ca48a267a57ab413a48ca673.jpg?imageView2/1/w/600/h/400/q/88" alt="标致408 2011款 2.0L 自动舒适版">
+                    <img data-src="{{ asset('style/img/qn170623180734cffd1f28ca48a267a57ab413a48ca673.jpg?imageView2/1/w/600/h/400/q/88') }}" alt="标致408 2011款 2.0L 自动舒适版">
                 </li>
 
                             <li data-role="img" style="display: none">
@@ -1084,19 +1084,19 @@
             <div class="dt-thumb-in" style="width:4000px;" data-role="thumbContainer">
                                                 <ul class="dt-thumb-img clearfix">
                     
-                    <li  class="active"  data-role="thumb" data-index="0"><a href="javascript:void(0);"><span></span><img src="style/img/qn170623180745af4c8f90b3f1b35cde637dcb35565101.jpg?imageView2/1/w/90/h/60/q/88"></a></li>
+                    <li  class="active"  data-role="thumb" data-index="0"><a href="javascript:void(0);"><span></span><img src="{{ asset('style/img/qn170623180745af4c8f90b3f1b35cde637dcb35565101.jpg?imageView2/1/w/90/h/60/q/88') }}"></a></li>
                     
-                    <li  data-role="thumb" data-index="1"><a href="javascript:void(0);"><span></span><img src="style/img/qn170623180747a5a441bac1511a9ae32d870e0eadb3d4.jpg?imageView2/1/w/90/h/60/q/88"></a></li>
+                    <li  data-role="thumb" data-index="1"><a href="javascript:void(0);"><span></span><img src="{{ asset('style/img/qn170623180747a5a441bac1511a9ae32d870e0eadb3d4.jpg?imageView2/1/w/90/h/60/q/88') }}"></a></li>
                     
-                    <li  data-role="thumb" data-index="2"><a href="javascript:void(0);"><span></span><img src="style/img/qn17062318074000ad02f78ff10f21989aaf36014e911c.jpg?imageView2/1/w/90/h/60/q/88"></a></li>
+                    <li  data-role="thumb" data-index="2"><a href="javascript:void(0);"><span></span><img src="{{ asset('style/img/qn17062318074000ad02f78ff10f21989aaf36014e911c.jpg?imageView2/1/w/90/h/60/q/88') }}"></a></li>
                     
-                    <li  data-role="thumb" data-index="3"><a href="javascript:void(0);"><span></span><img src="style/img/qn1706231807382a8f18af7827f7c5e8f663d7affe3ded.jpg?imageView2/1/w/90/h/60/q/88"></a></li>
+                    <li  data-role="thumb" data-index="3"><a href="javascript:void(0);"><span></span><img src="{{ asset('style/img/qn1706231807382a8f18af7827f7c5e8f663d7affe3ded.jpg?imageView2/1/w/90/h/60/q/88') }}"></a></li>
                     
-                    <li  data-role="thumb" data-index="4"><a href="javascript:void(0);"><span></span><img src="style/img/qn1706231807434ea7cbaa051c324709077ac965c6b3de.jpg?imageView2/1/w/90/h/60/q/88"></a></li>
+                    <li  data-role="thumb" data-index="4"><a href="javascript:void(0);"><span></span><img src="{{ asset('style/img/qn1706231807434ea7cbaa051c324709077ac965c6b3de.jpg?imageView2/1/w/90/h/60/q/88') }}"></a></li>
                     
-                    <li  data-role="thumb" data-index="5"><a href="javascript:void(0);"><span></span><img src="style/img/qn170623180740d9c7fac01a9b5cd05c046bb2b5d0a62d.jpg?imageView2/1/w/90/h/60/q/88"></a></li>
+                    <li  data-role="thumb" data-index="5"><a href="javascript:void(0);"><span></span><img src="{{ asset('style/img/qn170623180740d9c7fac01a9b5cd05c046bb2b5d0a62d.jpg?imageView2/1/w/90/h/60/q/88') }}"></a></li>
                     
-                    <li  data-role="thumb" data-index="6"><a href="javascript:void(0);"><span></span><img src="style/img/qn170623180734cffd1f28ca48a267a57ab413a48ca673.jpg?imageView2/1/w/90/h/60/q/88"></a></li>
+                    <li  data-role="thumb" data-index="6"><a href="javascript:void(0);"><span></span><img src="{{ asset('style/img/qn170623180734cffd1f28ca48a267a57ab413a48ca673.jpg?imageView2/1/w/90/h/60/q/88') }}"></a></li>
                     
                     <li  data-role="thumb" data-index="7"><a href="javascript:void(0);"><span></span><img src="https://image.guazistatic.com/gz01170623/18/02/fdba37cc0463760603fa221da6a78733.jpg@base@tag=imgScale&w=90&h=60&c=1&m=2&q=88"></a></li>
                     
@@ -1350,7 +1350,7 @@
                                 <li class="js-item-3">新车上架-更实时</li>
                             </ul>
                             <div class="pop-ewm-box">
-                                <img src="style/img/ewm-app-3.png" alt="瓜子二手车app下载">
+                                <img src="{{ asset('style/img/ewm-app-3.png') }}" alt="瓜子二手车app下载">
                             </div>
                             <p class="scan-tips">扫码下载APP，实惠早知道</p>
                         </div>
@@ -1526,7 +1526,7 @@
     <div class="detect-bd clearfix">
         <div class="detect-right fr">
             <span class="divis-pic evaluatorShow">
-                <img data-role="evaluatorImg" data-src="style/img/divsition_100_150.jpg" width="100" height="150">
+                <img data-role="evaluatorImg" data-src="{{ asset('style/img/divsition_100_150.jpg') }}" width="100" height="150">
             </span>
             <p class="f-type02">张研</p>
             <p>高级车辆评估师</p>
@@ -1719,65 +1719,65 @@
                     <div class="modbox" id="picture">
         <h3 class="yahei publicTit"><i class="deck"></i>车辆图片</h3>
         <div class="dt-pictype lazyLoadV2">
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
-                     data-original="style/img/qn170623180745af4c8f90b3f1b35cde637dcb35565101.jpg?imageView2/1/w/620/h/430/q/88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
-                     data-original="style/img/qn170623180747a5a441bac1511a9ae32d870e0eadb3d4.jpg?imageView2/1/w/620/h/430/q/88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
-                     data-original="style/img/qn17062318074000ad02f78ff10f21989aaf36014e911c.jpg?imageView2/1/w/620/h/430/q/88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
-                     data-original="style/img/qn1706231807382a8f18af7827f7c5e8f663d7affe3ded.jpg?imageView2/1/w/620/h/430/q/88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
-                     data-original="style/img/qn1706231807434ea7cbaa051c324709077ac965c6b3de.jpg?imageView2/1/w/620/h/430/q/88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
-                     data-original="style/img/qn170623180740d9c7fac01a9b5cd05c046bb2b5d0a62d.jpg?imageView2/1/w/620/h/430/q/88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
-                     data-original="style/img/qn170623180734cffd1f28ca48a267a57ab413a48ca673.jpg?imageView2/1/w/620/h/430/q/88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
+                     data-original="{{ asset('style/img/qn170623180745af4c8f90b3f1b35cde637dcb35565101.jpg?imageView2/1/w/620/h/430/q/88') }}" />
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
+                     data-original="{{ asset('style/img/qn170623180747a5a441bac1511a9ae32d870e0eadb3d4.jpg?imageView2/1/w/620/h/430/q/88') }}" />
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
+                     data-original="{{ asset('style/img/qn17062318074000ad02f78ff10f21989aaf36014e911c.jpg?imageView2/1/w/620/h/430/q/88') }}" />
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
+                     data-original="{{ asset('style/img/qn1706231807382a8f18af7827f7c5e8f663d7affe3ded.jpg?imageView2/1/w/620/h/430/q/88') }}" />
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
+                     data-original="{{ asset('style/img/qn1706231807434ea7cbaa051c324709077ac965c6b3de.jpg?imageView2/1/w/620/h/430/q/88') }}" />
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
+                     data-original="{{ asset('style/img/qn170623180740d9c7fac01a9b5cd05c046bb2b5d0a62d.jpg?imageView2/1/w/620/h/430/q/88') }}" />
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
+                     data-original="{{ asset('style/img/qn170623180734cffd1f28ca48a267a57ab413a48ca673.jpg?imageView2/1/w/620/h/430/q/88') }}" />
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/fdba37cc0463760603fa221da6a78733.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/a0c7dc0934732cbee3562ea758af3f7e.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/28bd217fa7e6f1518ddbb94e24f9254d.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/550c7287632f67578710350a3e478117.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/61a34f632515fd08c334a923b5df849e.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/b06cced2fb01c3ef4534a41a646cd2f0.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/25e6b4d8b42ed14064cfdfa8189889d3.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/26a10cedcbc7dd96ec64ff14a584a980.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/0fd2430732e694b57e7040ae3443650e.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/13ece639f1d98713012b56e8c13f9fb7.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/58269af95595cc8a63e3dd7d6741a626.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/a812e1c3244c47c8d32c7325431aa6c5.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/df309ee61b41271ee8284c5bc4c3841a.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/6cfc39b0c2f20c34e2c022e576592047.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/997fcf546b7e298f1477ae5281ae181d.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/6d03e08c017be690fabe9cea82fe3967.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/4764fdb48970b0cd69496a3349666308.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/20e1d9850947f5f54e36be3c4a1514a8.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/dc73c3ad6c7b1d4bf9773c6ac27fab6a.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/835249a1b4f9f53c32a0d1326f15a31f.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/461289cf4a8bf2c219e99b387297007b.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/0a23e72dc1b11dd6cc673a354a481e99.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
-                            <img width="580" height="400" class="js-lazy-load" src="style/img/default.png"
+                            <img width="580" height="400" class="js-lazy-load" src="{{ asset('style/img/default.png') }}"
                      data-original="https://image.guazistatic.com/gz01170623/18/02/5a9a31096ae985a8576f527f728f4da5.jpg@base@tag=imgScale&w=620&h=430&c=1&m=2&q=88" />
                     </div>
     </div>
@@ -2025,14 +2025,14 @@
                                                     <span><i class="n-rd"></i>查看缺陷照片</span>
                                             </div>
                     <div class="appearance-con clueEvaluate">
-                        <img src="style/img/car-appearance-2.png">
+                        <img src="{{ asset('style/img/car-appearance-2.png') }}">
                         <ul class="areabox"><li class="hood-0"></li><li class="fender_rl-2"></li><li class="door_fl-2"></li><li class="c_pillar_l2-0"></li><li class="trunk_lid-0"></li><li class="foot_save-1"></li><li class="fender_rr-2"></li><li class="fender_fl-3"></li><li class="d_pillar_r2-0"></li><li class="b_pillar_l2-0"></li><li class="door_rr-3"></li><li class="door_fr-0"></li><li class="d_pillar_l2-0"></li><li class="a_pillar_r2-0"></li><li class="a_pillar_l2-1"></li><li class="roof-0"></li><li class="door_rl-2"></li><li class="c_pillar_r2-0"></li><li class="head_save-1"></li><li class="b_pillar_r2-0"></li><li class="fender_fr-0"></li></ul>                                                        <div class="appearance-det">
                                     <i data-role="point" class="appear-point" style="top:126px;left:448px;">1</i>
                                     <div data-role="showImage" class="appear-mat" style="top:-37px;left:534px; display: none;">
                                         <span class="appear-dire"></span>
                                         <div class="appear-ct">
                                             <p><i class="appear-point">1</i>划痕</p>
-                                            <div class="appear-pic"><img src="style/img/44e1924a1737408aca04a8035207b746.jpg" width="360" height="240"></div>                                        </div>
+                                            <div class="appear-pic"><img src="{{ asset('style/img/44e1924a1737408aca04a8035207b746.jpg') }}" width="360" height="240"></div>                                        </div>
                                     </div>
                                 </div>
                                                             <div class="appearance-det">
@@ -2041,7 +2041,7 @@
                                         <span class="appear-dire"></span>
                                         <div class="appear-ct">
                                             <p><i class="appear-point">2</i>变形</p>
-                                            <div class="appear-pic"><img src="style/img/eab1e9440499a0ee9c4f4cc234a69b5d.jpg" width="360" height="240"></div>                                        </div>
+                                            <div class="appear-pic"><img src="{{ asset('style/img/eab1e9440499a0ee9c4f4cc234a69b5d.jpg') }}" width="360" height="240"></div>                                        </div>
                                     </div>
                                 </div>
                                                 </div>
@@ -2049,7 +2049,7 @@
             </div>
             <div class="outward fr">
                 <div class="exterior-img exterior-img-2">
-                    <img src="style/img/car-exterior-2.jpg">
+                    <img src="{{ asset('style/img/car-exterior-2.jpg') }}">
                     <div class="appearance-det clueEvaluate">
                                             </div>
                 </div>
@@ -2479,7 +2479,7 @@
                            href="/bj/3001790004x.htm"
                            baidu_alog="pc_detail_tuijian&click&pc_detail_tuijian_detailCar_c">
                             <span class="hover-bg"></span>
-                            <img width="290" height="192" src="style/img/qn1706141200302adac6a2f7f028a41a88ac12402cb433.jpg?imageView2/1/w/290/h/192/q/88">
+                            <img width="290" height="192" src="{{ asset('style/img/qn1706141200302adac6a2f7f028a41a88ac12402cb433.jpg?imageView2/1/w/290/h/192/q/88') }}">
                                                             <div class="sup-yellow">
                                     <em></em>
                                     急降<br>2000元</div>
@@ -2506,7 +2506,7 @@
                            href="/bj/3001845686x.htm"
                            baidu_alog="pc_detail_tuijian&click&pc_detail_tuijian_detailCar_c">
                             <span class="hover-bg"></span>
-                            <img width="290" height="192" src="style/img/qn1706231541379a933a91f7d159b6111eeab3c3f42e8a.jpg?imageView2/1/w/290/h/192/q/88">
+                            <img width="290" height="192" src="{{ asset('style/img/qn1706231541379a933a91f7d159b6111eeab3c3f42e8a.jpg?imageView2/1/w/290/h/192/q/88') }}">
                                                             <div class="sup-yellow">
                                     <em></em>
                                     急降<br>1500元</div>
@@ -2533,7 +2533,7 @@
                            href="/bj/3001887901x.htm"
                            baidu_alog="pc_detail_tuijian&click&pc_detail_tuijian_detailCar_c">
                             <span class="hover-bg"></span>
-                            <img width="290" height="192" src="style/img/qn170630164752032ecfd396b5ee4492375d0dbd64ab05.jpg?imageView2/1/w/290/h/192/q/88">
+                            <img width="290" height="192" src="{{ asset('style/img/qn170630164752032ecfd396b5ee4492375d0dbd64ab05.jpg?imageView2/1/w/290/h/192/q/88') }}">
                                                     </a>
                                                 <p class="infoBox">
                             <a title="标致408 2010款 2.0L 手动豪华版" gjalog="100000000082000100000010"
@@ -2556,7 +2556,7 @@
                            href="/bj/3001764309x.htm"
                            baidu_alog="pc_detail_tuijian&click&pc_detail_tuijian_detailCar_c">
                             <span class="hover-bg"></span>
-                            <img width="290" height="192" src="style/img/qn170610103844521a32948953ad006a204125e3b7b0ab.jpg?imageView2/1/w/290/h/192/q/88">
+                            <img width="290" height="192" src="{{ asset('style/img/qn170610103844521a32948953ad006a204125e3b7b0ab.jpg?imageView2/1/w/290/h/192/q/88') }}">
                                                             <div class="sup-yellow">
                                     <em></em>
                                     急降<br>2900元</div>
@@ -2633,9 +2633,9 @@
         </p>
         <p>售后服务专线：400-066-8780  </p>
     </div>
-    <img src="style/img/ewm-wx-2.png" alt="" class="gz-ewm">
+    <img src="{{ asset('style/img/ewm-wx-2.png') }}" alt="" class="gz-ewm">
     <p class="ewm-tit">关注微信</p>
-    <img src="style/img/ewm-app-2.png" alt="" class="gz-ewm">
+    <img src="{{ asset('style/img/ewm-app-2.png') }}" alt="" class="gz-ewm">
     <p class="ewm-tit">下载APP</p>
     <div class="basic-info">
         <div class="info-link">
