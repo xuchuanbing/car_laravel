@@ -51,5 +51,4 @@ Route::group(['prefix' => 'admin','middleware' => 'admin'],function(){
 });
 
 Route::group(['prefix' => 'home','middleware' => 'home'],function(){
-    Route::get('/buyers', "Home/IndexController@index");
 });
