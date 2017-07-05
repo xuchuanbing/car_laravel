@@ -47,6 +47,7 @@ Route::group(['prefix' => 'admin','middleware' => 'admin'],function(){
     Route::get('/series','SeriesController@index');
     Route::get('/audi','AudiController@index');
     Route::get('/notfound','NotfoundController@index');
+    Route::get('/buyers', "Home\IndexController@index");
 	Route::get('/brand','Admin\BrandController@index');
     Route::get('/brand/create','Admin\BrandController@create');
     Route::post('/brand/store','Admin\BrandController@store');
@@ -61,6 +62,6 @@ Route::group(['prefix' => 'admin','middleware' => 'admin'],function(){
 	Route::get('/audi/destroy/{id}','Admin\AudiController@destroy');
 });
 
-/* Route::group(['prefix' => 'home','middleware' => 'home'],function(){
-
-}); */
+Route::group(['prefix' => 'home','middleware' => 'home'],function(){
+    Route::get('/buyers', "Home/IndexController@index");
+});
