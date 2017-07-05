@@ -37,6 +37,18 @@ Route::group(['prefix' => 'admin','middleware' => 'admin'],function(){
     Route::get('/buyers','Admin\BuyersController@index');
     Route::get('/seller','Admin\SellerController@index');
     Route::post('detection/store', 'Admin\detection\DetectionController@store');
+	
+	Route::get('/seller_order_details', 'Admin\Seller_order_detailsController@index');//卖家订单详情管理
+	Route::get('/seller_order_details/edit/{id}','Admin\Seller_order_detailsController@edit');
+	Route::post('/seller_order_details/update/{id}','Admin\Seller_order_detailsController@update');
+	Route::delete('/seller_order_details/del/{id}','Admin\Seller_order_detailsController@del');
+	
+	Route::get('/buyers_order_details', 'Admin\Buyers_order_detailsController@index');//买家订单详情管理
+	Route::get('/buyers_order_details/edit/{id}','Admin\Buyers_order_detailsController@edit');
+	Route::post('/buyers_order_details/update/{id}','Admin\Buyers_order_detailsController@update');
+	Route::delete('/buyers_order_details/del/{id}','Admin\Buyers_order_detailsController@del');
+	
+	
     //Route::delete('detection/{$id}/destroy', 'Admin\detection\DetectionController@destroy');
 	//Route::put('detection/update/{$id}','Admin\detection\DetectionController@update');
 	// Route::put('detection/{$id}', function(){

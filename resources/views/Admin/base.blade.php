@@ -243,7 +243,7 @@
                             </a>
                         </li>
 						<li class="sidebar-nav-link">
-                            <a href="table-list.html">
+                            <a href="{{url('admin/seller_order_details')}}">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 卖家订单详情管理
                             </a>
                         </li>
@@ -267,7 +267,7 @@
                             </a>
                         </li>
 						<li class="sidebar-nav-link">
-                            <a href="table-list.html">
+                            <a href="{{url('admin/buyers_order_details')}}">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 买家订单详情管理
                             </a>
                         </li>
