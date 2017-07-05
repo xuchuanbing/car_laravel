@@ -63,5 +63,19 @@ Route::group(['prefix' => 'admin','middleware' => 'admin'],function(){
 });
 
 Route::group(['prefix' => 'home','middleware' => 'home'],function(){
-    Route::get('/buyers', "Home/IndexController@index");
+    Route::get('/', "Home\IndexController@index");
+    Route::get('/buyers', "Home\IndexController@buyers");
+    Route::get('/buyers2', "Home\IndexController@buyers2");
+    Route::get('/details', "Home\IndexController@details");
+    Route::get('/fenqi', "Home\IndexController@fenqi");
+    Route::get('/fuwubozhang', "Home\IndexController@fuwubozhang");
+    Route::get('/guyuwomeng', "Home\IndexController@guyuwomeng");
+    Route::get('/index', "Home\IndexController@index");
+    Route::get('/jaru', "Home\IndexController@jaru");
+    Route::get('/pinggushi', "Home\IndexController@pinggushi");
+    Route::get('/seller', "Home\IndexController@seller");
+    Route::get('/shouye', "Home\IndexController@shouye");
+    Route::get('/wenda1', "Home\IndexController@wenda1");
+    Route::get('/wenda2', "Home\IndexController@wenda2");
+    Route::get('/wenda3', "Home\IndexController@wenda3");
 });
