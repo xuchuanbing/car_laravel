@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="瓜子，分期购车，汽车金融" />
     <title>【北京二手车贷款_北京二手车分期付款_二手车贷款计算器】- 瓜子汽车金融 北京</title>
-    <link rel="stylesheet" href="style/css/web_v3.602b91cfcbeb44c12565.css"/>
+    <link rel="stylesheet" href="{{ asset('style/css/web_v3.602b91cfcbeb44c12565.css') }}"/>
 </head>
 <body>
 
@@ -15,7 +15,7 @@
     1.20-2.2日放假期间，暂停服务，留下申请信息后我们会在节后第一时间联系您，祝您新春快乐！
     <div class="closeIcon"></div>
 </div>
-<script type="text/javascript" src="style/js/raven.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="{{ asset('style/js/raven.min.js') }}" crossorigin="anonymous"></script>
     <script type="text/javascript">
         try {
             Raven.config("https://5434505c213a4f47af83562d540d440f@sentry.guazi.com/6", {"release": "bb34baeb8535f2729f6f09d9149171942596a7ce"}).install();
@@ -711,7 +711,7 @@
         <div class="titleArrow"></div>
     </div>
     <div class="codeArea">
-        <img id="selfCodeImg" src="style/img/ewm-app.b62b99186862e35a7b0ebfdb9b2df835.jpg">
+        <img id="selfCodeImg" src="{{ asset('style/img/ewm-app.b62b99186862e35a7b0ebfdb9b2df835.jpg') }}">
     </div>
     <div class="codeText">微信扫一扫，10秒知道是否可贷款</div>
 </div>
@@ -1306,10 +1306,10 @@
         </div>
     </div>
 </div>
-<img src="style/img/p.gif?gc=/finance/-/-/-/index&domain=bj&city=12&uuid=d41d8cd98f00b204e9800998ecf8427e" style="display: none">
+<img src="{{ asset('style/img/p.gif?gc=/finance/-/-/-/index&domain=bj&city=12&uuid=d41d8cd98f00b204e9800998ecf8427e') }}" style="display: none">
 <!--页面底部end-->
 
-<script type="text/javascript" src="style/js/common.1.c65879363564dbef8755.js"></script><script type="text/javascript" src="style/js/web_v3.1.adf1fd20f4fd18125e46.js"></script>
+<script type="text/javascript" src="{{ asset('style/js/common.1.c65879363564dbef8755.js') }}"></script><script type="text/javascript" src="{{ asset('style/js/web_v3.1.adf1fd20f4fd18125e46.js') }}"></script>
 
 </body>
 </html>

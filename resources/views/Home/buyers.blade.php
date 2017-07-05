@@ -2133,7 +2133,7 @@
         <li>
             <a href="/bj/e0fd23b3cde4066ex.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=12192131@0">
-                <img src="style/img/qn17051618214038ffffb8af8bdc99157cc8aa9c0d59f4.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn17051618214038ffffb8af8bdc99157cc8aa9c0d59f4.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">大众朗逸 2015款 230TSI DSG舒适版</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2016年<span class="icon-pad">|</span>0.7万公里</div>
@@ -2151,7 +2151,7 @@
         <li>
             <a href="/bj/508eac979b312f44x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=12592951@1">
-                <img src="style/img/qn1705261200302a1a5c9ed34269668610f075efc4d5f9.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn1705261200302a1a5c9ed34269668610f075efc4d5f9.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">大众帕萨特 2014款 2.0TSI DSG御尊导航版</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2014年<span class="icon-pad">|</span>6.3万公里</div>
@@ -2169,7 +2169,7 @@
         <li>
             <a href="/bj/4c430fc6a5b82dbex.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13781580@2">
-                <img src="style/img/qn1706251719257223e6331f9c30b51a4513873b69007f.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn1706251719257223e6331f9c30b51a4513873b69007f.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">福特蒙迪欧-致胜 2010款 2.3L 豪华型</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2010年<span class="icon-pad">|</span>7.8万公里</div>
@@ -2185,7 +2185,7 @@
         <li>
             <a href="/bj/85953fc632d200d5x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13757257@3">
-                <img src="style/img/qn170623180745af4c8f90b3f1b35cde637dcb35565101.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn170623180745af4c8f90b3f1b35cde637dcb35565101.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">标致408 2011款 2.0L 自动舒适版</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2011年<span class="icon-pad">|</span>6.3万公里</div>
@@ -2201,7 +2201,7 @@
         <li>
             <a href="/bj/d5d0009899407169x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=14134783@4">
-                <img src="{{ asset('style/img/qn170703194320f4172735c4e1a28f7f8828cd508955d6.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn170703194320f4172735c4e1a28f7f8828cd508955d6.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">丰田花冠 2010款 1.6L 手动豪华版</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2010年<span class="icon-pad">|</span>7.7万公里</div>
@@ -2219,7 +2219,7 @@
         <li>
             <a href="/bj/03d2ef8008ebeeb9x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13879326@5">
-                <img src="{{ asset('style/img/qn1706271614136df1ec6908fffb83463a753abd5a3575.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn1706271614136df1ec6908fffb83463a753abd5a3575.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">大众POLO 2011款 1.4L 手动致尚版</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2012年<span class="icon-pad">|</span>8.7万公里</div>
@@ -2235,7 +2235,7 @@
         <li>
             <a href="/bj/62c57b54a218a63cx.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=6319207@6">
-                <img src="{{ asset('style/img/qn1701260851457a03ca267a24d9c008fd0a0d651374af.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn1701260851457a03ca267a24d9c008fd0a0d651374af.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">丰田红杉 2010款 5.7 白金版(进口)</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2012年<span class="icon-pad">|</span>5.1万公里</div>
@@ -2253,7 +2253,7 @@
         <li>
             <a href="/bj/96535ddf7dc3dd1bx.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=14077744@7">
-                <img src="{{ asset('style/img/qn170702094702b97b40c45b5e67eaa2e0a86b0f59a9df.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn170702094702b97b40c45b5e67eaa2e0a86b0f59a9df.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">奔驰E级 2014款 改款 E 260 L 运动型</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2014年<span class="icon-pad">|</span>5.0万公里</div>
@@ -2269,7 +2269,7 @@
         <li>
             <a href="/bj/1e3ee4d738c87a85x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=14127723@8">
-                <img src="{{ asset('style/img/qn1707031949174fb5fdd27820fa4c24b408aae1cb6e72.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn1707031949174fb5fdd27820fa4c24b408aae1cb6e72.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">大众朗逸 2011款 1.6L 自动品悠版</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2012年<span class="icon-pad">|</span>9.1万公里</div>
@@ -2285,7 +2285,7 @@
         <li>
             <a href="/bj/930f55f503339d2ax.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13916219@9">
-                <img src="{{ asset('style/img/qn170627190531546b63b4097da4beee96222b39ae4c5d.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn170627190531546b63b4097da4beee96222b39ae4c5d.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">宝马5系 2012款 520Li 典雅型</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2012年<span class="icon-pad">|</span>10.7万公里</div>
@@ -2303,7 +2303,7 @@
         <li>
             <a href="/bj/d1e687f65ee12ea3x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=3994094@10">
-                <img src="{{ asset('style/img/qn170126131447e0cf5683c8fb254c89a078ea5a7115fd.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn170126131447e0cf5683c8fb254c89a078ea5a7115fd.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">荣威350 2011款 350S 1.5L 手动迅驰版</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2013年<span class="icon-pad">|</span>3.1万公里</div>
@@ -2321,7 +2321,7 @@
         <li>
             <a href="/bj/44359ded20790a6fx.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13921549@11">
-                <img src="{{ asset('style/img/qn17070100292230b781fc19818c3abe452e456be71b2b.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn17070100292230b781fc19818c3abe452e456be71b2b.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">起亚智跑 2012款 2.0L 自动两驱版NAVI</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2012年<span class="icon-pad">|</span>7.6万公里</div>
@@ -2337,7 +2337,7 @@
         <li>
             <a href="/bj/6285ebbd22a6e20dx.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13611254@12">
-                <img src="{{ asset('style/img/qn170619193547223dcf906cd969c093c2cf5220bda48f.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn170619193547223dcf906cd969c093c2cf5220bda48f.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">现代悦动 2008款 1.6L MT GL</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2009年<span class="icon-pad">|</span>8.2万公里</div>
@@ -2353,7 +2353,7 @@
         <li>
             <a href="/bj/83e2b3f6c5dd794ex.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=14026174@13">
-                <img src="{{ asset('style/img/qn1707011035285e00b317384c6e6c9d8c607654471fd9.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn1707011035285e00b317384c6e6c9d8c607654471fd9.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">别克GL8 2013款 2.4L 经典版</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2013年<span class="icon-pad">|</span>11.6万公里</div>
@@ -2369,7 +2369,7 @@
         <li>
             <a href="/bj/d81bf1a6010d5f57x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13536132@14">
-                <img src="{{ asset('style/img/qn1706171304148824dbe736a8b9d97f282aeb8a0fe74b.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn1706171304148824dbe736a8b9d97f282aeb8a0fe74b.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">奥迪A4L 2017款 40 TFSI 时尚型</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2016年<span class="icon-pad">|</span>0.5万公里</div>
@@ -2385,7 +2385,7 @@
         <li>
             <a href="/bj/c67c8b635713bdf4x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13934314@15">
-                <img src="{{ asset('style/img/qn1706281046124afcb2274d724ac7fb938cc3f0beb432.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn1706281046124afcb2274d724ac7fb938cc3f0beb432.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">雪铁龙C5 2013款 2.3L 自动尊驭型</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2013年<span class="icon-pad">|</span>5.8万公里</div>
@@ -2401,7 +2401,7 @@
         <li>
             <a href="/bj/89193a48df964c93x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13169574@16">
-                <img src="{{ asset('style/img/qn170608152455ebd0904302f4f6506e2e45d60c95bae4.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn170608152455ebd0904302f4f6506e2e45d60c95bae4.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">大众帕萨特 2013款 3.0L V6 DSG旗舰版</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2013年<span class="icon-pad">|</span>6.4万公里</div>
@@ -2419,7 +2419,7 @@
         <li>
             <a href="/bj/81760862857ed450x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13959833@17">
-                <img src="{{ asset('style/img/qn170628152550d79e9260914216faf2041fe73db83275.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn170628152550d79e9260914216faf2041fe73db83275.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">福特翼虎 2013款 1.6L GTDi 两驱风尚型</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2014年<span class="icon-pad">|</span>2.8万公里</div>
@@ -2435,7 +2435,7 @@
         <li>
             <a href="/bj/35cbafb80e364c70x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13758215@18">
-                <img src="{{ asset('style/img/qn1706231356066a98d3ba16ee90d31afbe3f052caa5ca.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn1706231356066a98d3ba16ee90d31afbe3f052caa5ca.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">日产骐达 2008款 1.6L 自动时尚型</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2010年<span class="icon-pad">|</span>4.4万公里</div>
@@ -2451,7 +2451,7 @@
         <li>
             <a href="/bj/d23ab2a41ad56af0x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=11313311@19">
-                <img src="{{ asset('style/img/qn170426122025a87eda9b493c3c4bbdcc2e3eca071417.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn170426122025a87eda9b493c3c4bbdcc2e3eca071417.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">捷豹XF 2013款 XF 2.0T 风华版</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2013年<span class="icon-pad">|</span>6.5万公里</div>
@@ -2469,7 +2469,7 @@
         <li>
             <a href="/bj/11be556fcf3f96dbx.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13731571@20">
-                <img src="{{ asset('style/img/qn1706221810102dc8cafb5c87b026adf13b0bc0c9c3be.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn1706221810102dc8cafb5c87b026adf13b0bc0c9c3be.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">斯巴鲁森林人 2009款 2.5XS 自动豪华版</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2009年<span class="icon-pad">|</span>16.1万公里</div>
@@ -2487,7 +2487,7 @@
         <li>
             <a href="/bj/984ac58d2cac9c90x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13733759@21">
-                <img src="{{ asset('style/img/qn17062218350304b464d893f1c69c0037ebebf0c0d6c3.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn17062218350304b464d893f1c69c0037ebebf0c0d6c3.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">丰田花冠 2013款 1.6L 自动豪华版</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2014年<span class="icon-pad">|</span>4.5万公里</div>
@@ -2505,7 +2505,7 @@
         <li>
             <a href="/bj/9abd5a363d5ba035x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=12605791@22">
-                <img src="{{ asset('style/img/qn170531152203c78e742685cf32d4b0488aee483b9652.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn170531152203c78e742685cf32d4b0488aee483b9652.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">标致307 2010款 三厢 1.6L 手动舒适版</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2012年<span class="icon-pad">|</span>12.2万公里</div>
@@ -2523,7 +2523,7 @@
         <li>
             <a href="/bj/ff0c9b89e3d4ea6ex.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13818713@23">
-                <img src="{{ asset('style/img/qn17062510021030327e41c8921423ce62ec249bf889cf.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn17062510021030327e41c8921423ce62ec249bf889cf.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">奥迪Q5 2012款 2.0TFSI 技术型</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2012年<span class="icon-pad">|</span>8.4万公里</div>
@@ -2539,7 +2539,7 @@
         <li>
             <a href="/bj/f4e838ef3288d307x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13734052@24">
-                <img src="{{ asset('style/img/qn170626204406566cfc4c08694a49f8efc440a53e55d5.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn170626204406566cfc4c08694a49f8efc440a53e55d5.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">奔驰C级 2013款 C 260 CGI 时尚型</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2013年<span class="icon-pad">|</span>8.7万公里</div>
@@ -2555,7 +2555,7 @@
         <li>
             <a href="/bj/019a6718825bf9aex.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13703795@25">
-                <img src="{{ asset('style/img/qn170622205145782074db2e97e5cbd20ec1e86a380461.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn170622205145782074db2e97e5cbd20ec1e86a380461.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">宝马3系 2013款 320Li 豪华设计套装</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2013年<span class="icon-pad">|</span>5.6万公里</div>
@@ -2571,7 +2571,7 @@
         <li>
             <a href="/bj/299e65e24992d71bx.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13687883@26">
-                <img src="{{ asset('style/img/qn1706211613399a612de680366bfa815bb7fbf7596dfb.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn1706211613399a612de680366bfa815bb7fbf7596dfb.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">奥迪Q7 2011款 3.0 TFSI 进取型(200kW)(进口)</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2012年<span class="icon-pad">|</span>13.0万公里</div>
@@ -2587,7 +2587,7 @@
         <li>
             <a href="/bj/1fcf178044c3d32ex.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=11155846@27">
-                <img src="{{ asset('style/img/qn1704211844462061c9e626fa075bd0fd297969514b88.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn1704211844462061c9e626fa075bd0fd297969514b88.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">斯柯达昕动 2014款 1.6L 自动致享版</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2014年<span class="icon-pad">|</span>0.6万公里</div>
@@ -2605,7 +2605,7 @@
         <li>
             <a href="/bj/a4e66bad594630a0x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13540674@28">
-                <img src="{{ asset('style/img/qn170619123450cbd5a4690e75b1c8d29496bac6c7b942.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn170619123450cbd5a4690e75b1c8d29496bac6c7b942.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">本田凌派 2013款 1.8L 自动豪华版</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2014年<span class="icon-pad">|</span>6.8万公里</div>
@@ -2621,7 +2621,7 @@
         <li>
             <a href="/bj/6b8345f24d3add48x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13600964@29">
-                <img src="{{ asset('style/img/qn17062014272763aaf69d6920ca6a34924947235c726e.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn17062014272763aaf69d6920ca6a34924947235c726e.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">路虎发现神行 2016款 2.0T HSE</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2016年<span class="icon-pad">|</span>0.8万公里</div>
@@ -2637,7 +2637,7 @@
         <li>
             <a href="/bj/e7c24ccb58a6b38dx.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13490672@30">
-                <img src="{{ asset('style/img/qn170617095050dca66c0ab54df2adc78341c8a740b738.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn170617095050dca66c0ab54df2adc78341c8a740b738.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">现代瑞纳 2016款 1.4L 自动智能型GLS</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2016年<span class="icon-pad">|</span>2.5万公里</div>
@@ -2653,7 +2653,7 @@
         <li>
             <a href="/bj/06dcfaed1527e976x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13350795@31">
-                <img src="{{ asset('style/img/qn1706141514599f799189ed029e16e996a44c52e60d6b.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn1706141514599f799189ed029e16e996a44c52e60d6b.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">奇瑞旗云2 2012款 1.5L 手动豪华型</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2012年<span class="icon-pad">|</span>7.3万公里</div>
@@ -2669,7 +2669,7 @@
         <li>
             <a href="/bj/315b4d86e4ca5365x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13539192@32">
-                <img src="{{ asset('style/img/qn170617171700818e5165f40bb421271cc8f1aafd73c2.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn170617171700818e5165f40bb421271cc8f1aafd73c2.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">奔驰S级 2012款 S 300 L 商务简配型(进口)</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2013年<span class="icon-pad">|</span>5.9万公里</div>
@@ -2687,7 +2687,7 @@
         <li>
             <a href="/bj/e7249321a41e1904x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13068093@33">
-                <img src="{{ asset('style/img/qn17060614060938dca6d7b537a857c8d23ab267a3a7c1.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn17060614060938dca6d7b537a857c8d23ab267a3a7c1.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">福特福克斯 2012款 两厢 1.6L 手动风尚型</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2013年<span class="icon-pad">|</span>2.1万公里</div>
@@ -2703,7 +2703,7 @@
         <li>
             <a href="/bj/24af2db9f8a05468x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=12154123@34">
-                <img src="{{ asset('style/img/qn1705151543329e25aa21b8be3d65c2da792b9724e526.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn1705151543329e25aa21b8be3d65c2da792b9724e526.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">宝马5系 2013款 525Li 豪华型</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2013年<span class="icon-pad">|</span>11.7万公里</div>
@@ -2721,7 +2721,7 @@
         <li>
             <a href="/bj/abd609553963c694x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=13029883@35">
-                <img src="{{ asset('style/img/qn170606114837524d1c488847d1cb9870a4ed7fddbdf6.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn170606114837524d1c488847d1cb9870a4ed7fddbdf6.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">宝马X1 2014款 sDrive18i 领先型</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2014年<span class="icon-pad">|</span>3.8万公里</div>
@@ -2739,7 +2739,7 @@
         <li>
             <a href="/bj/71552b81084e7545x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=12962866@36">
-                <img src="{{ asset('style/img/qn170606150355660bb911aa9165d0b7ce47f3e155e652.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn170606150355660bb911aa9165d0b7ce47f3e155e652.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">奥迪Q5 2012款 2.0TFSI 进取型</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2013年<span class="icon-pad">|</span>5.2万公里</div>
@@ -2757,7 +2757,7 @@
         <li>
             <a href="/bj/9da768b96e895cfdx.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=12765625@37">
-                <img src="{{ asset('style/img/qn170531132731ec0005f7cff98f918f7925048f39b8f1.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn170531132731ec0005f7cff98f918f7925048f39b8f1.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">道奇酷威 2013款 2.4L 两驱尊尚版(进口)</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2014年<span class="icon-pad">|</span>5.0万公里</div>
@@ -2773,7 +2773,7 @@
         <li>
             <a href="/bj/dfcc48af1f4c2662x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=12849495@38">
-                <img src="{{ asset('style/img/qn170602170157a8f7ab17e970710e7e1ecc37133858cb.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn170602170157a8f7ab17e970710e7e1ecc37133858cb.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">雪佛兰科鲁兹 2013款 1.6L SE AT</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2013年<span class="icon-pad">|</span>8.4万公里</div>
@@ -2789,7 +2789,7 @@
         <li>
             <a href="/bj/a95216624dfa86f7x.htm" target="_blank" class="car-a"
                data-gzlog="tracking_type=click&eventid=0120000000000057&carid=11183326@39">
-                <img src="{{ asset('style/img/qn1704221626031d6123dcd742309c4b41293bd14bde79.jpg?imageView2/1/w/287/h/192/q/88">
+                <img src="{{ asset('style/img/qn1704221626031d6123dcd742309c4b41293bd14bde79.jpg?imageView2/1/w/287/h/192/q/88') }}">
                 <div class="t">大众Passat领驭 2009款 2.0L MFI 自动尊享型</div>
                 <!-- 年款里程 -->
                 <div class="t-i">2010年<span class="icon-pad">|</span>10.7万公里</div>
@@ -4518,9 +4518,9 @@
             </p>
             <p>售后服务专线：400-066-8780 </p>
         </div>
-        <img src="style/img/ewm-wx-2.png" alt="" class="gz-ewm">
+        <img src="{{ asset('style/img/ewm-wx-2.png') }}" alt="" class="gz-ewm">
         <p class="ewm-tit">关注微信</p>
-        <img src="style/img/ewm-app-2.png" alt="" class="gz-ewm">
+        <img src="{{ asset('style/img/ewm-app-2.png') }}" alt="" class="gz-ewm">
         <p class="ewm-tit">下载APP</p>
         <div class="basic-info">
             <div class="info-link">

@@ -19,8 +19,8 @@
 <script>
     var logged = false;
 </script>
-<script type="text/javascript" src="style/js/base.2fa0b3556624d4910689.js"></script>
-<script type="text/javascript" src="style/js/faq.d94a15a6b2b90f332f24.js"></script>
+<script type="text/javascript" src="{{ asset('style/js/base.2fa0b3556624d4910689.js') }}"></script>
+<script type="text/javascript" src="{{ asset('style/js/faq.d94a15a6b2b90f332f24.js') }}"></script>
 <body>
 <!-- 头部  s -->
 <!-- 春节通知  s -->
@@ -937,7 +937,7 @@
                 <i id="js-login">登录</i>
                 <div class="app-guide">
                     <div class="guide-ewm">
-                        <img src="style/img/ewm-app-2.png" alt="瓜子二手车app下载">
+                        <img src="{{ asset('style/img/ewm-app-2.png') }}" alt="瓜子二手车app下载">
                     </div>
                     <div class="guide-txt">
                         <p class="guide-txt-1">下载APP使用更多功能</p>
@@ -980,7 +980,7 @@
                title="瓜子二手车直卖网APP">APP下载
                 <div class="app-guide">
                     <div class="guide-ewm">
-                        <img src="style/img/ewm-app-3.png" alt="瓜子二手车app下载">
+                        <img src="{{ asset('style/img/ewm-app-3.png') }}" alt="瓜子二手车app下载">
                     </div>
                     <div class="guide-txt">
                         <p class="guide-txt-1">下载APP使用更多功能</p>
@@ -1170,9 +1170,9 @@
             </p>
             <p>售后服务专线：400-066-8780 </p>
         </div>
-        <img src="style/img/ewm-wx-2.png" alt="" class="gz-ewm">
+        <img src="{{ asset('style/img/ewm-wx-2.png') }}" alt="" class="gz-ewm">
         <p class="ewm-tit">关注微信</p>
-        <img src="style/img/ewm-app-2.png" alt="" class="gz-ewm">
+        <img src="{{ asset('style/img/ewm-app-2.png') }}" alt="" class="gz-ewm">
         <p class="ewm-tit">下载APP</p>
         <div class="basic-info">
             <div class="info-link">
@@ -1361,14 +1361,14 @@
         <a rel="nofollow" data-gzlog="tracking_type=click&eventid=0200000000000087" href="javascript:void(0);"
            class="ewm-wx" baidu_alog="xuanfu&click&index_xuanfu_gongzhonghao_c">公众号
             <span class="ewm-box">
-          <img src="style/img/ewm-wx-2.png" alt="">
+          <img src="{{ asset('style/img/ewm-wx-2.png') }}" alt="">
           <i></i><em></em>
         </span>
         </a>
         <a rel="nofollow" data-gzlog="tracking_type=click&eventid=0200190000000086" href="javascript:void(0);"
            class="ewm-app" baidu_alog="xuanfu&click&index_xuanfu_appdownload_c">APP
             <span class="ewm-box">
-          <img src="style/img/ewm-app-2.png" alt="">
+          <img src="{{ asset('style/img/ewm-app-2.png') }}" alt="">
           <i></i><em></em>
         </span>
         </a>
@@ -1383,5 +1383,5 @@
        data-source='[]'>
 <!-- 底部  e -->
 </body>
-<!-- <script src="style/js/es5-shim.min.js"></script> -->
+<!-- <script src="{{ asset('style/js/es5-shim.min.js') }}"></script> -->
 </html>

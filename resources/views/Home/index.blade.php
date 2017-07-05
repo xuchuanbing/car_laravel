@@ -717,7 +717,8 @@
                     <i id="js-login">登录</i>
                     <div class="app-guide">
                         <div class="guide-ewm">
-                            <img src="style/img/ewm-app-2.png" alt="瓜子二手车app下载">
+                            <img src="{{ asset('style/img/
+ewm-app-2.png') }}" alt="瓜子二手车app下载">
                         </div>
                         <div class="guide-txt">
                             <p class="guide-txt-1">下载APP使用更多功能</p>
@@ -755,7 +756,8 @@
                    target="_blank" href="/zq_app/" data-gzlog="tracking_type=click&eventid=0010190000000012" title="瓜子二手车直卖网APP">APP下载
                     <div class="app-guide">
                         <div class="guide-ewm">
-                            <img src="style/img/ewm-app-3.png" alt="瓜子二手车app下载">
+                            <img src="{{ asset('style/img/
+ewm-app-3.png') }}" alt="瓜子二手车app下载">
                         </div>
                         <div class="guide-txt">
                             <p class="guide-txt-1">下载APP使用更多功能</p>
@@ -1342,7 +1344,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14200919@0" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="本田思铂睿 2009款 2.4L 尊贵版" target="_blank" class="imgtype" href="/bj/2942e039820d6a56x.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041956210e09a93b6c53abf5f4ea421060020461.jpg?imageView2/1/w/290/h/192/q/88" alt="本田思铂睿 2009款 2.4L 尊贵版">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041956210e09a93b6c53abf5f4ea421060020461.jpg?imageView2/1/w/290/h/192/q/88')}}" alt="本田思铂睿 2009款 2.4L 尊贵版">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14200919@0" data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14200919@0" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="本田思铂睿 2009款 2.4L 尊贵版" href="/bj/2942e039820d6a56x.htm" target="_blank" class="info-title" >本田思铂睿 2009款 2.4L 尊贵版</a>
@@ -1364,7 +1366,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=13956319@1" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="福特福克斯 2012款 两厢 1.6L 自动舒适型" target="_blank" class="imgtype" href="/bj/c7ec6b5a40112e8bx.htm" >
-                                <img width="290" height="194" src="style/img/qn17070419464868e25d4c568e8852f18283ddfe332df1.jpg?imageView2/1/w/290/h/192/q/88" alt="福特福克斯 2012款 两厢 1.6L 自动舒适型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn17070419464868e25d4c568e8852f18283ddfe332df1.jpg?imageView2/1/w/290/h/192/q/88')}}" alt="福特福克斯 2012款 两厢 1.6L 自动舒适型">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=13956319@1" data-gzlog="tracking_type=click&eventid=0080140000000032&carid=13956319@1" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="福特福克斯 2012款 两厢 1.6L 自动舒适型" href="/bj/c7ec6b5a40112e8bx.htm" target="_blank" class="info-title" >福特福克斯 2012款 两厢 1.6L 自动舒适型</a>
@@ -1386,7 +1388,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14165365@2" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="起亚K2 2012款 三厢 1.4L AT GLS纪念版" target="_blank" class="imgtype" href="/bj/8644bd1a676c21d9x.htm" >
-                                <img width="290" height="194" src="style/img/qn170704192335847413dff350999d249db38174b764b9.jpg?imageView2/1/w/290/h/192/q/88" alt="起亚K2 2012款 三厢 1.4L AT GLS纪念版">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170704192335847413dff350999d249db38174b764b9.jpg?imageView2/1/w/290/h/192/q/88')}}" alt="起亚K2 2012款 三厢 1.4L AT GLS纪念版">
                                                                                                                                 </a>
                                                             <span class="remote">天津过户</span>
                                                         <p class="infoBox">
@@ -1409,7 +1411,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14204205@3" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="丰田凯美瑞 2016款 2.5G 十周年纪念豪华导航版" target="_blank" class="imgtype" href="/bj/9d5fa1c6a25afd04x.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041920422c5beb1c9b7193d9d742f17a7c1d91b9.jpg?imageView2/1/w/290/h/192/q/88" alt="丰田凯美瑞 2016款 2.5G 十周年纪念豪华导航版">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041920422c5beb1c9b7193d9d742f17a7c1d91b9.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="丰田凯美瑞 2016款 2.5G 十周年纪念豪华导航版">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14204205@3" data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14204205@3" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="丰田凯美瑞 2016款 2.5G 十周年纪念豪华导航版" href="/bj/9d5fa1c6a25afd04x.htm" target="_blank" class="info-title" >丰田凯美瑞 2016款 2.5G 十周年纪念豪华导航版</a>
@@ -1431,7 +1433,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14162834@4" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="吉利熊猫 2016款 1.0L IMT酷趣版" target="_blank" class="imgtype" href="/bj/0a098fec64ba5ff2x.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041916522c2ff2c99c9768ae90d652cd5a5bbc7c.jpg?imageView2/1/w/290/h/192/q/88" alt="吉利熊猫 2016款 1.0L IMT酷趣版">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041916522c2ff2c99c9768ae90d652cd5a5bbc7c.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="吉利熊猫 2016款 1.0L IMT酷趣版">
                                                                                                                                 </a>
                                                             <span class="remote">廊坊过户</span>
                                                         <p class="infoBox">
@@ -1454,7 +1456,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14190876@5" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="荣威550 2010款 550 1.8L 手动启悦贺岁版" target="_blank" class="imgtype" href="/bj/712327cfb5a26e62x.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041905351ce2ff573e9bf12b9160a29563830a39.jpg?imageView2/1/w/290/h/192/q/88" alt="荣威550 2010款 550 1.8L 手动启悦贺岁版">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041905351ce2ff573e9bf12b9160a29563830a39.jpg?imageView2/1/w/290/h/192/q/88')}}" alt="荣威550 2010款 550 1.8L 手动启悦贺岁版">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14190876@5" data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14190876@5" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="荣威550 2010款 550 1.8L 手动启悦贺岁版" href="/bj/712327cfb5a26e62x.htm" target="_blank" class="info-title" >荣威550 2010款 550 1.8L 手动启悦贺岁版</a>
@@ -1475,7 +1477,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14178475@6" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="宝马5系 2008款 523Li 领先型" target="_blank" class="imgtype" href="/bj/cb68aaa07ce5c612x.htm" >
-                                <img width="290" height="194" src="style/img/qn17070419030358dde9f07339addb26ee4aad64cde3a6.jpg?imageView2/1/w/290/h/192/q/88" alt="宝马5系 2008款 523Li 领先型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn17070419030358dde9f07339addb26ee4aad64cde3a6.jpg?imageView2/1/w/290/h/192/q/88')}}" alt="宝马5系 2008款 523Li 领先型">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14178475@6" data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14178475@6" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="宝马5系 2008款 523Li 领先型" href="/bj/cb68aaa07ce5c612x.htm" target="_blank" class="info-title" >宝马5系 2008款 523Li 领先型</a>
@@ -1497,7 +1499,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14169761@7" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="力帆620 2010款 铂尊版 1.5L 手动精英型" target="_blank" class="imgtype" href="/bj/a64f5bf25e004020x.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041901413096bb9bb4571d3c6f04c1c3b9734622.jpg?imageView2/1/w/290/h/192/q/88" alt="力帆620 2010款 铂尊版 1.5L 手动精英型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041901413096bb9bb4571d3c6f04c1c3b9734622.jpg?imageView2/1/w/290/h/192/q/88')}}" alt="力帆620 2010款 铂尊版 1.5L 手动精英型">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14169761@7" data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14169761@7" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="力帆620 2010款 铂尊版 1.5L 手动精英型" href="/bj/a64f5bf25e004020x.htm" target="_blank" class="info-title" >力帆620 2010款 铂尊版 1.5L 手动精英型</a>
@@ -1519,7 +1521,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14182515@8" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="别克君越 2010款 2.4L豪华版" target="_blank" class="imgtype" href="/bj/9f91f1924fa4da84x.htm" >
-                                <img width="290" height="194" src="style/img/qn170704185941561041a7866258a89a8b80b3e8e211d1.jpg?imageView2/1/w/290/h/192/q/88" alt="别克君越 2010款 2.4L豪华版">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170704185941561041a7866258a89a8b80b3e8e211d1.jpg?imageView2/1/w/290/h/192/q/88')}}" alt="别克君越 2010款 2.4L豪华版">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14182515@8" data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14182515@8" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="别克君越 2010款 2.4L豪华版" href="/bj/9f91f1924fa4da84x.htm" target="_blank" class="info-title" >别克君越 2010款 2.4L豪华版</a>
@@ -1540,7 +1542,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14166047@9" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="丰田卡罗拉 2011款 1.6L 手动GL" target="_blank" class="imgtype" href="/bj/e946c510fb7606a4x.htm" >
-                                <img width="290" height="194" src="style/img/qn17070418565410af66822fc4cc086f307689d45a89e2.jpg?imageView2/1/w/290/h/192/q/88" alt="丰田卡罗拉 2011款 1.6L 手动GL">
+                                <img width="290" height="194" src="{{ asset('style/img/qn17070418565410af66822fc4cc086f307689d45a89e2.jpg?imageView2/1/w/290/h/192/q/88')}}" alt="丰田卡罗拉 2011款 1.6L 手动GL">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14166047@9" data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14166047@9" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="丰田卡罗拉 2011款 1.6L 手动GL" href="/bj/e946c510fb7606a4x.htm" target="_blank" class="info-title" >丰田卡罗拉 2011款 1.6L 手动GL</a>
@@ -1561,7 +1563,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14198316@10" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="别克英朗 2010款 XT 1.6L 自动时尚版" target="_blank" class="imgtype" href="/bj/42f47f59910c1f4dx.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041850190a7934e7f38fb5430e9bc6ac92528325.jpg?imageView2/1/w/290/h/192/q/88" alt="别克英朗 2010款 XT 1.6L 自动时尚版">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041850190a7934e7f38fb5430e9bc6ac92528325.jpg?imageView2/1/w/290/h/192/q/88')}}" alt="别克英朗 2010款 XT 1.6L 自动时尚版">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14198316@10" data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14198316@10" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="别克英朗 2010款 XT 1.6L 自动时尚版" href="/bj/42f47f59910c1f4dx.htm" target="_blank" class="info-title" >别克英朗 2010款 XT 1.6L 自动时尚版</a>
@@ -1583,7 +1585,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14202249@11" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="奔驰C级 2013款 C 260 CGI 时尚型" target="_blank" class="imgtype" href="/bj/d70d18a96278c59ex.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041845226b8d4e475b8741a0e903316467e1f1e4.jpg?imageView2/1/w/290/h/192/q/88" alt="奔驰C级 2013款 C 260 CGI 时尚型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041845226b8d4e475b8741a0e903316467e1f1e4.jpg?imageView2/1/w/290/h/192/q/88')}}" alt="奔驰C级 2013款 C 260 CGI 时尚型">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14202249@11" data-gzlog="tracking_type=click&eventid=0080140000000032&carid=14202249@11" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_new_sale_post_c' title="奔驰C级 2013款 C 260 CGI 时尚型" href="/bj/d70d18a96278c59ex.htm" target="_blank" class="info-title" >奔驰C级 2013款 C 260 CGI 时尚型</a>
@@ -1613,7 +1615,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080150000000156&carid=14134783@0" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_jishou_post_c' title="丰田花冠 2010款 1.6L 手动豪华版" target="_blank" class="imgtype" href="/bj/d5d0009899407169x.htm" >
-                                <img width="290" height="194" src="style/img/qn170703194320f4172735c4e1a28f7f8828cd508955d6.jpg?imageView2/1/w/290/h/192/q/88" alt="丰田花冠 2010款 1.6L 手动豪华版">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170703194320f4172735c4e1a28f7f8828cd508955d6.jpg?imageView2/1/w/290/h/192/q/88')}}" alt="丰田花冠 2010款 1.6L 手动豪华版">
                                                                                                             <i class="sup-yellow">
                                             <em></em>
                                             急降<br>2000元                                        </i>
@@ -1638,7 +1640,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080150000000156&carid=14124961@1" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_jishou_post_c' title="起亚狮跑 2009款 2.0L 手动两驱版GLS" target="_blank" class="imgtype" href="/bj/2bf8b6d2f488a608x.htm" >
-                                <img width="290" height="194" src="style/img/qn170703193318312706c5085cf4cb1f374a3cfea643e1.jpg?imageView2/1/w/290/h/192/q/88" alt="起亚狮跑 2009款 2.0L 手动两驱版GLS">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170703193318312706c5085cf4cb1f374a3cfea643e1.jpg?imageView2/1/w/290/h/192/q/88')}}" alt="起亚狮跑 2009款 2.0L 手动两驱版GLS">
                                                                                                             <i class="sup-yellow">
                                             <em></em>
                                             急降<br>1000元                                        </i>
@@ -1663,7 +1665,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080150000000156&carid=14094027@2" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_jishou_post_c' title="日产逍客 2010款 20XFOUR 龙 CVT 4WD" target="_blank" class="imgtype" href="/bj/0fa151b889732a19x.htm" >
-                                <img width="290" height="194" src="style/img/qn170703192344de97b7fb0fa96c3a337d7ad9c672175e.jpg?imageView2/1/w/290/h/192/q/88" alt="日产逍客 2010款 20XFOUR 龙 CVT 4WD">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170703192344de97b7fb0fa96c3a337d7ad9c672175e.jpg?imageView2/1/w/290/h/192/q/88')}}" alt="日产逍客 2010款 20XFOUR 龙 CVT 4WD">
                                                                                                             <i class="sup-yellow">
                                             <em></em>
                                             急降<br>7000元                                        </i>
@@ -1688,7 +1690,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080150000000156&carid=14144813@3" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_jishou_post_c' title="福特蒙迪欧 2013款 2.0L GTDi200时尚型" target="_blank" class="imgtype" href="/bj/32548da5fe63d49bx.htm" >
-                                <img width="290" height="194" src="style/img/qn1707031841402a7ccd9446c2b115579f09c519b6dcd0.jpg?imageView2/1/w/290/h/192/q/88" alt="福特蒙迪欧 2013款 2.0L GTDi200时尚型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707031841402a7ccd9446c2b115579f09c519b6dcd0.jpg?imageView2/1/w/290/h/192/q/88')}}" alt="福特蒙迪欧 2013款 2.0L GTDi200时尚型">
                                                                                                             <i class="sup-yellow">
                                             <em></em>
                                             急降<br>500元                                        </i>
@@ -1714,7 +1716,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080150000000156&carid=14150012@4" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_jishou_post_c' title="路虎发现神行 2015款 2.0T HSE LUXURY(进口)" target="_blank" class="imgtype" href="/bj/a9a4cf214055c064x.htm" >
-                                <img width="290" height="194" src="style/img/qn1707031756134dc0d25ab935e5a4eb36ebc7cd03df38.jpg?imageView2/1/w/290/h/192/q/88" alt="路虎发现神行 2015款 2.0T HSE LUXURY(进口)">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707031756134dc0d25ab935e5a4eb36ebc7cd03df38.jpg?imageView2/1/w/290/h/192/q/88')}}" alt="路虎发现神行 2015款 2.0T HSE LUXURY(进口)">
                                                                                                             <i class="sup-yellow">
                                             <em></em>
                                             急降<br>1.12万                                        </i>
@@ -1739,7 +1741,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080150000000156&carid=14115458@5" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_jishou_post_c' title="奔驰E级 2012款 E 300 L 时尚型" target="_blank" class="imgtype" href="/bj/b8019d839bab0e04x.htm" >
-                                <img width="290" height="194" src="style/img/qn170703133024a7ea779cbdf45c93bf45d5d16b1a9133.jpg?imageView2/1/w/290/h/192/q/88" alt="奔驰E级 2012款 E 300 L 时尚型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170703133024a7ea779cbdf45c93bf45d5d16b1a9133.jpg?imageView2/1/w/290/h/192/q/88')}}" alt="奔驰E级 2012款 E 300 L 时尚型">
                                                                                                             <i class="sup-yellow">
                                             <em></em>
                                             急降<br>7000元                                        </i>
@@ -1764,7 +1766,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080150000000156&carid=14125124@6" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_jishou_post_c' title="哈弗H6 2012款 1.5T 手动两驱精英型" target="_blank" class="imgtype" href="/bj/596c952c0c404630x.htm" >
-                                <img width="290" height="194" src="style/img/qn170703122441f3c167cf81345c950cbc13238dfe18c3.jpg?imageView2/1/w/290/h/192/q/88" alt="哈弗H6 2012款 1.5T 手动两驱精英型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170703122441f3c167cf81345c950cbc13238dfe18c3.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="哈弗H6 2012款 1.5T 手动两驱精英型">
                                                                                                             <i class="sup-yellow">
                                             <em></em>
                                             急降<br>2000元                                        </i>
@@ -1790,7 +1792,8 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080150000000156&carid=14119980@7" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_jishou_post_c' title="本田XR-V 2015款 1.8L VTi CVT豪华版" target="_blank" class="imgtype" href="/bj/e330a7be04b82915x.htm" >
-                                <img width="290" height="194" src="style/img/qn1707021828374415a65db3a56dd34a5e1d45fa20ab25.jpg?imageView2/1/w/290/h/192/q/88" alt="本田XR-V 2015款 1.8L VTi CVT豪华版">
+                                <img width="290" height="194" src="{{ asset('style/img/
+qn1707021828374415a65db3a56dd34a5e1d45fa20ab25.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="本田XR-V 2015款 1.8L VTi CVT豪华版">
                                                                                                             <i class="sup-yellow">
                                             <em></em>
                                             急降<br>6000元                                        </i>
@@ -1815,7 +1818,8 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080150000000156&carid=14115324@8" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_jishou_post_c' title="大众途观 2016款 300TSI 自动两驱风尚版" target="_blank" class="imgtype" href="/bj/a84333e5f1074554x.htm" >
-                                <img width="290" height="194" src="style/img/qn170702165114bc143002ebd59583f6a0c672e3953f7b.jpg?imageView2/1/w/290/h/192/q/88" alt="大众途观 2016款 300TSI 自动两驱风尚版">
+                                <img width="290" height="194" src="{{ asset('style/img/
+qn170702165114bc143002ebd59583f6a0c672e3953f7b.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="大众途观 2016款 300TSI 自动两驱风尚版">
                                                                                                             <i class="sup-yellow">
                                             <em></em>
                                             急降<br>3100元                                        </i>
@@ -1842,7 +1846,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080150000000156&carid=14089343@9" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_jishou_post_c' title="大众CC 2012款 1.8TSI 豪华型" target="_blank" class="imgtype" href="/bj/92ac24d6d74b731bx.htm" >
-                                <img width="290" height="194" src="style/img/qn170702121910f74a54c5a1b952b42c7bb5efd5301e2e.jpg?imageView2/1/w/290/h/192/q/88" alt="大众CC 2012款 1.8TSI 豪华型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170702121910f74a54c5a1b952b42c7bb5efd5301e2e.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="大众CC 2012款 1.8TSI 豪华型">
                                                                                                             <i class="sup-yellow">
                                             <em></em>
                                             急降<br>2000元                                        </i>
@@ -1867,7 +1871,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080150000000156&carid=14079376@10" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_jishou_post_c' title="MINI 2011款 1.6T COOPER S" target="_blank" class="imgtype" href="/bj/beac9a3a039becaex.htm" >
-                                <img width="290" height="194" src="style/img/qn17070211565282318a1b0c47e91cea707253aa25bfd5.jpg?imageView2/1/w/290/h/192/q/88" alt="MINI 2011款 1.6T COOPER S">
+                                <img width="290" height="194" src="{{ asset('style/img/qn17070211565282318a1b0c47e91cea707253aa25bfd5.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="MINI 2011款 1.6T COOPER S">
                                                                                                             <i class="sup-yellow">
                                             <em></em>
                                             急降<br>1万                                        </i>
@@ -1893,7 +1897,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080150000000156&carid=14093081@11" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_jishou_post_c' title="奥迪Q7 2013款 35 TFSI 进取型(进口)" target="_blank" class="imgtype" href="/bj/c9b7453740d116f0x.htm" >
-                                <img width="290" height="194" src="style/img/qn1707021149081b253ac7a63b9c37b4253aa25d83581f.jpg?imageView2/1/w/290/h/192/q/88" alt="奥迪Q7 2013款 35 TFSI 进取型(进口)">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707021149081b253ac7a63b9c37b4253aa25d83581f.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="奥迪Q7 2013款 35 TFSI 进取型(进口)">
                                                                                                             <i class="sup-yellow">
                                             <em></em>
                                             急降<br>8000元                                        </i>
@@ -1927,7 +1931,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14204205@0" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_zhunxin_post_c' title="丰田凯美瑞 2016款 2.5G 十周年纪念豪华导航版" target="_blank" class="imgtype" href="/bj/9d5fa1c6a25afd04x.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041920422c5beb1c9b7193d9d742f17a7c1d91b9.jpg?imageView2/1/w/290/h/192/q/88" alt="丰田凯美瑞 2016款 2.5G 十周年纪念豪华导航版">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041920422c5beb1c9b7193d9d742f17a7c1d91b9.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="丰田凯美瑞 2016款 2.5G 十周年纪念豪华导航版">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14204205@0" data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14204205@0" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_zhunxin_post_c' title="丰田凯美瑞 2016款 2.5G 十周年纪念豪华导航版" href="/bj/9d5fa1c6a25afd04x.htm" target="_blank" class="info-title" >丰田凯美瑞 2016款 2.5G 十周年纪念豪华导航版</a>
@@ -1949,7 +1953,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14162834@1" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_zhunxin_post_c' title="吉利熊猫 2016款 1.0L IMT酷趣版" target="_blank" class="imgtype" href="/bj/0a098fec64ba5ff2x.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041916522c2ff2c99c9768ae90d652cd5a5bbc7c.jpg?imageView2/1/w/290/h/192/q/88" alt="吉利熊猫 2016款 1.0L IMT酷趣版">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041916522c2ff2c99c9768ae90d652cd5a5bbc7c.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="吉利熊猫 2016款 1.0L IMT酷趣版">
                                                                                                                                 </a>
                                                             <span class="remote">廊坊过户</span>
                                                         <p class="infoBox">
@@ -1972,7 +1976,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14203873@2" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_zhunxin_post_c' title="雪佛兰创酷 2014款 1.4T 自动两驱舒适型" target="_blank" class="imgtype" href="/bj/ddaf2d903680fa58x.htm" >
-                                <img width="290" height="194" src="style/img/qn170704183921bd5e91673b7bed71a63c3ab718c8296b.jpg?imageView2/1/w/290/h/192/q/88" alt="雪佛兰创酷 2014款 1.4T 自动两驱舒适型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170704183921bd5e91673b7bed71a63c3ab718c8296b.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="雪佛兰创酷 2014款 1.4T 自动两驱舒适型">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14203873@2" data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14203873@2" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_zhunxin_post_c' title="雪佛兰创酷 2014款 1.4T 自动两驱舒适型" href="/bj/ddaf2d903680fa58x.htm" target="_blank" class="info-title" >雪佛兰创酷 2014款 1.4T 自动两驱舒适型</a>
@@ -1994,7 +1998,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14204067@3" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_zhunxin_post_c' title="比亚迪S7 2015款 2.0T 自动尊贵型" target="_blank" class="imgtype" href="/bj/d2ff8bcb25510300x.htm" >
-                                <img width="290" height="194" src="style/img/qn170704183038d6b576b753ea35332ec71dde40205edd.jpg?imageView2/1/w/290/h/192/q/88" alt="比亚迪S7 2015款 2.0T 自动尊贵型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170704183038d6b576b753ea35332ec71dde40205edd.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="比亚迪S7 2015款 2.0T 自动尊贵型">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14204067@3" data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14204067@3" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_zhunxin_post_c' title="比亚迪S7 2015款 2.0T 自动尊贵型" href="/bj/d2ff8bcb25510300x.htm" target="_blank" class="info-title" >比亚迪S7 2015款 2.0T 自动尊贵型</a>
@@ -2017,7 +2021,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14201319@4" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_zhunxin_post_c' title="大众帕萨特 2017款 330TSI DSG御尊版" target="_blank" class="imgtype" href="/bj/d25ab41bc9ed3600x.htm" >
-                                <img width="290" height="194" src="style/img/qn170704182638a0470d8b0966a04e027593f593b27cc0.jpg?imageView2/1/w/290/h/192/q/88" alt="大众帕萨特 2017款 330TSI DSG御尊版">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170704182638a0470d8b0966a04e027593f593b27cc0.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="大众帕萨特 2017款 330TSI DSG御尊版">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14201319@4" data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14201319@4" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_zhunxin_post_c' title="大众帕萨特 2017款 330TSI DSG御尊版" href="/bj/d25ab41bc9ed3600x.htm" target="_blank" class="info-title" >大众帕萨特 2017款 330TSI DSG御尊版</a>
@@ -2039,7 +2043,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14170759@5" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_zhunxin_post_c' title="本田思域 2016款 220TURBO 自动尊耀版" target="_blank" class="imgtype" href="/bj/719e0c43f214ca31x.htm" >
-                                <img width="290" height="194" src="style/img/qn17070418033389ed549cc992a7cf4c195aa1d0f016c4.jpg?imageView2/1/w/290/h/192/q/88" alt="本田思域 2016款 220TURBO 自动尊耀版">
+                                <img width="290" height="194" src="{{ asset('style/img/qn17070418033389ed549cc992a7cf4c195aa1d0f016c4.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="本田思域 2016款 220TURBO 自动尊耀版">
                                                                                                                                 </a>
                                                             <span class="remote">沧州过户</span>
                                                         <p class="infoBox">
@@ -2063,7 +2067,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14153464@6" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_zhunxin_post_c' title="马自达6 2015款 2.0L 自动豪华型" target="_blank" class="imgtype" href="/bj/6a9c8537077ddbc3x.htm" >
-                                <img width="290" height="194" src="style/img/qn170704180516cc5391c7eaf54607a97fac459c11a642.jpg?imageView2/1/w/290/h/192/q/88" alt="马自达6 2015款 2.0L 自动豪华型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170704180516cc5391c7eaf54607a97fac459c11a642.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="马自达6 2015款 2.0L 自动豪华型">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14153464@6" data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14153464@6" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_zhunxin_post_c' title="马自达6 2015款 2.0L 自动豪华型" href="/bj/6a9c8537077ddbc3x.htm" target="_blank" class="info-title" >马自达6 2015款 2.0L 自动豪华型</a>
@@ -2085,7 +2089,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14190437@7" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_zhunxin_post_c' title="纳智捷大7 SUV 2015款 2.2T 四驱旗舰型" target="_blank" class="imgtype" href="/bj/71c298c457b43ac3x.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041734530fab5d43d98cd615433de290bbbf1fba.jpg?imageView2/1/w/290/h/192/q/88" alt="纳智捷大7 SUV 2015款 2.2T 四驱旗舰型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041734530fab5d43d98cd615433de290bbbf1fba.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="纳智捷大7 SUV 2015款 2.2T 四驱旗舰型">
                                                                                                                                 </a>
                                                             <span class="remote">石家庄过户</span>
                                                         <p class="infoBox">
@@ -2109,7 +2113,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14141425@8" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_zhunxin_post_c' title="丰田汉兰达 2015款 2.0T 四驱豪华版 7座" target="_blank" class="imgtype" href="/bj/06fdc8fed6469e4ax.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041509286038651cbaa410c2cb039c56d13a93c7.jpg?imageView2/1/w/290/h/192/q/88" alt="丰田汉兰达 2015款 2.0T 四驱豪华版 7座">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041509286038651cbaa410c2cb039c56d13a93c7.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="丰田汉兰达 2015款 2.0T 四驱豪华版 7座">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14141425@8" data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14141425@8" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_zhunxin_post_c' title="丰田汉兰达 2015款 2.0T 四驱豪华版 7座" href="/bj/06fdc8fed6469e4ax.htm" target="_blank" class="info-title" >丰田汉兰达 2015款 2.0T 四驱豪华版 7座</a>
@@ -2132,7 +2136,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14154257@9" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_zhunxin_post_c' title="江淮瑞风M3 2016款 宜家版 2.0L 豪华型" target="_blank" class="imgtype" href="/bj/4b8a5a15fc661799x.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041436413c4dd7c7bb25e5b0d5a8c0ea287eba0d.jpg?imageView2/1/w/290/h/192/q/88" alt="江淮瑞风M3 2016款 宜家版 2.0L 豪华型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041436413c4dd7c7bb25e5b0d5a8c0ea287eba0d.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="江淮瑞风M3 2016款 宜家版 2.0L 豪华型">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14154257@9" data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14154257@9" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_zhunxin_post_c' title="江淮瑞风M3 2016款 宜家版 2.0L 豪华型" href="/bj/4b8a5a15fc661799x.htm" target="_blank" class="info-title" >江淮瑞风M3 2016款 宜家版 2.0L 豪华型</a>
@@ -2154,7 +2158,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14126934@10" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_zhunxin_post_c' title="起亚K2 2015款 三厢 1.4L AT GLS" target="_blank" class="imgtype" href="/bj/2032b2d9d3e25a20x.htm" >
-                                <img width="290" height="194" src="style/img/qn170704134612a1648f36176cfa79969ee9246c80b8db.jpg?imageView2/1/w/290/h/192/q/88" alt="起亚K2 2015款 三厢 1.4L AT GLS">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170704134612a1648f36176cfa79969ee9246c80b8db.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="起亚K2 2015款 三厢 1.4L AT GLS">
                                                                                                                                 </a>
                                                             <span class="remote">承德过户</span>
                                                         <p class="infoBox">
@@ -2178,7 +2182,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14157315@11" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_zhunxin_post_c' title="奔驰S级 2016款 S 320 L 商务型(进口)" target="_blank" class="imgtype" href="/bj/2bb23d6ef944ae1dx.htm" >
-                                <img width="290" height="194" src="style/img/qn170704123706a6baf8b6f861162e97e8569798b8e249.jpg?imageView2/1/w/290/h/192/q/88" alt="奔驰S级 2016款 S 320 L 商务型(进口)">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170704123706a6baf8b6f861162e97e8569798b8e249.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="奔驰S级 2016款 S 320 L 商务型(进口)">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14157315@11" data-gzlog="tracking_type=click&eventid=0080320000000036&carid=14157315@11" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_zhunxin_post_c' title="奔驰S级 2016款 S 320 L 商务型(进口)" href="/bj/2bb23d6ef944ae1dx.htm" target="_blank" class="info-title" >奔驰S级 2016款 S 320 L 商务型(进口)</a>
@@ -2209,7 +2213,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14165365@0" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_lianshou_post_c' title="起亚K2 2012款 三厢 1.4L AT GLS纪念版" target="_blank" class="imgtype" href="/bj/8644bd1a676c21d9x.htm" >
-                                <img width="290" height="194" src="style/img/qn170704192335847413dff350999d249db38174b764b9.jpg?imageView2/1/w/290/h/192/q/88" alt="起亚K2 2012款 三厢 1.4L AT GLS纪念版">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170704192335847413dff350999d249db38174b764b9.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="起亚K2 2012款 三厢 1.4L AT GLS纪念版">
                                                                                                                                 </a>
                                                             <span class="remote">天津过户</span>
                                                         <p class="infoBox">
@@ -2232,7 +2236,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14162834@1" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_lianshou_post_c' title="吉利熊猫 2016款 1.0L IMT酷趣版" target="_blank" class="imgtype" href="/bj/0a098fec64ba5ff2x.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041916522c2ff2c99c9768ae90d652cd5a5bbc7c.jpg?imageView2/1/w/290/h/192/q/88" alt="吉利熊猫 2016款 1.0L IMT酷趣版">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041916522c2ff2c99c9768ae90d652cd5a5bbc7c.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="吉利熊猫 2016款 1.0L IMT酷趣版">
                                                                                                                                 </a>
                                                             <span class="remote">廊坊过户</span>
                                                         <p class="infoBox">
@@ -2255,7 +2259,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14190876@2" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_lianshou_post_c' title="荣威550 2010款 550 1.8L 手动启悦贺岁版" target="_blank" class="imgtype" href="/bj/712327cfb5a26e62x.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041905351ce2ff573e9bf12b9160a29563830a39.jpg?imageView2/1/w/290/h/192/q/88" alt="荣威550 2010款 550 1.8L 手动启悦贺岁版">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041905351ce2ff573e9bf12b9160a29563830a39.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="荣威550 2010款 550 1.8L 手动启悦贺岁版">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14190876@2" data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14190876@2" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_lianshou_post_c' title="荣威550 2010款 550 1.8L 手动启悦贺岁版" href="/bj/712327cfb5a26e62x.htm" target="_blank" class="info-title" >荣威550 2010款 550 1.8L 手动启悦贺岁版</a>
@@ -2276,7 +2280,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14169761@3" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_lianshou_post_c' title="力帆620 2010款 铂尊版 1.5L 手动精英型" target="_blank" class="imgtype" href="/bj/a64f5bf25e004020x.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041901413096bb9bb4571d3c6f04c1c3b9734622.jpg?imageView2/1/w/290/h/192/q/88" alt="力帆620 2010款 铂尊版 1.5L 手动精英型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041901413096bb9bb4571d3c6f04c1c3b9734622.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="力帆620 2010款 铂尊版 1.5L 手动精英型">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14169761@3" data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14169761@3" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_lianshou_post_c' title="力帆620 2010款 铂尊版 1.5L 手动精英型" href="/bj/a64f5bf25e004020x.htm" target="_blank" class="info-title" >力帆620 2010款 铂尊版 1.5L 手动精英型</a>
@@ -2298,7 +2302,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080330000000038&carid=13988637@4" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_lianshou_post_c' title="大众捷达 2010款 1.6L 伙伴" target="_blank" class="imgtype" href="/bj/3f4df461f08a845ax.htm" >
-                                <img width="290" height="194" src="style/img/qn170704182102ce5ad8016e15bcb5567192258a6ebe8e.jpg?imageView2/1/w/290/h/192/q/88" alt="大众捷达 2010款 1.6L 伙伴">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170704182102ce5ad8016e15bcb5567192258a6ebe8e.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="大众捷达 2010款 1.6L 伙伴">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080330000000038&carid=13988637@4" data-gzlog="tracking_type=click&eventid=0080330000000038&carid=13988637@4" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_lianshou_post_c' title="大众捷达 2010款 1.6L 伙伴" href="/bj/3f4df461f08a845ax.htm" target="_blank" class="info-title" >大众捷达 2010款 1.6L 伙伴</a>
@@ -2320,7 +2324,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14200503@5" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_lianshou_post_c' title="长安商用欧诺 2014款 1.5L基本型" target="_blank" class="imgtype" href="/bj/9eb7b8396640b1f7x.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041730180a921d296485d976b1157c4a76824646.jpg?imageView2/1/w/290/h/192/q/88" alt="长安商用欧诺 2014款 1.5L基本型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041730180a921d296485d976b1157c4a76824646.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="长安商用欧诺 2014款 1.5L基本型">
                                                                                                                                 </a>
                                                             <span class="remote">廊坊过户</span>
                                                         <p class="infoBox">
@@ -2342,7 +2346,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14172729@6" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_lianshou_post_c' title="北汽威旺306 2013款 1.2L超值版 基本型 5座" target="_blank" class="imgtype" href="/bj/b076f4cca53d3551x.htm" >
-                                <img width="290" height="194" src="style/img/qn17070417384487d339f05a4f90b978fd5dcdb577641c.jpg?imageView2/1/w/290/h/192/q/88" alt="北汽威旺306 2013款 1.2L超值版 基本型 5座">
+                                <img width="290" height="194" src="{{ asset('style/img/qn17070417384487d339f05a4f90b978fd5dcdb577641c.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="北汽威旺306 2013款 1.2L超值版 基本型 5座">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14172729@6" data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14172729@6" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_lianshou_post_c' title="北汽威旺306 2013款 1.2L超值版 基本型 5座" href="/bj/b076f4cca53d3551x.htm" target="_blank" class="info-title" >北汽威旺306 2013款 1.2L超值版 基本型 5座</a>
@@ -2362,7 +2366,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14199554@7" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_lianshou_post_c' title="斯柯达晶锐 2012款 1.4L 自动晶致版" target="_blank" class="imgtype" href="/bj/5641005809fcbda4x.htm" >
-                                <img width="290" height="194" src="style/img/qn17070417114323e7d8059ad138ae9ce513fa1b6ad9b5.jpg?imageView2/1/w/290/h/192/q/88" alt="斯柯达晶锐 2012款 1.4L 自动晶致版">
+                                <img width="290" height="194" src="{{ asset('style/img/qn17070417114323e7d8059ad138ae9ce513fa1b6ad9b5.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="斯柯达晶锐 2012款 1.4L 自动晶致版">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14199554@7" data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14199554@7" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_lianshou_post_c' title="斯柯达晶锐 2012款 1.4L 自动晶致版" href="/bj/5641005809fcbda4x.htm" target="_blank" class="info-title" >斯柯达晶锐 2012款 1.4L 自动晶致版</a>
@@ -2383,7 +2387,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080330000000038&carid=13705411@8" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_lianshou_post_c' title="一汽骏派D60 2015款 1.5L 手动标准型" target="_blank" class="imgtype" href="/bj/198d8a1e1cad4e65x.htm" >
-                                <img width="290" height="194" src="style/img/qn170704161243038f3b7b64ed2353078cb25e2359f4b2.jpg?imageView2/1/w/290/h/192/q/88" alt="一汽骏派D60 2015款 1.5L 手动标准型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170704161243038f3b7b64ed2353078cb25e2359f4b2.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="一汽骏派D60 2015款 1.5L 手动标准型">
                                                                                                                                 </a>
                                                             <span class="remote">张家口过户</span>
                                                         <p class="infoBox">
@@ -2405,7 +2409,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14192252@9" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_lianshou_post_c' title="长安逸动 2013款 XT 1.6L 手动俊酷型 国IV" target="_blank" class="imgtype" href="/bj/7fef91a9b6dab3d5x.htm" >
-                                <img width="290" height="194" src="style/img/qn170704153507a63fd632a38c763b52b09bfe062da508.jpg?imageView2/1/w/290/h/192/q/88" alt="长安逸动 2013款 XT 1.6L 手动俊酷型 国IV">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170704153507a63fd632a38c763b52b09bfe062da508.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="长安逸动 2013款 XT 1.6L 手动俊酷型 国IV">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14192252@9" data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14192252@9" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_lianshou_post_c' title="长安逸动 2013款 XT 1.6L 手动俊酷型 国IV" href="/bj/7fef91a9b6dab3d5x.htm" target="_blank" class="info-title" >长安逸动 2013款 XT 1.6L 手动俊酷型 国IV</a>
@@ -2427,7 +2431,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14189185@10" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_lianshou_post_c' title="五菱宏光 2014款 1.5L S舒适型" target="_blank" class="imgtype" href="/bj/7c43c784629aa6b8x.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041529591c7875b0aea4d3a491ebb3a5bc11b37e.jpg?imageView2/1/w/290/h/192/q/88" alt="五菱宏光 2014款 1.5L S舒适型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041529591c7875b0aea4d3a491ebb3a5bc11b37e.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="五菱宏光 2014款 1.5L S舒适型">
                                                                                                                                 </a>
                                                             <span class="remote">石家庄过户</span>
                                                         <p class="infoBox">
@@ -2450,7 +2454,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14157476@11" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_lianshou_post_c' title="大众速腾 2006款 1.6L手动时尚型" target="_blank" class="imgtype" href="/bj/92840e5532be9cf0x.htm" >
-                                <img width="290" height="194" src="style/img/qn170704144606e2620b9e6772ed99166897deba55aadf.jpg?imageView2/1/w/290/h/192/q/88" alt="大众速腾 2006款 1.6L手动时尚型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170704144606e2620b9e6772ed99166897deba55aadf.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="大众速腾 2006款 1.6L手动时尚型">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14157476@11" data-gzlog="tracking_type=click&eventid=0080330000000038&carid=14157476@11" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_lianshou_post_c' title="大众速腾 2006款 1.6L手动时尚型" href="/bj/92840e5532be9cf0x.htm" target="_blank" class="info-title" >大众速腾 2006款 1.6L手动时尚型</a>
@@ -2480,7 +2484,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14203873@0" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="雪佛兰创酷 2014款 1.4T 自动两驱舒适型" target="_blank" class="imgtype" href="/bj/ddaf2d903680fa58x.htm" >
-                                <img width="290" height="194" src="style/img/qn170704183921bd5e91673b7bed71a63c3ab718c8296b.jpg?imageView2/1/w/290/h/192/q/88" alt="雪佛兰创酷 2014款 1.4T 自动两驱舒适型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170704183921bd5e91673b7bed71a63c3ab718c8296b.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="雪佛兰创酷 2014款 1.4T 自动两驱舒适型">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14203873@0" data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14203873@0" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="雪佛兰创酷 2014款 1.4T 自动两驱舒适型" href="/bj/ddaf2d903680fa58x.htm" target="_blank" class="info-title" >雪佛兰创酷 2014款 1.4T 自动两驱舒适型</a>
@@ -2502,7 +2506,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14204067@1" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="比亚迪S7 2015款 2.0T 自动尊贵型" target="_blank" class="imgtype" href="/bj/d2ff8bcb25510300x.htm" >
-                                <img width="290" height="194" src="style/img/qn170704183038d6b576b753ea35332ec71dde40205edd.jpg?imageView2/1/w/290/h/192/q/88" alt="比亚迪S7 2015款 2.0T 自动尊贵型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170704183038d6b576b753ea35332ec71dde40205edd.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="比亚迪S7 2015款 2.0T 自动尊贵型">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14204067@1" data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14204067@1" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="比亚迪S7 2015款 2.0T 自动尊贵型" href="/bj/d2ff8bcb25510300x.htm" target="_blank" class="info-title" >比亚迪S7 2015款 2.0T 自动尊贵型</a>
@@ -2525,7 +2529,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14199702@2" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="福特翼虎 2013款 1.6L GTDi 四驱精英型" target="_blank" class="imgtype" href="/bj/2ed282633582b021x.htm" >
-                                <img width="290" height="194" src="style/img/qn17070418312456fc1ee24d2592ba9c1705e438308d57.jpg?imageView2/1/w/290/h/192/q/88" alt="福特翼虎 2013款 1.6L GTDi 四驱精英型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn17070418312456fc1ee24d2592ba9c1705e438308d57.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="福特翼虎 2013款 1.6L GTDi 四驱精英型">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14199702@2" data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14199702@2" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="福特翼虎 2013款 1.6L GTDi 四驱精英型" href="/bj/2ed282633582b021x.htm" target="_blank" class="info-title" >福特翼虎 2013款 1.6L GTDi 四驱精英型</a>
@@ -2547,7 +2551,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14197690@3" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="大众途观 2012款 1.8TSI 自动四驱菁英版" target="_blank" class="imgtype" href="/bj/8e651cbe8dbe9961x.htm" >
-                                <img width="290" height="194" src="style/img/qn170704181737403f151713db12b85919d4255dba206d.jpg?imageView2/1/w/290/h/192/q/88" alt="大众途观 2012款 1.8TSI 自动四驱菁英版">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170704181737403f151713db12b85919d4255dba206d.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="大众途观 2012款 1.8TSI 自动四驱菁英版">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14197690@3" data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14197690@3" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="大众途观 2012款 1.8TSI 自动四驱菁英版" href="/bj/8e651cbe8dbe9961x.htm" target="_blank" class="info-title" >大众途观 2012款 1.8TSI 自动四驱菁英版</a>
@@ -2568,7 +2572,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14199300@4" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="福特探险者 2013款 3.5L 尊享型(进口)" target="_blank" class="imgtype" href="/bj/892041f4eed30b7dx.htm" >
-                                <img width="290" height="194" src="style/img/qn17070418000438aa83260aac54a30d49c5884cbb8606.jpg?imageView2/1/w/290/h/192/q/88" alt="福特探险者 2013款 3.5L 尊享型(进口)">
+                                <img width="290" height="194" src="{{ asset('style/img/qn17070418000438aa83260aac54a30d49c5884cbb8606.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="福特探险者 2013款 3.5L 尊享型(进口)">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14199300@4" data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14199300@4" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="福特探险者 2013款 3.5L 尊享型(进口)" href="/bj/892041f4eed30b7dx.htm" target="_blank" class="info-title" >福特探险者 2013款 3.5L 尊享型(进口)</a>
@@ -2590,7 +2594,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14086624@5" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="日产奇骏 2015款 2.5L CVT领先MAX版 4WD" target="_blank" class="imgtype" href="/bj/bc082d04a135ae68x.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041730345144a4a7c41e85f4894b7c9f794b8edb.jpg?imageView2/1/w/290/h/192/q/88" alt="日产奇骏 2015款 2.5L CVT领先MAX版 4WD">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041730345144a4a7c41e85f4894b7c9f794b8edb.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="日产奇骏 2015款 2.5L CVT领先MAX版 4WD">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14086624@5" data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14086624@5" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="日产奇骏 2015款 2.5L CVT领先MAX版 4WD" href="/bj/bc082d04a135ae68x.htm" target="_blank" class="info-title" >日产奇骏 2015款 2.5L CVT领先MAX版 4WD</a>
@@ -2611,7 +2615,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14190437@6" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="纳智捷大7 SUV 2015款 2.2T 四驱旗舰型" target="_blank" class="imgtype" href="/bj/71c298c457b43ac3x.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041734530fab5d43d98cd615433de290bbbf1fba.jpg?imageView2/1/w/290/h/192/q/88" alt="纳智捷大7 SUV 2015款 2.2T 四驱旗舰型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041734530fab5d43d98cd615433de290bbbf1fba.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="纳智捷大7 SUV 2015款 2.2T 四驱旗舰型">
                                                                                                                                 </a>
                                                             <span class="remote">石家庄过户</span>
                                                         <p class="infoBox">
@@ -2635,7 +2639,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14198185@7" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="奥迪Q3 2013款 35 TFSI 舒适型" target="_blank" class="imgtype" href="/bj/348817a68b38ca5cx.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041731318037c0176e7ff4ba16a266ac0fa216dd.jpg?imageView2/1/w/290/h/192/q/88" alt="奥迪Q3 2013款 35 TFSI 舒适型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041731318037c0176e7ff4ba16a266ac0fa216dd.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="奥迪Q3 2013款 35 TFSI 舒适型">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14198185@7" data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14198185@7" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="奥迪Q3 2013款 35 TFSI 舒适型" href="/bj/348817a68b38ca5cx.htm" target="_blank" class="info-title" >奥迪Q3 2013款 35 TFSI 舒适型</a>
@@ -2656,7 +2660,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14199833@8" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="现代格越 2013款 3.0L 7座四驱豪华版(进口)" target="_blank" class="imgtype" href="/bj/023da3a997095b0cx.htm" >
-                                <img width="290" height="194" src="style/img/qn170704173052df75e854abf6b70a8a6098c2a1c7f1e1.jpg?imageView2/1/w/290/h/192/q/88" alt="现代格越 2013款 3.0L 7座四驱豪华版(进口)">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170704173052df75e854abf6b70a8a6098c2a1c7f1e1.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="现代格越 2013款 3.0L 7座四驱豪华版(进口)">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14199833@8" data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14199833@8" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="现代格越 2013款 3.0L 7座四驱豪华版(进口)" href="/bj/023da3a997095b0cx.htm" target="_blank" class="info-title" >现代格越 2013款 3.0L 7座四驱豪华版(进口)</a>
@@ -2678,7 +2682,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14198377@9" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="长安CS35 2014款 1.6L 自动豪华导航型 国IV" target="_blank" class="imgtype" href="/bj/5e439242179b8772x.htm" >
-                                <img width="290" height="194" src="style/img/qn1707041712483a1e9b7bb9b99f8d3d89cc3c20bc990a.jpg?imageView2/1/w/290/h/192/q/88" alt="长安CS35 2014款 1.6L 自动豪华导航型 国IV">
+                                <img width="290" height="194" src="{{ asset('style/img/qn1707041712483a1e9b7bb9b99f8d3d89cc3c20bc990a.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="长安CS35 2014款 1.6L 自动豪华导航型 国IV">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14198377@9" data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14198377@9" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="长安CS35 2014款 1.6L 自动豪华导航型 国IV" href="/bj/5e439242179b8772x.htm" target="_blank" class="info-title" >长安CS35 2014款 1.6L 自动豪华导航型 国IV</a>
@@ -2699,7 +2703,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14194318@10" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="丰田汉兰达 2015款 2.0T 四驱豪华版 7座" target="_blank" class="imgtype" href="/bj/ec5d1c83a47d3ef8x.htm" >
-                                <img width="290" height="194" src="style/img/qn170704162939634692320c43c6857ac4bfdecadaa7f5.jpg?imageView2/1/w/290/h/192/q/88" alt="丰田汉兰达 2015款 2.0T 四驱豪华版 7座">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170704162939634692320c43c6857ac4bfdecadaa7f5.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="丰田汉兰达 2015款 2.0T 四驱豪华版 7座">
                                                                                                                                 </a>
                                                         <p class="infoBox">
                                 <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14194318@10" data-gzlog="tracking_type=click&eventid=0080340000000040&carid=14194318@10" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="丰田汉兰达 2015款 2.0T 四驱豪华版 7座" href="/bj/ec5d1c83a47d3ef8x.htm" target="_blank" class="info-title" >丰田汉兰达 2015款 2.0T 四驱豪华版 7座</a>
@@ -2721,7 +2725,7 @@
                         
                         <div class="list-infoBox">
                             <a data-gzlog="tracking_type=click&eventid=0080340000000040&carid=13705411@11" baidu_alog='pc_index_tabSelect_detailCar&click&pc_index_tabSelect_suv_post_c' title="一汽骏派D60 2015款 1.5L 手动标准型" target="_blank" class="imgtype" href="/bj/198d8a1e1cad4e65x.htm" >
-                                <img width="290" height="194" src="style/img/qn170704161243038f3b7b64ed2353078cb25e2359f4b2.jpg?imageView2/1/w/290/h/192/q/88" alt="一汽骏派D60 2015款 1.5L 手动标准型">
+                                <img width="290" height="194" src="{{ asset('style/img/qn170704161243038f3b7b64ed2353078cb25e2359f4b2.jpg?imageView2/1/w/290/h/192/q/88') }}" alt="一汽骏派D60 2015款 1.5L 手动标准型">
                                                                                                                                 </a>
                                                             <span class="remote">张家口过户</span>
                                                         <p class="infoBox">
@@ -2884,9 +2888,9 @@
         </p>
         <p>售后服务专线：400-066-8780  </p>
     </div>
-    <img src="style/img/ewm-wx-2.png" alt="" class="gz-ewm">
+    <img src="{{ asset('style/img/ewm-wx-2.png') }}" alt="" class="gz-ewm">
     <p class="ewm-tit">关注微信</p>
-    <img src="style/img/ewm-app-2.png" alt="" class="gz-ewm">
+    <img src="{{ asset('style/img/ewm-app-2.png') }}" alt="" class="gz-ewm">
     <p class="ewm-tit">下载APP</p>
     <div class="basic-info">
         <div class="info-link">
@@ -3138,13 +3142,14 @@
                 </div>
                 <a rel="nofollow" data-gzlog="tracking_type=click&eventid=0200000000000087" href="javascript:void(0);" class="ewm-wx" baidu_alog="xuanfu&click&index_xuanfu_gongzhonghao_c">公众号
         <span class="ewm-box">
-          <img src="style/img/ewm-wx-2.png" alt="">
+          <img src="{{ asset('style/img/ewm-wx-2.png') }}" alt="">
           <i></i><em></em>
         </span>
                 </a>
                 <a rel="nofollow" data-gzlog="tracking_type=click&eventid=0200190000000086" href="javascript:void(0);" class="ewm-app" baidu_alog="xuanfu&click&index_xuanfu_appdownload_c">APP
         <span class="ewm-box">
-          <img src="style/img/ewm-app-2.png" alt="">
+          <img src="{{ asset('style/img/
+ewm-app-2.png') }}" alt="">
           <i></i><em></em>
         </span>
                 </a>
