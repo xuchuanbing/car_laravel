@@ -36,17 +36,32 @@ Route::group(['prefix' => 'admin','middleware' => 'admin'],function(){
 	Route::post('/usercontrol/update/{id}','Admin\UserControlController@update');
     Route::get('/buyers','Admin\BuyersController@index');
     Route::get('/seller','Admin\SellerController@index');
-    Route::post('detection/store', 'Admin\detection\DetectionController@store');
-    //Route::delete('detection/{$id}/destroy', 'Admin\detection\DetectionController@destroy');
-	//Route::put('detection/update/{$id}','Admin\detection\DetectionController@update');
-	// Route::put('detection/{$id}', function(){
-	// 	return "a";
-	// });
-	Route::resource('/detection', "Admin\detection\DetectionController");
 	Route::get('/brand','BrandController@index');
     Route::get('/series','SeriesController@index');
     Route::get('/audi','AudiController@index');
     Route::get('/notfound','NotfoundController@index');
+
+
+
+
+    Route::get('/detection','Admin\Detection\DetectionController@index');
+    Route::get('/detection/create','Admin\Detection\DetectionController@create');
+    Route::post('/detection/store','Admin\Detection\DetectionController@store');
+    Route::delete('/detection/destroy/{id}','Admin\Detection\DetectionController@destroy');
+    Route::get('detection/{id}/edit','Admin\Detection\DetectionController@edit');
+    Route::put('detection/{id}','Admin\Detection\DetectionController@update');
+
+
+    Route::get('/motor_details','Admin\Motor_details\Motor_detailsController@index');
+    Route::get('/motor_details/create','Admin\Motor_details\Motor_detailsController@create');
+    Route::post('/motor_details/store','Admin\Motor_details\Motor_detailsController@store');
+    Route::delete('/motor_details/destroy/{id}','Admin\Motor_details\Motor_detailsController@destroy');
+    Route::get('motor_details/{id}/edit','Admin\Motor_details\Motor_detailsController@edit');
+    Route::put('motor_details/{id}','Admin\Motor_details\Motor_detailsController@update');
+
+
+
+    
 });
 
 /* Route::group(['prefix' => 'home','middleware' => 'home'],function(){

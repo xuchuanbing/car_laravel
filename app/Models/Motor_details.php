@@ -4,8 +4,8 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Detection extends Model
+class Motor_details extends Model
 {
-    protected $table = "detection";
+    protected $table = "motor_details";
     public $timestamps = false;
 }
