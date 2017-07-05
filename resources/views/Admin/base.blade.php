@@ -303,7 +303,7 @@
                     </a>
                     <ul class="sidebar-nav sidebar-nav-sub">
                         <li class="sidebar-nav-link">
-                            <a href="{{ url("admin/brand") }}">
+                           <a href="{{ url('admin/brand') }}">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 品牌表
                             </a>
                         </li>
@@ -314,7 +314,7 @@
                             </a>
                         </li>
 						<li class="sidebar-nav-link">
-                            <a href="{{ url("admin/series") }}">
+                           <a href="{{ url('admin/audi') }}">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 系列表
                             </a>
                         </li>
