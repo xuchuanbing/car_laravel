@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
 <head _tracker='{"pagetype":"index","abtest":"c2c_web_indexpage_test_a"}'>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -769,19 +769,19 @@ ewm-app-3.png') }}" alt="瓜子二手车app下载">
                     </div>
                 </a>
                                     <a class="f1 hot-icon " baidu_alog="pc_index_top_tab&click&pc_index_top_tab_carfina_c"
-                       href="https://jr.guazi.com/bj/?jr_from=homehead&platform=pc"  data-gzlog="tracking_type=click&eventid=0010000000000011" title="二手车分期付款">分期购车<i></i></a>
+                       href="{{url('/home/fenqi')}}"  data-gzlog="tracking_type=click&eventid=0010000000000011" title="二手车分期付款">分期购车<i></i></a>
                                 <a class="fl active" baidu_alog="pc_index_top_tab&click&pc_index_top_tab_index_c"
-                   href="/bj/"  data-gzlog="tracking_type=click&eventid=0010000000000007" title="瓜子二手车">首页</a>
+                   href="{{url('/home')}}"  data-gzlog="tracking_type=click&eventid=0010000000000007" title="瓜子二手车">首页</a>
                 <a class="fl " baidu_alog="pc_index_top_tab&click&pc_index_top_tab_buy_c"
-                   href="/bj/buy/"  data-gzlog="tracking_type=click&eventid=0010000000000008"
+                   href="{{url('/home/buyers')}}"  data-gzlog="tracking_type=click&eventid=0010000000000008"
                     title="北京个人二手车"                    >我要买车</a>
                 <a class="fl " baidu_alog="pc_index_top_tab&click&pc_index_top_tab_sell_c"
-                   href="/bj/sell/?clueS=01" data-gzlog="tracking_type=click&eventid=0010050000000009"
+                   href="{{url('/home/seller')}}" data-gzlog="tracking_type=click&eventid=0010050000000009"
                     title="北京二手车出售"                    >我要卖车</a>
                 <a class="fl " baidu_alog="pc_index_top_tab&click&pc_index_top_tab_intro_c"
-                   href="/bj/intro/"  data-gzlog="tracking_type=click&eventid=0010000000000010" title="瓜子二手车服务保障">服务保障</a>
+                   href="{{url('/home/fuwubozhang')}}"  data-gzlog="tracking_type=click&eventid=0010000000000010" title="瓜子二手车服务保障">服务保障</a>
 
-                <a class="fr " href="/ask/"  title="瓜子二手车问答系统">二手车问答</a>
+                <a class="fr " href="{{url('/home/wenda1')}}"  title="瓜子二手车问答系统">二手车问答</a>
 
                 
             </div>
@@ -2894,10 +2894,10 @@ qn170702165114bc143002ebd59583f6a0c672e3953f7b.jpg?imageView2/1/w/290/h/192/q/88
     <p class="ewm-tit">下载APP</p>
     <div class="basic-info">
         <div class="info-link">
-            <a rel="nofollow" href="/bj/aboutus/" target="_blank">关于瓜子</a>
+            <a rel="nofollow" href="{{url('/home/guyuwomeng')}}" target="_blank">关于瓜子</a>
             <a rel="nofollow" href="/bj/join/" target="_blank">加入我们</a>
             <a rel="nofollow" href="/bj/contact" target="_blank">联系我们</a>
-            <a rel="nofollow" href="/bj/intro/" target="_blank">服务保障</a>
+            <a rel="nofollow" href="{{url('/home/fuwubozhang')}}" target="_blank">服务保障</a>
         </div>
         <p class="arc-info">Copyright 2017 www.guazi.com All Rights Reserved</p>
         <p class="arc-info">京ICP备15053955号  ICP证151071号 </p>

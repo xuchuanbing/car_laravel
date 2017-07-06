@@ -935,18 +935,18 @@
 
         <div class="nav-list">
             <a class="fl "
-               href="/ask/" data-gzlog="tracking_type=click&eventid=0010000000000012" title="瓜子问答">瓜子问答</a>
+               href="{{url('/home/wenda1')}}" data-gzlog="tracking_type=click&eventid=0010000000000012" title="瓜子问答">瓜子问答</a>
             <a class="fr " baidu_alog="pc_index_top_tab&click&pc_index_top_tab_carfina_c"
-               href="http://jr.guazi.com/bj/?jr_from=homehead&platform=pc"
+               href="{{url('/home/fenqi')}}"
                data-gzlog="tracking_type=click&eventid=0010000000000011">瓜子金融</a>
             <a class="fl " baidu_alog="pc_index_top_tab&click&pc_index_top_tab_intro_c"
-               href="/bj/intro/" data-gzlog="tracking_type=click&eventid=0010000000000010">瓜子服务</a>
+               href="{{url('/home/fuwubozhang')}}" data-gzlog="tracking_type=click&eventid=0010000000000010">瓜子服务</a>
             <a class="fl " baidu_alog="pc_index_top_tab&click&pc_index_top_tab_sell_c"
-               href="/bj/sell/?clueS=01" data-gzlog="tracking_type=click&eventid=0010050000000009">我要卖车</a>
+               href="{{url('/home/seller')}}" data-gzlog="tracking_type=click&eventid=0010050000000009">我要卖车</a>
             <a class="fl active" baidu_alog="pc_index_top_tab&click&pc_index_top_tab_buy_c"
-               href="/bj/buy/" data-gzlog="tracking_type=click&eventid=0010000000000008">我要买车</a>
+               href="{{url('/home/buyers')}}" data-gzlog="tracking_type=click&eventid=0010000000000008">我要买车</a>
             <a class="fl " baidu_alog="pc_index_top_tab&click&pc_index_top_tab_index_c"
-               href="/bj/" data-gzlog="tracking_type=click&eventid=0010000000000007">首页</a>
+               href="{{url('/home')}}" data-gzlog="tracking_type=click&eventid=0010000000000007">首页</a>
         </div>
     </div>
 </div>

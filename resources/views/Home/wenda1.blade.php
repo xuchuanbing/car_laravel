@@ -992,20 +992,20 @@
                 </div>
             </a>
             <a class="f1 hot-icon " baidu_alog="pc_index_top_tab&click&pc_index_top_tab_carfina_c"
-               href="https://jr.guazi.com/qd/?jr_from=homehead&platform=pc"
+               href="{{url('/home/fenqi')}}"
                data-gzlog="tracking_type=click&eventid=0010000000000011" title="二手车分期付款">分期购车<i></i></a>
             <a class="fl " baidu_alog="pc_index_top_tab&click&pc_index_top_tab_index_c"
-               href="/qd/" data-gzlog="tracking_type=click&eventid=0010000000000007" title="瓜子二手车">首页</a>
+               href="{{url('/home')}}" data-gzlog="tracking_type=click&eventid=0010000000000007" title="瓜子二手车">首页</a>
             <a class="fl " baidu_alog="pc_index_top_tab&click&pc_index_top_tab_buy_c"
-               href="/qd/buy/" data-gzlog="tracking_type=click&eventid=0010000000000008"
+               href="{{url('/home/buyers')}}" data-gzlog="tracking_type=click&eventid=0010000000000008"
                title="青岛个人二手车">我要买车</a>
             <a class="fl " baidu_alog="pc_index_top_tab&click&pc_index_top_tab_sell_c"
-               href="/qd/sell/?clueS=01" data-gzlog="tracking_type=click&eventid=0010050000000009"
+               href="{{url('/home/seller')}}" data-gzlog="tracking_type=click&eventid=0010050000000009"
                title="青岛二手车出售">我要卖车</a>
             <a class="fl " baidu_alog="pc_index_top_tab&click&pc_index_top_tab_intro_c"
-               href="/qd/intro/" data-gzlog="tracking_type=click&eventid=0010000000000010" title="瓜子二手车服务保障">服务保障</a>
+               href="{{url('/home/fuwubozhang')}}" data-gzlog="tracking_type=click&eventid=0010000000000010" title="瓜子二手车服务保障">服务保障</a>
 
-            <a class="fr active" href="/ask/" title="瓜子二手车问答系统">二手车问答</a>
+            <a class="fr active" href="{{url('/home/wenda1')}}" title="瓜子二手车问答系统">二手车问答</a>
 
 
         </div>
