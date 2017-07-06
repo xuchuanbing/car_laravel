@@ -322,12 +322,12 @@
         <div class="w">
                                         
             <a class="fr" target="_blank" href="http://www.guazi.com/zq_app/" gjalog="100000000521000100000010">APP下载</a>
-            <a baidu_alog="pc_index_top_tab&click&pc_index_top_tab_fenqi_c" class="fr active" href="/" gjalog="100000001231000100000010">分期购车</a>
+            <a baidu_alog="pc_index_top_tab&click&pc_index_top_tab_fenqi_c" class="fr active" href="{{url('/home/fenqi')}}" gjalog="100000001231000100000010">分期购车</a>
             <!--<a class="fr" href="http://www.guazi.com/zq_expandMarket/" gjalog="100000001248000100000010">车生活</a>-->
-            <a class="fl" href="http://www.guazi.com/bj/" class="active" gjalog="100000000053000100000010">首页</a>
-            <a class="fl" href="http://www.guazi.com/bj/buy/" gjalog="100000000054000100000010">我要买车</a>
-            <a class="fl" href="http://www.guazi.com/bj/sell/" gjalog="100000000055000100000010">我要卖车</a>
-            <a class="fl" href="http://www.guazi.com/bj/intro/" gjalog="100000000056000100000010">服务保障</a>
+            <a class="fl" href="{{url('/home')}}" class="active" gjalog="100000000053000100000010">首页</a>
+            <a class="fl" href="{{url('/home/buyers')}}" gjalog="100000000054000100000010">我要买车</a>
+            <a class="fl" href="{{url('/home/seller')}}" gjalog="100000000055000100000010">我要卖车</a>
+            <a class="fl" href="{{url('/home/fuwubozhang')}}" gjalog="100000000056000100000010">服务保障</a>
         </div>
     </div>
 </div>
