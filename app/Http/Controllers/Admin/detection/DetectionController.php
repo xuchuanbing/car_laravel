@@ -6,7 +6,7 @@ namespace App\Http\Controllers\Admin\Detection;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Detection;
-use Qiniu\Auth;
+
 
 
 
@@ -51,37 +51,36 @@ class DetectionController extends Controller
             $disk = \Storage::disk('qiniu'); //使用七牛云上传  
 
             $file = $request->file('picture');
-            //dd($file);
 
             $ext = $file->extension();
-            //dd($ext);
 
             if(in_array($ext,["jpeg","png","gif","jpg"])){
 
+                $filename = rand(10000,99999);
 
-                $filename = time().rand(1000,9999).".".$ext;
-                //dd($filename);
-                //$filename = $request->file('picture');
-                $time = date('Y/m/d-H:i:s-');
-
-                 $filename = $disk->put($filename,$request->file('picture'));//上传
-                   
-
-
-                 $img_url = $disk->downloadUrl($filename);   //获取下载链接  
-                dd($img_url);
+                $filenames = $disk->put($filename,$request->file('picture'));//上传
+  
             }
+
+            $img_url = $filenames;   //获取下载链接 
 
             $list = $request->only('commodity_id','uid','testing_id','price','hits');
 
-        //表单验证
-        // $this->validate($request, [
+        // //表单验证
+        
+        //  $this->validate($request, [
 
-        //     'commodity_id' => 'required|unique:detection|commodity_id',
-        //     'testing_id' => 'required|unique:detection|alpha_num',
-        //     'price' => 'required|unique:detection',
-        //     'hits' => 'required|unique:detection',
-        // ]);
+        //      'commodity_id' => 'required|unique:detection|numeric|commodity_id',
+        //      'testing_id' => 'required|unique:detection|alpha_num',
+        //      'price' => 'required|unique:detection',
+        //      'hits' => 'required|unique:detection',
+        //  ]);
+
+        //   if ($v->fails()){
+
+        //         return redirect()->back()->withErrors($v->errors());
+
+        //     }
 
             $list['picture'] = $img_url;
 
@@ -145,24 +144,24 @@ class DetectionController extends Controller
         if($picname['picture'] !== null){
 
         
-        if($request->file("picture")->isValid()){
+        if($request->file("picture")){
 
+            $disk = \Storage::disk('qiniu'); //使用七牛云上传 
+            
             $file = $request->file("picture");
+
             $ext = $file->extension();
+
             if(in_array($ext,["jpeg","png","gif","jpg"])){
+
                 $filename = time().rand(1000,9999).".".$ext;
-                $file->move("./uploads/",$filename);
-                $li = $detection->where("id",$id)->first();
-                //print_r($request->path());die;
-                $pic = public_path().'/uploads/'.$li->picture;
-                //print_r();die;
-                if(isset($pic)){
-                    @unlink($pic);
-                }
+
+                $filenames = $disk->put($filename,$request->file('picture'));//上传
+
                 $list = $request->only('commodity_id','uid','testing_id','price','hits');
                 
                 //print_r($list);die;
-                $list['picture'] = $filename; 
+                $list['picture'] = $filenames; 
 
                 $detection->where('id',$id)->update($list);
                 return redirect("admin/detection");

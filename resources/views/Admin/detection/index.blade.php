@@ -61,7 +61,7 @@
                                                 <td class="am-text-middle">{{ $vo->uid }}</td>
                                                 <td class="am-text-middle">{{ $vo->commodity_id }}</td>
                                                 <td>
-                                                    <img width="50" src="/uploads/{{ $vo->picture }}" class="tpl-table-line-img" alt="">
+                                                    <img width="50" src='http://oslhf8hmf.bkt.clouddn.com/{{ $vo->picture }}' class="tpl-table-line-img" alt="">
                                                 </td>
                                                 <td class="am-text-middle">{{ $vo->testing_id }}</td>
                                                 <td class="am-text-middle">{{ $vo->price }}</td>
@@ -122,4 +122,3 @@
         </script>
 
 	@endsection
-  
