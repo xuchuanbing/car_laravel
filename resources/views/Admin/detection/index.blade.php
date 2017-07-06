@@ -26,14 +26,19 @@
                                     </div>
                                 </div>
                                 
+
+                                <form method="get" action="{{ url('/admin/detection') }}">
+                                {{ csrf_field() }}
                                 <div class="am-u-sm-12 am-u-md-12 am-u-lg-3" style="float:right;">
                                     <div class="am-input-group am-input-group-sm tpl-form-border-form cl-p">
-                                        <input type="text" class="am-form-field ">
+                                        <input type="text" name="commodity_id" class="am-form-field ">
                                         <span class="am-input-group-btn">
-            <button class="am-btn  am-btn-default am-btn-success tpl-table-list-field am-icon-search" type="button"></button>
-          </span>
+                                <input class="am-btn  am-btn-default am-btn-success tpl-table-list-field am-icon-search" value="搜索" type="submit">
+                                        </span>
                                     </div>
                                 </div>
+                                </form>
+
 
                                 <div class="am-u-sm-12">
                                     <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black ">
@@ -82,7 +87,7 @@
 
                                     <div class="am-fr">
                                         <ul class="am-pagination tpl-pagination">
-                                                {{ $list->links() }}
+                                                {{ $list->appends($where)->links() }}
 
                                         </ul>
                                     </div>

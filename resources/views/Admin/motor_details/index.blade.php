@@ -27,7 +27,7 @@
                                 </div>
 
 
-                        <form method="post" name="myform">
+                        <form method="get" name="myform">
                         {{ csrf_field() }}
                         <div class="am-u-sm-12 am-u-md-12 am-u-lg-3" style="float:right;">
                             <div class="am-input-group am-input-group-sm tpl-form-border-form cl-p">
@@ -96,7 +96,7 @@
                                     <div class="am-fr">
                                         <ul class="am-pagination tpl-pagination">
 
-                                                {{ $list->links() }}
+                                                {{ $list->appends($where)->links() }}
 
 
                                         </ul>

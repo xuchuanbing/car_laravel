@@ -71,6 +71,7 @@ Route::group(['prefix' => 'admin','middleware' => 'admin'],function(){
     Route::delete('/detection/destroy/{id}','Admin\Detection\DetectionController@destroy');
     Route::get('detection/{id}/edit','Admin\Detection\DetectionController@edit');
     Route::put('detection/{id}','Admin\Detection\DetectionController@update');
+    //Route::post("detection/",'Admin\Detection\DetectionController@index');
 
 
     Route::get('/motor_details','Admin\Motor_details\Motor_detailsController@index');
