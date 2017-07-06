@@ -66,13 +66,13 @@ return [
         'qiniu' => [
             'driver'  => 'qiniu',
             'domains' => [
-                'default'   => 'oslhf8hmf.bkt.clouddn.com', //你的七牛域名
+                'default'   => env('QN_DEFAULT'), //你的七牛域名
                 'https'     => '',         //你的HTTPS域名
                 'custom'    => '',     //你的自定义域名
              ],
-            'access_key'=> 'TbUUeUBnPisOcn8p-bfFL7HN4lEU0LZOzALXN1cO',  //AccessKey
-            'secret_key'=> 'FKyzIzTT96n2kAopkrDC79BuFYU5e4Z07VuMQt0w',  //SecretKey
-            'bucket'    => '',  //Bucket名字
+            'access_key'=> env('QN_ACCESS'),  //AccessKey
+            'secret_key'=> env('QN_SECRET'),  //SecretKey
+            'bucket'    => env('QN_BUCKET'),  //Bucket名字
             'notify_url'=> '',  //持久化处理回调地址
         ],
 

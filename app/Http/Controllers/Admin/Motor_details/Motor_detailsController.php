@@ -15,9 +15,14 @@ class Motor_detailsController extends Controller
      */
     public function index(Request $request)
     {
-        $list = Motor_details::paginate(2);
+        $where = [];
+        if($request->only('title')){
+            $title = $request->input('title');
+            $where['title'] = $title;
 
-        return view("Admin.motor_details.index",["list"=>$list]);
+        }
+        $list = Motor_details::where('title','like','%'.$title.'%')->paginate(5);
+        return view("Admin.motor_details.index",["list"=>$list,'where'=>$where]);
     }
 
     /**

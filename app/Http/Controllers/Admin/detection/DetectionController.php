@@ -6,6 +6,8 @@ namespace App\Http\Controllers\Admin\Detection;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Detection;
+use Qiniu\Auth;
+
 
 
 class DetectionController extends Controller
@@ -15,10 +17,15 @@ class DetectionController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $list = Detection::paginate(2);
-        return view("Admin.detection.index",["list"=>$list]);
+        $where = [];
+        if($request->only('commodity_id')){
+            $name = $request->input('commodity_id');
+            $where['commodity_id'] = $name;
+        }
+        $list = Detection::where('commodity_id','like','%'.$name.'%')->paginate(2);
+        return view("Admin.detection.index",["list"=>$list,'where'=>$where]);
     }
 
     /**
@@ -41,16 +48,28 @@ class DetectionController extends Controller
     {
         if($request->file('picture')){
 
+            $disk = \Storage::disk('qiniu'); //使用七牛云上传  
+
             $file = $request->file('picture');
+            //dd($file);
 
             $ext = $file->extension();
+            //dd($ext);
 
             if(in_array($ext,["jpeg","png","gif","jpg"])){
 
+
                 $filename = time().rand(1000,9999).".".$ext;
+                //dd($filename);
+                //$filename = $request->file('picture');
+                $time = date('Y/m/d-H:i:s-');
 
-                $file->move("./uploads/",$filename);
+                 $filename = $disk->put($filename,$request->file('picture'));//上传
+                   
 
+
+                 $img_url = $disk->downloadUrl($filename);   //获取下载链接  
+                dd($img_url);
             }
 
             $list = $request->only('commodity_id','uid','testing_id','price','hits');
@@ -64,7 +83,7 @@ class DetectionController extends Controller
         //     'hits' => 'required|unique:detection',
         // ]);
 
-            $list['picture'] = $filename;
+            $list['picture'] = $img_url;
 
             $id = Detection::insertGetId($list);
 
