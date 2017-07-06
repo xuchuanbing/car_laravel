@@ -69,7 +69,7 @@
                                                 <td class="am-text-middle">{{ $vo->infomation }}</td>
                                                 
                                                 <td>
-                                                    <img width="50" src="/uploads/{{ $vo->picname }}" class="tpl-table-line-img" alt="">
+                                                    <img width="50" src='http://oslhf8hmf.bkt.clouddn.com/{{ $vo->picname }}' class="tpl-table-line-img" alt="">
                                                 </td>
                                                 <td class="am-text-middle">{{ $vo->test_repoot }}</td>
                                                 <td class="am-text-middle">{{ $vo->parameter }}</td>

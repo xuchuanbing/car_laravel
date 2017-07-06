@@ -65,7 +65,7 @@
                                         <div class="am-u-sm-9">
                                             <div class="am-form-group am-form-file">
                                                 <div class="tpl-form-file-img">
-                                                    <img width="50" src="/uploads/{{ $list->picname }}" alt="">
+                                                    <img width="50" src='http://oslhf8hmf.bkt.clouddn.com/{{ $vo->picname }}' alt="">
                                                 </div>
                                                 <button type="button" class="am-btn am-btn-danger am-btn-sm"><i class="am-icon-cloud-upload"></i> 添加图片信息</button>
                                                 <input id="doc-form-file" name="picname" type="file" multiple="">

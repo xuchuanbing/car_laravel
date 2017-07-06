@@ -43,14 +43,18 @@ class Motor_detailsController extends Controller
      */
     public function store(Request $request)
     {
-        if($request->file("picname")->isValid()){
+        if($request->file("picname")){
+            $disk = \Storage::disk('qiniu'); //使用七牛云上传 
             $file = $request->file("picname");
+
             $ext = $file->extension();
+
             if(in_array($ext,["jpeg","png","gif","jpg"])){
+
                 $filename = time().rand(1000,9999).".".$ext;
-               // $img = Image::make($filename)->resize(300, 200);
-                //$file->move("./uploads/","s_".$img);
-                $file->move("./uploads/",$filename);
+
+                $filenames = $disk->put($filename,$request->file('picname'));//上传
+
             }else{
                 return back()->with("文件格式不正确");
             }
@@ -61,11 +65,11 @@ class Motor_detailsController extends Controller
        
         $list = $request->only('title','price','save_price','introduce','infomation','test_repoot','parameter','source');
 
-        $list['picname'] = $filename;
+        $list['picname'] = $filenames;
         $id = Motor_details::insertGetId($list);
         if($id>0){
+            
             return redirect("admin/motor_details");
-            return back()->with("err","添加成功！！");
 
         }else{
             return back()->with("err","添加失败！！");
@@ -114,25 +118,25 @@ class Motor_detailsController extends Controller
 
         }elseif($list['picname'] !== null){
 
-            if($request->file('picname')->isValid()){
+            if($request->file('picname')){
+                $disk = \Storage::disk('qiniu'); //使用七牛云上传  
 
                 $file = $request->file('picname');
+
                 $ext = $file->extension();
+
                 if(in_array($ext,["jpeg","png","gif","jpg"])){
+
                 $filename = time().rand(1000,9999).".".$ext;
-               // $img = Image::make($filename)->resize(300, 200);
-                //$file->move("./uploads/","s_".$img);
-                $file->move("./uploads/",$filename);
+
+                $filenames = $disk->put($filename,$request->file('picname'));//上传
+
                 $id = $request->input("id");
                 $li = $motor_details->where("id",$id)->first();
                 
-                $pic = public_path().'\uploads\\'.$li->picname;
-                if(isset($pic)){
-                    @unlink($pic);
-                }
                 
                 $list = $request->only('title','price','save_price','introduce','infomation','test_repoot','parameter','source');
-                $list['picname'] = $filename;
+                $list['picname'] = $filenames;
                 //print_r($list['picname']);die;
                 $id = $motor_details->where("id",$id)->update($list);
                 return redirect("admin/motor_details");
@@ -153,11 +157,6 @@ class Motor_detailsController extends Controller
      */
     public function destroy($id)
     {
-        $li = Motor_details::where("id",$id)->first();
-        $pic = public_path().'/uploads/'.$li->picture;
-        if(isset($pic)){
-            @unlink($pic);
-        }
         Motor_details::where("id",$id)->delete();
         return back()->with("err","删除成功！");
     }
