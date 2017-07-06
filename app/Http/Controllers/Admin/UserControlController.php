@@ -11,7 +11,7 @@ class UserControlController extends Controller
 {
     public function index()
     {
-		$user = UserControl::all();
+		$user = UserControl::where('state',1)->get();
 		//$users = UserControl::where('name','=','lili')->paginate(15);
         return view("Admin.user_control.index",compact('user',$user));
     }
