@@ -82,9 +82,8 @@
 
                                     <div class="am-fr">
                                         <ul class="am-pagination tpl-pagination">
-                                            <li class="am-disabled"><a href="#">«</a></li>
-                                            
-                                            <li><a href="#">»</a></li>
+                                                {{ $list->links() }}
+
                                         </ul>
                                     </div>
                                 </div>
@@ -100,13 +99,14 @@
             <input type="hidden" name="_token" value="{{ csrf_token() }}"/>
             <input type="hidden" name="_method" value="delete"/>
         </form>
+
         <script type="text/javascript">
             function Del(id){
 
                 Modal.confirm({ msg: "是否删除角色？"}).on(function(e){
                     if(e){
                         var form = document.myform;
-                        form.action = "{{ url('admin/detection') }}/"+id;
+                        form.action = "{{ url('admin/detection/destroy') }}/"+id;
                         form.submit();
                     }
 
