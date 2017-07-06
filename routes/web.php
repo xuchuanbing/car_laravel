@@ -37,6 +37,9 @@ Route::group(['prefix' => 'admin','middleware' => 'admin'],function(){
     Route::get('/buyers','Admin\BuyersController@index');
     Route::get('/seller','Admin\SellerController@index');
     Route::post('detection/store', 'Admin\detection\DetectionController@store');
+
+    Route::get('/usercontrol_cao','Admin\UserCaoController@index');
+    
 	
 	Route::get('/seller_order_details', 'Admin\Seller_order_detailsController@index');//卖家订单详情管理显示页面
 	Route::get('/seller_order_details/edit/{id}','Admin\Seller_order_detailsController@edit');//加载编辑页面
