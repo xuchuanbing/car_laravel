@@ -15,6 +15,14 @@ class HomeMiddleware
      */
     public function handle($request, Closure $next)
     {
-        return $next($request);
+
+    //  if(!$request->session()->has('phone')){
+
+    //      return redirect('/');
+
+    //  }else{
+        
+    // }
+return $next($request);
     }
 }

@@ -10,7 +10,7 @@
                     </div>
                 </div>
                 <div class="widget-body  widget-body-lg am-fr">
-					<table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+					<table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black ">
                         <thead>
                             <tr>
                                 <th>用户ID</th>

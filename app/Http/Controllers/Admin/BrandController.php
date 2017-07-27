@@ -69,9 +69,9 @@ class BrandController extends Controller
         //$list['picture'] = $filename;
         if(($list['brand_name']!==null)){
 			Brand::insertGetId($list);
-			return redirect("admin/brand");
+			return redirect("Admin/brand");
 		}else{
-			return redirect("admin/brand/create");
+			return redirect("Admin/brand/create");
 		}
 		//return $id;
         
@@ -116,7 +116,7 @@ class BrandController extends Controller
         $id = Brand::where("id",$id)->update($list);
         if($id>0){
             echo "修改成功!";
-			 return redirect('admin/brand');
+			 return redirect('Admin/brand');
         }else{
             echo "修改失败!";
         }
@@ -131,6 +131,6 @@ class BrandController extends Controller
     public function destroy($id)
     {
          $post = Brand::find($id)->delete();
-		 return redirect('admin/brand');
+		 return redirect('Admin/brand');
     }
 }

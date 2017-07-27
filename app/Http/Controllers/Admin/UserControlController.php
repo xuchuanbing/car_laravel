@@ -33,7 +33,7 @@ class UserControlController extends Controller
 		//dd($dd);
 		if($dd>0){
 			//echo "修改成功!";
-            return redirect('admin/usercontrol');
+            return redirect('Admin/usercontrol');
         }else{
             return back()->with("err","修改失败!");
         }
@@ -45,11 +45,7 @@ class UserControlController extends Controller
 			$post = UserControl::find($id);
 			//dd($post);
 			$post->delete();
-			/* if($post->trashed()){
-				echo '软删除成功！';
-				dd($post);
-			}else{
-				echo '软删除失败！';
-			} */
+        UserControl::where("id",$id)->delete();
+        return redirect("Admin/userControl");
 	}	
 } 

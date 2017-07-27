@@ -1,4 +1,4 @@
-@extends('\Admin.base')
+@extends('Admin.base')
 
         	@section('content')
         <!-- 内容区域 -->
@@ -11,9 +11,14 @@
                         <div class="widget am-cf">
                             <div class="widget-head am-cf">
                                 <div class="widget-title  am-cf">商品详情表 >> 商品详情</div>
-
-
                             </div>
+                            <center>
+                            @if(session("ff"))
+                                    <p style="color:red;">{{ session()->pull('ff') }}</p>
+                                @else
+                                    <p class="login-box-msg"></p>
+                                @endif
+                            </center>
                             <div class="widget-body  am-fr">
 
                                 <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
@@ -45,25 +50,22 @@
                                         <thead>
                                             <tr>
                                                 <th>序列号</th>
-                                                <th>用户ID</th>
-                                                <th>商品ID</th>
+                                                <th>卖家用户</th>
                                                 <th>图片</th>
-                                                <th>检测结果id</th>
                                                 <th>价格</th>
                                                 <th>点击量</th>
                                                 <th>操作</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                        @foreach($list as $vo)
+                                        @foreach($list as $k=>$vo)
                                             <tr class="gradeX">
                                                 <td class="am-text-middle">{{ $vo->id }}</td>
-                                                <td class="am-text-middle">{{ $vo->uid }}</td>
-                                                <td class="am-text-middle">{{ $vo->commodity_id }}</td>
+                                                <td class="am-text-middle">@if ($vo->uid=="0") 官方自营 @else ($vo->uid=="1") 第三方@endif
+                                                </td>
                                                 <td>
                                                     <img width="50" src='http://oslhf8hmf.bkt.clouddn.com/{{ $vo->picture }}' class="tpl-table-line-img" alt="">
                                                 </td>
-                                                <td class="am-text-middle">{{ $vo->testing_id }}</td>
                                                 <td class="am-text-middle">{{ $vo->price }}</td>
                                                 <td class="am-text-middle">{{ $vo->hits }}</td>
                                                 <td class="am-text-middle">
@@ -106,18 +108,17 @@
         </form>
 
         <script type="text/javascript">
-            function Del(id){
+        function Del(id){
+            e = confirm("确定是否删除？")
+                if(e){
+                    form = document.myform;
+                    form.action = "{{ url('admin/detection/destroy') }}/"+id
+                    form.submit();
+                }else{
+                    return;
+                }
 
-                Modal.confirm({ msg: "是否删除角色？"}).on(function(e){
-                    if(e){
-                        var form = document.myform;
-                        form.action = "{{ url('admin/detection/destroy') }}/"+id;
-                        form.submit();
-                    }
-
-                })
-
-            }
+        }
 
         </script>
 

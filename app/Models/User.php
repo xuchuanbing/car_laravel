@@ -9,5 +9,5 @@ class User extends Model
 {
 	public $timestamps = false;
     protected $table = "users";
-	//protected $dates = ['delete_at'];
+	protected $dates = ['delete_at'];
 }

@@ -1,4 +1,4 @@
-@extends('\Admin.base')
+@extends('Admin.base')
 
             @section('content')
 <!-- 内容区域 -->
@@ -22,26 +22,18 @@
                                 <input type="hidden" name="_method" value="put">
                                 <input type="hidden" name="pic" value="{{ $list->picture }}">
                                 <input type="hidden" name="id" value="{{ $list->id }}">
-                                
+
+                                    <div class="am-form-group">
+                                        <label for="user-name" class="am-u-sm-3 am-form-label">汽车ID</label>
+                                        <div class="am-u-sm-9">
+                                            <input type="text" name="uid" value="{{ $list->uid }}" class="tpl-form-input" id="user-name" placeholder="汽车ID">
+                                        </div>
+                                    </div>
 
                                     <div class="am-form-group">
                                         <label for="user-name" class="am-u-sm-3 am-form-label">商品标题</label>
                                         <div class="am-u-sm-9">
                                             <input type="text" name="title" value="{{ $list->title }}" class="tpl-form-input" id="user-name" placeholder="商品标题">
-                                        </div>
-                                    </div>
-
-                                    <div class="am-form-group">
-                                        <label for="user-name" class="am-u-sm-3 am-form-label">车主报价</label>
-                                        <div class="am-u-sm-9">
-                                            <input type="text" name="price" value="{{ $list->price }}" class="tpl-form-input" id="user-name" placeholder="车主报价">
-                                        </div>
-                                    </div>
-
-                                    <div class="am-form-group">
-                                        <label for="user-name" class="am-u-sm-3 am-form-label">服务费用</label>
-                                        <div class="am-u-sm-9">
-                                            <input type="text" name="save_price" value="{{ $list->price }}" class="tpl-form-input" id="user-name" placeholder="服务费用">
                                         </div>
                                     </div>
 
@@ -65,14 +57,20 @@
                                         <div class="am-u-sm-9">
                                             <div class="am-form-group am-form-file">
                                                 <div class="tpl-form-file-img">
-                                                    <img width="50" src='http://oslhf8hmf.bkt.clouddn.com/{{ $vo->picname }}' alt="">
+                                                    <img width="50" src='http://oslhf8hmf.bkt.clouddn.com/{{ $list->picname }}' alt="">
                                                 </div>
                                                 <button type="button" class="am-btn am-btn-danger am-btn-sm"><i class="am-icon-cloud-upload"></i> 添加图片信息</button>
-                                                <input id="doc-form-file" name="picname" type="file" multiple="">
+                                                <input id="doc-form-file" name="picname[]" type="file" multiple="">
                                             </div>
                                         </div>
                                     </div>
-
+                                    
+                                    <div class="am-form-group">
+                                        <label for="user-email" class="am-u-sm-3 am-form-label">车源号</label>
+                                        <div class="am-u-sm-9">
+                                            <input type="text" name="car_id" value="{{ $list->car_id }}" class="am-form-field tpl-form-no-bg" placeholder="车源号">
+                                        </div>
+                                    </div>
 
                                     <div class="am-form-group">
                                         <label for="user-email" class="am-u-sm-3 am-form-label">检测报告</label>
@@ -81,25 +79,6 @@
                                         </div>
                                     </div>
 
-                                    <div class="am-form-group">
-                                        <label for="user-email" class="am-u-sm-3 am-form-label">配置参数</label>
-                                        <div class="am-u-sm-9">
-                                            <input type="text" name="parameter" value="{{ $list->parameter }}" class="am-form-field tpl-form-no-bg" placeholder="配置参数">
-                                        </div>
-                                    </div>
-
-
-                                    <div class="am-form-group">
-                                        <label for="user-phone" class="am-u-sm-3 am-form-label">车辆来源
-                                        </label>
-                                        <div class="am-u-sm-9">
-                                            <select data-am-selected="{searchBox: 0}" name="source">
-                                              <option value="">--请选择--</option>
-                                              <option value="0" @if ($list->source == '0') selected @endif>官方自营</option>
-                                              <option value="1" @if ($list->source == '1') selected @endif>第三方</option>
-                                            </select>
-                                        </div>
-                                    </div>
 
                                     <div class="am-form-group">
                                         <div class="am-u-sm-9 am-u-sm-push-3">

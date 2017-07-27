@@ -20,12 +20,12 @@ class DetectionController extends Controller
     public function index(Request $request)
     {
         $where = [];
-        if($request->only('commodity_id')){
-            $name = $request->input('commodity_id');
-            $where['commodity_id'] = $name;
+        if($request->only('id')){
+            $name = $request->input('id');
+            $where['id'] = $name;
         }
-        $list = Detection::where('commodity_id','like','%'.$name.'%')->paginate(2);
-        return view("Admin.detection.index",["list"=>$list,'where'=>$where]);
+        $list = Detection::where('id','like','%'.$name.'%')->paginate(5);
+        return view("admin.detection.index",["list"=>$list,'where'=>$where]);
     }
 
     /**
@@ -35,7 +35,7 @@ class DetectionController extends Controller
      */
     public function create()
     {
-        return view("admin.detection.add");
+        return view("Admin.detection.add");
     }
 
     /**
@@ -64,40 +64,25 @@ class DetectionController extends Controller
 
             $img_url = $filenames;   //获取下载链接 
 
-            $list = $request->only('commodity_id','uid','testing_id','price','hits');
+            $list = $request->only('uid','price','hits');
 
-        // //表单验证
-        
-        //  $this->validate($request, [
-
-        //      'commodity_id' => 'required|unique:detection|numeric|commodity_id',
-        //      'testing_id' => 'required|unique:detection|alpha_num',
-        //      'price' => 'required|unique:detection',
-        //      'hits' => 'required|unique:detection',
-        //  ]);
-
-        //   if ($v->fails()){
-
-        //         return redirect()->back()->withErrors($v->errors());
-
-        //     }
 
             $list['picture'] = $img_url;
 
             $id = Detection::insertGetId($list);
 
             if($id>0){
-
+                session()->put("ff","添加成功！");
                 return redirect("admin/detection");
 
             }else{
-
-                return back()->width("msg","添加失败");
+                session()->put("ff","添加失败！");
+                return redirect("admin/detection/create");
             }
 
         }else{
-
-            return back()->with("msg","没有图片被上传！");
+            session()->put("ff","没有图片被上传！");
+            return redirect("admin/detection/create");
 
         }
 
@@ -154,11 +139,11 @@ class DetectionController extends Controller
 
             if(in_array($ext,["jpeg","png","gif","jpg"])){
 
-                $filename = time().rand(1000,9999).".".$ext;
+                $filename =rand(1000,9999);
 
                 $filenames = $disk->put($filename,$request->file('picture'));//上传
 
-                $list = $request->only('commodity_id','uid','testing_id','price','hits');
+                $list = $request->only('uid','price','hits');
                 
                 //print_r($list);die;
                 $list['picture'] = $filenames; 
@@ -171,7 +156,7 @@ class DetectionController extends Controller
 
         }else{
                 
-                $list = $request->only('commodity_id','uid','testing_id','price','hits');
+                $list = $request->only('uid','price','hits');
 
                 $list['picture'] = $request->get("pic");
                 
@@ -194,12 +179,8 @@ class DetectionController extends Controller
      */
     public function destroy($id)
     {
-        $li = Detection::where("id",$id)->first();
-        $pic = public_path().'/uploads/'.$li->picture;
-        if(isset($pic)){
-            @unlink($pic);
-        }
         Detection::where("id",$id)->delete();
-        return back()->with("err","删除成功！");
+        session()->put("ff","删除成功！");
+        return redirect('admin/detection');
     }
 }

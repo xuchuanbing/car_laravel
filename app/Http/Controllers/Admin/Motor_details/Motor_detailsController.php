@@ -22,7 +22,7 @@ class Motor_detailsController extends Controller
 
         }
         $list = Motor_details::where('title','like','%'.$title.'%')->paginate(5);
-        return view("Admin.motor_details.index",["list"=>$list,'where'=>$where]);
+        return view("admin.motor_details.index",["list"=>$list,'where'=>$where]);
     }
 
     /**
@@ -43,29 +43,35 @@ class Motor_detailsController extends Controller
      */
     public function store(Request $request)
     {
-        if($request->file("picname")){
-            $disk = \Storage::disk('qiniu'); //使用七牛云上传 
-            $file = $request->file("picname");
+        $img = $request->file("picname");
+        //dd($img);
+        foreach ($img as $k=>$v){
+            if($img[$k]){
+                    
+                    $disk = \Storage::disk('qiniu'); //使用七牛云上传 
+                    $file = $img[$k];
 
-            $ext = $file->extension();
+                    $ext = $file->extension();
 
-            if(in_array($ext,["jpeg","png","gif","jpg"])){
+                    if(in_array($ext,["jpeg","png","gif","jpg"])){
 
-                $filename = time().rand(1000,9999).".".$ext;
+                        $filename =rand(1000,9999);
 
-                $filenames = $disk->put($filename,$request->file('picname'));//上传
+                        $filenames[$k] = $disk->put($filename,$img[$k]);//上传
 
-            }else{
-                return back()->with("文件格式不正确");
+                    }else{
+                        return back()->with("文件格式不正确");
+                    }
             }
-
         }
 
         //获取表单信息
-       
-        $list = $request->only('title','price','save_price','introduce','infomation','test_repoot','parameter','source');
-
-        $list['picname'] = $filenames;
+        //var_dump($filenames);
+        $pic = implode(",",$filenames);
+        //dd($pic);
+        $list = $request->only('uid','title','introduce','infomation','car_id','test_repoot');
+        $list['picname']=$filenames[0];
+        $list['pics'] = $pic;    
         $id = Motor_details::insertGetId($list);
         if($id>0){
             
@@ -111,41 +117,57 @@ class Motor_detailsController extends Controller
         $motor_details = new motor_details;
         $list = $request->only('picname');
         if($list['picname'] == null){
-            $list = $request->only('title','price','save_price','introduce','infomation','test_repoot','parameter','source');
+
+            $list = $request->only('uid','title','introduce','infomation','car_id','test_repoot');
             $id = $request->input("id");
             $id = $motor_details->where("id",$id)->update($list);
             return redirect("admin/motor_details");
 
+
         }elseif($list['picname'] !== null){
 
             if($request->file('picname')){
-                $disk = \Storage::disk('qiniu'); //使用七牛云上传  
 
-                $file = $request->file('picname');
+            $img = $request->file("picname");
 
-                $ext = $file->extension();
+        foreach ($img as $k=>$v){
+            if($img[$k]){
+                    
+                    $disk = \Storage::disk('qiniu'); //使用七牛云上传 
+                    $file = $img[$k];
 
-                if(in_array($ext,["jpeg","png","gif","jpg"])){
+                    $ext = $file->extension();
 
-                $filename = time().rand(1000,9999).".".$ext;
+                    if(in_array($ext,["jpeg","png","gif","jpg"])){
 
-                $filenames = $disk->put($filename,$request->file('picname'));//上传
+                        $filename =rand(1000,9999);
 
-                $id = $request->input("id");
-                $li = $motor_details->where("id",$id)->first();
-                
-                
-                $list = $request->only('title','price','save_price','introduce','infomation','test_repoot','parameter','source');
-                $list['picname'] = $filenames;
-                //print_r($list['picname']);die;
-                $id = $motor_details->where("id",$id)->update($list);
-                return redirect("admin/motor_details");
-                }else{
-                    return back()->with("文件格式不正确");
-                }
+                        $filenames[$k] = $disk->put($filename,$img[$k]);//上传
 
+                    }else{
+                        return back()->with("文件格式不正确");
+                    }
             }
         }
+
+        //获取表单信息
+
+        $pic = implode(",",$filenames);
+        //dd($pic);
+        $list = $request->only('uid','title','introduce','infomation','test_repoot');
+        $list['pics'] = $pic;  
+        $list['picname'] = $filenames[0];
+        //dd($list);
+        $id = $request->input("id");
+        $id = $motor_details->where("id",$id)->update($list);
+
+        return redirect("admin/motor_details");
+        }else{
+            return back()->with("文件格式不正确");
+        }
+
+    }
+        
 
     }
 

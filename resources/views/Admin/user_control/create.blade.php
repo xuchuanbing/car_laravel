@@ -18,31 +18,31 @@
 								         {{ csrf_field() }}
 								     <input type="text" style="display:none;" name="id" value="{{$list->id}}">
                                     <div class="am-form-group">
-                                        <label for="user-name" class="am-u-sm-3 am-form-label">姓名 <span class="tpl-form-line-small-title">name</span></label>
+                                        <label for="user-name" class="am-u-sm-3 am-form-label">姓名</label>
                                         <div class="am-u-sm-9">
                                             <input type="text" class="tpl-form-input" name="name" id="user-name" value="{{$list->name}}">
                                         </div>
                                     </div>
 									<div class="am-form-group">
-                                        <label for="user-name" class="am-u-sm-3 am-form-label">密码<span class="tpl-form-line-small-title">password</span></label>
+                                        <label for="user-name" class="am-u-sm-3 am-form-label">密码</label>
                                         <div class="am-u-sm-9">
                                             <input type="text" class="tpl-form-input" name="password" id="user-name" value="{{$list->password}}">
                                         </div>
                                     </div>
 								    <div class="am-form-group">
-                                        <label for="user-name" class="am-u-sm-3 am-form-label">邮箱<span class="tpl-form-line-small-title">email</span></label>
+                                        <label for="user-name" class="am-u-sm-3 am-form-label">邮箱</label>
                                         <div class="am-u-sm-9">
                                             <input type="text" class="tpl-form-input" name="email" id="user-name" value="{{$list->email}}">
                                         </div>
                                     </div>
 									<div class="am-form-group">
-                                        <label for="user-name" class="am-u-sm-3 am-form-label">电话<span class="tpl-form-line-small-title">phone</span></label>
+                                        <label for="user-name" class="am-u-sm-3 am-form-label">电话</label>
                                         <div class="am-u-sm-9">
                                             <input type="text" class="tpl-form-input" name="phone" id="user-name" value="{{$list->phone}}">
                                         </div>
                                     </div>
 									<div class="am-form-group">
-                                        <label for="user-name" class="am-u-sm-3 am-form-label">状态<span class="tpl-form-line-small-title">state</span></label>
+                                        <label for="user-name" class="am-u-sm-3 am-form-label">状态</label>
                                         <div class="am-u-sm-9">
                                             <input type="radio" name="state" value="1" @if($list->state=='1') checked @endif />管理员
                                             <input type="radio" name="state" value="0" @if($list->state=='0') checked @endif />普通用户

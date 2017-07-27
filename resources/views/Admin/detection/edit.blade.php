@@ -1,4 +1,4 @@
-@extends('\Admin.base')
+@extends('Admin.base')
 
             @section('content')
 <!-- 内容区域 -->
@@ -14,6 +14,13 @@
                             <div class="widget-head am-cf">
                                 <div class="widget-title am-fl">商品详情管理 >> 商品添加</div>
                             </div>
+                            <center>
+                            @if(session("ff"))
+                                    <p style="color:red;">{{ session()->pull('ff') }}</p>
+                                @else
+                                    <p class="login-box-msg"></p>
+                                @endif
+                            </center>
                             <div class="widget-body am-fr">
 
                                 <form action="{{ URL('/admin/detection') }}/{{$list->id}}" method="post" enctype="multipart/form-data" class="am-form tpl-form-border-form tpl-form-border-br">
@@ -24,19 +31,17 @@
                                 <input type="hidden" name="id" value="{{ $list->id }}">
 
                                     <div class="am-form-group">
-                                        <label for="user-name" class="am-u-sm-3 am-form-label">序列号</label>
+                                        <label for="user-phone" class="am-u-sm-3 am-form-label">车辆来源
+                                        </label>
                                         <div class="am-u-sm-9">
-                                            <input type="text" name="uid" value="{{ $list->uid }}" class="tpl-form-input" id="user-name" placeholder="序列号">
+                                            <select data-am-selected="{searchBox: 0}" name="uid">
+                                              <option value="">--请选择--</option>
+                                              <option value="0" @if ($list->uid == '0') selected @endif >官方自营</option>
+                                              <option value="1" @if ($list->uid == '1') selected @endif >第三方</option>
+                                            </select>
                                         </div>
                                     </div>
 
-                                    <div class="am-form-group">
-                                        <label for="user-name" class="am-u-sm-3 am-form-label">商品ID</label>
-                                        <div class="am-u-sm-9"> 
-                                            <input type="text" name="commodity_id" value="{{ $list->commodity_id }}" class="tpl-form-input" id="user-name" placeholder="商品ID">
-                                        </div>
-                                    </div>
-                                    
                                     <div class="am-form-group">
                                         <label for="user-weibo" class="am-u-sm-3 am-form-label">图片信息</label>
                                         <div class="am-u-sm-9">
@@ -47,14 +52,6 @@
                                                 <button type="button" class="am-btn am-btn-danger am-btn-sm"><i class="am-icon-cloud-upload"></i> 添加图片信息</button>
                                                 <input id="doc-form-file" name="picture" type="file" multiple="">
                                             </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="am-form-group">
-                                        <label for="user-email" class="am-u-sm-3 am-form-label">检测结果ID</label>
-                                        <div class="am-u-sm-9">
-                                            <input type="text" name="testing_id" class="am-form-field tpl-form-no-bg" value="{{ $list->testing_id }}" placeholder="检测结果ID">
                                         </div>
                                     </div>
 
@@ -69,7 +66,7 @@
                                     <div class="am-form-group">
                                         <label class="am-u-sm-3 am-form-label">点击量</label>
                                         <div class="am-u-sm-9">
-                                            <input type="text" name="hits"  value="{{ $list->hits }}" placeholder="点击量">
+                                            <input type="text" name="hits" readonly="" value="{{ $list->hits }}" placeholder="点击量">
                                         </div>
                                     </div>
 

@@ -1,4 +1,4 @@
-@extends('\Admin.base')
+@extends('Admin.base')
 
             @section('content')
 <!-- 内容区域 -->
@@ -15,28 +15,30 @@
                                 <div class="widget-title am-fl">商品详情管理 >> 商品添加</div>
                             </div>
                             <div class="widget-body am-fr">
-                            @if(session("msg"))
-                                <p style="color:red;">{{session("msg")}}</p>
-                            @else
-                                <p class="login-box-msg"></p>
-                            @endif
+                            <center>
+                            @if(session("ff"))
+                                    <p style="color:red;">{{ session()->pull('ff') }}</p>
+                                @else
+                                    <p class="login-box-msg"></p>
+                                @endif
+                            </center>
                                 <form action="{{ URL("admin/detection/store") }}" method="post" class="am-form tpl-form-border-form tpl-form-border-br" enctype="multipart/form-data">
                                 {{ csrf_field() }}
                                 <input type="hidden" name="id">
+
+
                                     <div class="am-form-group">
-                                        <label for="user-name" class="am-u-sm-3 am-form-label">用户ID</label>
+                                        <label for="user-phone" class="am-u-sm-3 am-form-label">车辆来源
+                                        </label>
                                         <div class="am-u-sm-9">
-                                            <input type="text" name="uid" class="tpl-form-input" id="user-name" placeholder="用户ID">
+                                            <select data-am-selected="{searchBox: 0}" name="uid">
+                                              <option value="">--请选择--</option>
+                                              <option value="0">官方自营</option>
+                                              <option value="1">第三方</option>
+                                            </select>
                                         </div>
                                     </div>
 
-                                    <div class="am-form-group">
-                                        <label for="user-name" class="am-u-sm-3 am-form-label">商品ID</label>
-                                        <div class="am-u-sm-9">
-                                            <input type="text" name="commodity_id" class="tpl-form-input" id="user-name" placeholder="商品ID">
-                                        </div>
-                                    </div>
-                                    
                                     <div class="am-form-group">
                                         <label for="user-weibo" class="am-u-sm-3 am-form-label">图片信息</label>
                                         <div class="am-u-sm-9">
@@ -44,14 +46,6 @@
                                                 <button type="button" class="am-btn am-btn-danger am-btn-sm"><i class="am-icon-cloud-upload"></i> 添加图片信息</button>
                                                 <input id="doc-form-file" type="file" multiple="" name="picture">
                                             </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="am-form-group">
-                                        <label for="user-email" class="am-u-sm-3 am-form-label">检测结果ID</label>
-                                        <div class="am-u-sm-9">
-                                            <input type="text" name="testing_id" class="am-form-field tpl-form-no-bg" placeholder="检测结果ID">
                                         </div>
                                     </div>
 
@@ -66,7 +60,7 @@
                                     <div class="am-form-group">
                                         <label class="am-u-sm-3 am-form-label">点击量</label>
                                         <div class="am-u-sm-9">
-                                            <input type="text" name="hits" placeholder="点击量">
+                                            <input type="text" name="hits" readonly value="0" placeholder="点击量">
                                         </div>
                                     </div>
 

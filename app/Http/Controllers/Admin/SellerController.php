@@ -13,9 +13,15 @@ class SellerController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        return "aa";
+        $where = [];
+        if($request->only('selleruser_id')){
+            $name = $request->input('selleruser_id');
+            $where['selleruser_id'] = $name;
+        }
+        $list = Seller::where('selleruser_id','like','%'.$name.'%')->paginate(5);
+        return view("Admin.seller.index",["list"=>$list,'where'=>$where]);
     }
 
     /**
@@ -25,7 +31,7 @@ class SellerController extends Controller
      */
     public function create()
     {
-        //
+        return view("admin.seller.add");
     }
 
     /**
@@ -58,7 +64,8 @@ class SellerController extends Controller
      */
     public function edit($id)
     {
-        //
+        $list = Seller::where("id",$id)->first();
+        return view("Admin.seller.edit",['list'=>$list]);
     }
 
     /**
@@ -70,7 +77,12 @@ class SellerController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $seller = new Seller();
+        $list = $request->only('uid','name','phone','appointment','address','commodity_id','brand','car','particular_year','mileage','car_condition','demand','seller_id');
+        
+        $seller->where('id',$id)->update($list);
+
+        return redirect("Admin/seller");
     }
 
     /**
@@ -81,6 +93,8 @@ class SellerController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Detection::where("id",$id)->delete();
+        session()->put("ff","删除成功！");
+        return redirect('Admin/detection');
     }
 }

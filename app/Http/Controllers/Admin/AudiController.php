@@ -19,7 +19,6 @@ class AudiController extends Controller
         //实例化stu表操作对象
         $db = \DB::table('audi');
 		//print_r($db);
-        
         //判断并执行搜索和封装搜索条件
         $where = [];
         if ($request->has('id')) {
@@ -71,7 +70,7 @@ class AudiController extends Controller
 			audi::insertGetId($list);
 			return redirect("admin/audi");
 		}else{
-			return redirect("admin/audi/create");
+			return redirect("Admin/audi/create");
 		}
 		//return $id;
         
@@ -116,7 +115,7 @@ class AudiController extends Controller
         $id = Audi::where("id",$id)->update($list);
         if($id>0){
             echo "修改成功!";
-			 return redirect('admin/audi');
+			 return redirect('Admin/audi');
         }else{
             echo "修改失败!";
         }
@@ -131,6 +130,6 @@ class AudiController extends Controller
     public function destroy($id)
     {
          $post = Audi::find($id)->delete();
-		 return redirect('admin/audi');
+		 return redirect('Admin/audi');
     }
 }

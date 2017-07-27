@@ -163,6 +163,8 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         zgldh\QiniuStorage\QiniuFilesystemServiceProvider::class,
+        iscms\Alisms\AlidayuServiceProvider::class,
+        Overtrue\LaravelUEditor\UEditorServiceProvider::class,
         /*
          * Package Service Providers...
          */

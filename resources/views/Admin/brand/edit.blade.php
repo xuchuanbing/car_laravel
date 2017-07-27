@@ -1,4 +1,4 @@
-@extends('\Admin.base')
+@extends('Admin.base')
 
             @section('content')
 <!-- 内容区域 -->

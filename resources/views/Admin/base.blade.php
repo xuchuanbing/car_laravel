@@ -20,6 +20,14 @@
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <script src="{{asset('assets/js/jquery.min.js')}}"></script>
     <script src="{{asset('assets/js/jquery-1.8.3.min.js')}}"></script>
+   <style type="text/css">
+        .pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+                color: #777;
+                cursor: not-allowed;
+                background-color: #5d4c4c;
+                border-color: #5d4c4c;
+            }
+   </style>
 </head>
 
 <body data-type="index">
@@ -210,19 +218,17 @@
                     <ul class="sidebar-nav sidebar-nav-sub">
                         <li class="sidebar-nav-link">
                             <a href="{{url('admin/user')}}">
-                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 用户管理
+                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 前台买家用户管理
                             </a>
                         </li>
-
+                        <li class="sidebar-nav-link">
+                            <a href="{{url('admin/selleruser')}}">
+                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 前台卖家用户管理
+                            </a>
+                        </li>
                         <li class="sidebar-nav-link">
                             <a href="{{url('admin/usercontrol')}}">
-                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 管理员管理
-                            </a>
-                        </li>
-
-                        <li class="sidebar-nav-link">
-                            <a href="{{url('admin/usercontrol_cao')}}">
-                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 超级管理员
+                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 前台用户管理
                             </a>
                         </li>
                     </ul>
@@ -235,7 +241,7 @@
                     </a>
                     <ul class="sidebar-nav sidebar-nav-sub">
                         <li class="sidebar-nav-link">
-                            <a href="table-list.html">
+                            <a href="/admin/seller">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 卖家用户管理
                             </a>
                         </li>
@@ -260,12 +266,12 @@
                     </a>
                     <ul class="sidebar-nav sidebar-nav-sub">
                         <li class="sidebar-nav-link">
-                            <a href="table-list.html">
+                            <a href="{{ url('/admin/buyers') }}">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 买家用户管理
                             </a>
                         </li>
                         <li class="sidebar-nav-link">
-                            <a href="/admin/seller">
+                            <a href="{{ url('/admin/buyers_orders') }}">
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 买家订单管理
                             </a>
                         </li>
@@ -279,7 +285,7 @@
 				
 				  <li class="sidebar-nav-link">
                     <a href="javascript:;" class="sidebar-nav-sub-title">
-                        <i class="am-icon-table sidebar-nav-link-logo"></i>商品详情管理
+                        <i class="am-icon-table sidebar-nav-link-logo"></i>汽车信息管理
                         <span class="am-icon-chevron-down am-fr am-margin-right-sm sidebar-nav-sub-ico"></span>
                     </a>
                     <ul class="sidebar-nav sidebar-nav-sub">
@@ -291,11 +297,21 @@
 
 						<li class="sidebar-nav-link">
                             <a href="{{ url("admin/motor_details") }}">
-                                <span class="am-icon-angle-right sidebar-nav-link-logo">
-								
-								</span> 汽车详情管理
+                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 汽车详情管理
                             </a>
                         </li>
+
+                        <li class="sidebar-nav-link">
+                            <a href="{{ url("admin/detection_mes") }}">
+                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 汽车信息管理
+                            </a>
+                        </li>
+                        <li class="sidebar-nav-link">
+                            <a href="{{ url("admin/car_peizhi") }}">
+                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 汽车检测管理
+                            </a>
+                        </li>
+
                     </ul>
                 </li>
 				
@@ -316,27 +332,9 @@
                                 <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 品牌系列关联表
                             </a>
                         </li>
-						<li class="sidebar-nav-link">
-                           <a href="{{ url('admin/audi') }}">
-                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 系列表
-                            </a>
-                        </li>
                     </ul>
                 </li>
-				
-				    <li class="sidebar-nav-link">
-                    <a href="javascript:;" class="sidebar-nav-sub-title">
-                        <i class="am-icon-table sidebar-nav-link-logo"></i>商品信息检测管理
-                        <span class="am-icon-chevron-down am-fr am-margin-right-sm sidebar-nav-sub-ico"></span>
-                    </a>
-                    <ul class="sidebar-nav sidebar-nav-sub">
-                        <li class="sidebar-nav-link">
-                            <a href="{{ url("admin/detection") }}">
-                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 商品信息检测管理
-                            </a>
-                        </li>
-                    </ul>
-                </li>
+			
 				
                 <li class="sidebar-nav-link">
                     <a href="/admin/register">
@@ -368,39 +366,11 @@
     </div>
     </div>
 
-    <!-- xdl-model提示框模板 -->
-    <div id="xdl-alert" class="modal" style="z-index: 1500">
-      <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-            <h5 class="modal-title"><i class="fa fa-exclamation-circle"></i> [Title]</h5>
-          </div>
-          <div class="modal-body small">
-            <p>[Message]</p>
-          </div>
-          <div class="modal-footer" >
-            <button type="button" class="btn btn-primary ok" data-dismiss="modal">[BtnOk]</button>
-            <button type="button" class="btn btn-default no" data-dismiss="modal">[BtnCancel]</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- xdl-model-end -->
 
     <script src="{{asset('assets/js/amazeui.min.js')}}"></script>
     <script src="{{asset('assets/js/amazeui.datatables.min.js')}}"></script>
     <script src="{{asset('assets/js/dataTables.responsive.min.js')}}"></script>
     <script src="{{asset('assets/js/app.js')}}"></script>
-    <script src="{{asset('assets/js/xdl-modal-alert-confirm.js')}}"></script>
-
-        @if(session("err"))
-        <script type="text/javascript">
-            Modal.alert({ msg: "{{session('err')}}",title: '信息提示',btnok: '确定',btncl:'取消' });
-        </script>
-        @endif
-
-        @yield('myscript')
 
 
 </body>

@@ -3,16 +3,20 @@
 namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
-use \App\Models\Seller_order_details;
 use App\Http\Controllers\Controller;
+use App\Models\Seller_order_details;
+
 class Seller_order_detailsController extends Controller
 {
-    //加载页面输出数据库表信息
-	public function index()
+	public function index(Request $request)
 	{
-		
-		$list = \DB::table("seller_order_details")->get();
-		return view("Admin.seller_order_details.seller_order_details",["list"=>$list]);
+        $where = [];
+        if($request->only('deal_time')){
+            $name = $request->input('deal_time');
+            $where['deal_time'] = $name;
+        }
+        $list = Seller_order_details::where('deal_time','like','%'.$name.'%')->paginate(2);
+        return view("Admin.seller_order_details.index",["list"=>$list,'where'=>$where]);
 	}
 	//加载编辑页面获取默认信息
 	public function edit($id)
@@ -37,6 +41,6 @@ class Seller_order_detailsController extends Controller
 	public function del($id)
     {	
 		Seller_order_details::where('id',$id)->delete();
-        return redirect('/admin/seller_order_details');
+        return redirect('Admin/seller_order_details');
     }
 }

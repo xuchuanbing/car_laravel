@@ -18,17 +18,17 @@
 								         {{ csrf_field() }}
 								     <input type="text" style="display:none;" name="uid" value="{{$list->uid}}">
                                     <div class="am-form-group">
-                                        <label for="user-name" class="am-u-sm-3 am-form-label">电话 <span class="tpl-form-line-small-title">Phone</span></label>
+                                        <label for="user-name" class="am-u-sm-3 am-form-label">电话</label>
                                         <div class="am-u-sm-9">
                                             <input type="text" class="tpl-form-input" name="phone" id="user-name" value="{{$list->phone}}">
-                                            <small>请填写11位数字电话。</small>
+                                            
                                         </div>
                                     </div>
 									<div class="am-form-group">
-                                        <label for="user-name" class="am-u-sm-3 am-form-label">IP <span class="tpl-form-line-small-title">IP</span></label>
+                                        <label for="user-name" class="am-u-sm-3 am-form-label">IP</label>
                                         <div class="am-u-sm-9">
-                                            <input type="text" class="tpl-form-input" name="IP" id="user-name" value="{{$list->IP}}">
-                                            <small>IP格式：192.168.181.123</small>
+                                            <input type="text" class="tpl-form-input" readonly name="IP" id="user-name" value="{{$list->IP}}">
+                                            
                                         </div>
                                     </div>
                   

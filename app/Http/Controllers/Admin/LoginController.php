@@ -11,7 +11,7 @@ class LoginController extends Controller
     //加载登录界面
     public function login()
     {
-        return view('admin.login');
+        return view('Admin.login');
     }
 
     //执行登录操作
@@ -36,7 +36,7 @@ class LoginController extends Controller
                 //写入session()
                 $request->session()->push('adminuser',$user);
                 //并跳转到后台首页
-                return redirect('admin');
+                return redirect('Admin');
             }
         }
 
@@ -47,7 +47,7 @@ class LoginController extends Controller
     //加载注册界面
     public function register()
     {
-        return view('admin.register');
+        return view('Admin.register');
     }
 
     //执行注册操作
@@ -79,7 +79,7 @@ class LoginController extends Controller
         //添加信息进数据库
         $user->insertGetId($list);
 
-        return redirect("admin/login");
+        return redirect("Admin/login");
 
     }
 
@@ -90,6 +90,6 @@ class LoginController extends Controller
         $request->session()->flush();
 
         //跳转到登录页面
-        return redirect("/admin/login");
+        return redirect("Admin/login");
     }
 }

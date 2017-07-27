@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Models\buyers;
+use App\Http\Controllers\Controller;
 
 class BuyersController extends Controller
 {
@@ -12,10 +13,15 @@ class BuyersController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        
-        return "ss";
+        $where = [];
+        if($request->only('phone')){
+            $name = $request->input('phone');
+            $where['phone'] = $name;
+        }
+        $list = Buyers::where('phone','like','%'.$name.'%')->paginate(5);
+        return view("Admin.buyers.index",["list"=>$list,'where'=>$where]);
     }
 
     /**
@@ -28,6 +34,11 @@ class BuyersController extends Controller
         //
     }
 
+    public function edit($id){
+        $list = Buyers::where("id",$id)->first();
+        return view("Admin.buyers.edit",['list'=>$list]);
+    }
+
     /**
      * Store a newly created resource in storage.
      *
@@ -36,9 +47,29 @@ class BuyersController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
     }
 
+    public function update(Request $request, $id)
+    {
+        $detection_mes = new Buyers;
+        $id = $request->input('id');
+        $list = $request->only('uid','phone','zixun');
+
+        $id = $detection_mes->where('id',$id)->update($list);
+
+        if($id>0){
+
+            session()->put("ff","修改成功！");
+            
+            return redirect('admin/buyers');
+
+        }else{
+            session()->put("ff","修改失败！");
+            
+            return redirect('Admin/buyers/edit');
+        }
+    }
     /**
      * Display the specified resource.
      *
@@ -51,29 +82,6 @@ class BuyersController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
      * Remove the specified resource from storage.
      *
      * @param  int  $id
@@ -81,6 +89,8 @@ class BuyersController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Buyers::where("id",$id)->delete();
+        session()->put("ff","删除成功！");
+        return redirect('Admin/buyers');
     }
 }
